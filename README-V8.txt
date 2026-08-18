@@ -11,3 +11,9 @@ LÃO KHOA V8 — DATA UPDATE ARCHITECTURE
 Khi chỉ thêm câu hỏi: thay data/questions.json + bump data/content-version.json.
 Khi chỉ sửa guideline/mục tiêu: thay data/guidelines.json + bump version.
 Khi thêm mặt bệnh mới dạng động: thêm object vào data/extra-lessons.json; không cần tạo lại app shell.
+
+
+V8.1 DRUG CORE
+- Thêm drugs.html + data/drugs.json (34 thuốc/nhóm thuốc high-yield).
+- Tra liều khởi trị, usual, max, titration, geriatric preference, combinations, hold/stop, ADR, monitoring, renal notes, exam traps.
+- Để cập nhật thuốc sau này chỉ cần thay data/drugs.json và data/content-version.json.
