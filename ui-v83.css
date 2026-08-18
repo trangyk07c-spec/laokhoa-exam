@@ -1,0 +1,446 @@
+
+/* Lão khoa Deep Learning V8.3 — clean UI override
+   Purpose: fix crowded sidebar, inconsistent emoji icons, glued text and small typography.
+   This file intentionally overrides the old shell without changing medical content. */
+
+:root{
+  --v83-bg:#f7f9f8;
+  --v83-sidebar:#fbfaf7;
+  --v83-panel:#ffffff;
+  --v83-ink:#16202a;
+  --v83-muted:#6f756f;
+  --v83-line:#e3e7e4;
+  --v83-teal:#0c5e57;
+  --v83-teal-2:#0f766e;
+  --v83-soft:#e9f5f2;
+  --v83-soft-2:#f2f7f5;
+  --v83-shadow:0 10px 30px rgba(20,50,45,.06);
+}
+
+/* Typography and reading width */
+html{font-size:18px!important}
+body{
+  background:var(--v83-bg)!important;
+  color:var(--v83-ink)!important;
+  font-size:18px!important;
+  line-height:1.72!important;
+  letter-spacing:0!important;
+}
+.layout{grid-template-columns:300px minmax(0,1fr)!important}
+.sidebar{
+  width:auto!important;
+  padding:22px 16px 28px!important;
+  background:var(--v83-sidebar)!important;
+  border-right:1px solid var(--v83-line)!important;
+}
+.content{
+  max-width:1120px!important;
+  padding:34px 42px 84px!important;
+}
+.top{
+  min-height:58px!important;
+  padding:12px 30px!important;
+  border-bottom:1px solid var(--v83-line)!important;
+  background:rgba(247,249,248,.93)!important;
+}
+.top strong{
+  font-size:14px!important;
+  color:var(--v83-muted)!important;
+  font-weight:650!important;
+}
+.hero,.hero-v82,.quiz-head{
+  border:1px solid var(--v83-line)!important;
+  border-radius:24px!important;
+  box-shadow:var(--v83-shadow)!important;
+}
+.hero h1,.hero h2,.hero-v82 h1,.hero-v82 h2{
+  line-height:1.16!important;
+  letter-spacing:-.025em!important;
+}
+.hero .lead,.hero-v82 .lead{
+  line-height:1.7!important;
+  max-width:820px!important;
+}
+.card,.qcard,.quiz-control-card,.search-card{
+  border:1px solid var(--v83-line)!important;
+  border-radius:20px!important;
+  box-shadow:none!important;
+}
+.card{padding:24px!important;margin:18px 0!important}
+.card h3{
+  font-size:1.28rem!important;
+  line-height:1.28!important;
+  margin:0 0 14px!important;
+  letter-spacing:-.01em!important;
+}
+.card h4{
+  font-size:1.02rem!important;
+  line-height:1.35!important;
+  margin:20px 0 8px!important;
+}
+.card p,.mini p,.node,.qstem,.explain{
+  overflow-wrap:anywhere;
+}
+
+/* Fix glued text in flowcharts/cards */
+.flow{
+  gap:14px!important;
+  align-items:stretch!important;
+}
+.node{
+  padding:16px!important;
+  border-radius:16px!important;
+  line-height:1.62!important;
+}
+.node strong{
+  display:block!important;
+  margin:0 0 7px!important;
+  line-height:1.25!important;
+}
+.mini{
+  padding:16px!important;
+  border-radius:16px!important;
+  line-height:1.62!important;
+}
+.mini h4{
+  display:block!important;
+  margin:0 0 8px!important;
+  line-height:1.32!important;
+}
+.arrow{
+  min-width:24px!important;
+  padding:0 3px!important;
+}
+.teach,.warning,.danger,.exam{
+  padding:14px 16px!important;
+  line-height:1.65!important;
+}
+
+/* ===== clean sidebar ===== */
+.v83-brand{
+  display:flex;
+  gap:12px;
+  align-items:center;
+  padding:4px 6px 10px;
+}
+.v83-brand h1{
+  margin:0;
+  font-size:22px;
+  line-height:1.08;
+  letter-spacing:-.02em;
+}
+.v83-brand p{
+  margin:5px 0 0;
+  font-size:12.5px;
+  color:var(--v83-muted);
+}
+.v83-logo{
+  width:42px;
+  height:42px;
+  display:grid;
+  place-items:center;
+  color:var(--v83-teal);
+}
+.v83-logo svg{width:34px;height:34px}
+.v83-version{
+  display:inline-flex;
+  margin:4px 6px 18px;
+  padding:5px 9px;
+  border-radius:999px;
+  background:#eef4f2;
+  color:#4f6661;
+  font-size:10px;
+  font-weight:800;
+  letter-spacing:.05em;
+}
+.v83-tree{
+  display:grid;
+  gap:10px;
+}
+.v83-section{
+  border:0;
+  border-radius:18px;
+  overflow:visible;
+}
+.v83-section > summary,
+.v83-subgroup > summary{
+  list-style:none;
+  -webkit-user-select:none;
+  user-select:none;
+}
+.v83-section > summary::-webkit-details-marker,
+.v83-subgroup > summary::-webkit-details-marker{display:none}
+.v83-section-head{
+  min-height:58px;
+  display:grid;
+  grid-template-columns:32px minmax(0,1fr) 20px;
+  align-items:center;
+  gap:12px;
+  padding:10px 14px;
+  border-radius:16px;
+  color:#6d716d;
+  cursor:pointer;
+  font-size:16px;
+  font-weight:720;
+  transition:background .16s ease,color .16s ease,transform .16s ease;
+}
+.v83-section-head:hover{
+  background:#f1f3f1;
+  color:var(--v83-ink);
+}
+.v83-section.active > .v83-section-head{
+  background:var(--v83-teal);
+  color:#fff;
+  box-shadow:0 8px 18px rgba(12,94,87,.16);
+}
+.v83-section-icon{
+  width:28px;
+  height:28px;
+  display:grid;
+  place-items:center;
+}
+.v83-section-icon svg{width:25px;height:25px}
+.v83-chevron{
+  display:grid;
+  place-items:center;
+  transition:transform .16s ease;
+}
+.v83-chevron svg{width:16px;height:16px}
+.v83-section[open] > .v83-section-head .v83-chevron,
+.v83-subgroup[open] > summary .v83-chevron{
+  transform:rotate(180deg);
+}
+.v83-section-body{
+  padding:10px 4px 4px 12px;
+}
+.v83-subgroup{
+  margin:4px 0;
+}
+.v83-subgroup > summary{
+  min-height:44px;
+  display:grid;
+  grid-template-columns:28px minmax(0,1fr) 18px;
+  align-items:center;
+  gap:9px;
+  padding:7px 10px;
+  border-radius:12px;
+  cursor:pointer;
+  color:#3c4644;
+  font-size:14.5px;
+  font-weight:680;
+}
+.v83-subgroup > summary:hover{background:#f1f5f3}
+.v83-subicon{
+  width:27px;
+  height:27px;
+  display:grid;
+  place-items:center;
+  color:#64716d;
+}
+.v83-subicon svg{width:19px;height:19px}
+.v83-subchildren{
+  position:relative;
+  margin:2px 0 8px 16px;
+  padding:4px 0 4px 17px;
+  border-left:1px solid #dce5e1;
+}
+.v83-nav-item{
+  min-height:40px;
+  display:grid;
+  grid-template-columns:12px minmax(0,1fr);
+  align-items:center;
+  gap:9px;
+  margin:2px 0;
+  padding:7px 10px;
+  border-radius:11px;
+  color:#505a57!important;
+  text-decoration:none!important;
+  font-size:14px!important;
+  line-height:1.38!important;
+}
+.v83-nav-item:hover{
+  background:#f1f5f3;
+  color:var(--v83-ink)!important;
+}
+.v83-nav-item.active{
+  background:var(--v83-soft)!important;
+  color:var(--v83-teal)!important;
+  font-weight:750!important;
+}
+.v83-nav-dot{
+  width:5px;
+  height:5px;
+  border-radius:50%;
+  background:#b3bfbb;
+}
+.v83-nav-item.active .v83-nav-dot{background:var(--v83-teal)}
+.v83-nav-item.done .v83-nav-dot{
+  width:7px;height:7px;
+  background:#5e9e7f;
+}
+.v83-nav-text{
+  min-width:0;
+  white-space:normal;
+  word-break:normal;
+  overflow-wrap:break-word;
+}
+.v83-section-body > .v83-nav-item{
+  margin-bottom:6px;
+}
+
+/* hide the legacy nav styling once V8.3 shell has replaced it */
+.sidebar > .brand:not(.v83-brand),
+.sidebar > nav:not(.v83-tree){display:none!important}
+
+/* Mobile menu */
+.v83-mobile-shell > summary{
+  list-style:none;
+  display:grid;
+  grid-template-columns:24px 1fr 18px;
+  align-items:center;
+  gap:10px;
+  width:100%;
+  padding:10px 12px;
+  background:#fff;
+  border:1px solid var(--v83-line);
+  border-radius:13px;
+  cursor:pointer;
+}
+.v83-mobile-shell > summary::-webkit-details-marker{display:none}
+.v83-mobile-icon,.v83-mobile-icon svg{width:22px;height:22px}
+.v83-mobile-menu{
+  max-height:68vh;
+  overflow:auto;
+  margin-top:8px;
+  padding:10px;
+  background:var(--v83-sidebar);
+  border:1px solid var(--v83-line);
+  border-radius:16px;
+  box-shadow:var(--v83-shadow);
+}
+
+/* ===== MCQ / drug polish ===== */
+.quiz-control-card{
+  padding:18px!important;
+  margin-top:16px!important;
+}
+.quiz-filter-grid{
+  gap:12px!important;
+}
+.quiz-filter-grid label > span{
+  display:block;
+  margin:0 0 6px;
+  color:#57625e;
+  font-size:13px;
+  font-weight:700;
+}
+.quiz-filter-grid select,
+.drug-search,
+.drug-toolbar select,
+.search-wrap input{
+  min-height:46px!important;
+  padding:10px 13px!important;
+  font-size:15px!important;
+  border:1px solid #dbe4e0!important;
+  border-radius:13px!important;
+  background:#fff!important;
+}
+.quiz-tools{
+  gap:10px!important;
+}
+.quiz-tools button,
+.qnav button,
+.donebtn{
+  min-height:44px!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:8px!important;
+  padding:10px 14px!important;
+  border-radius:13px!important;
+  font-size:14px!important;
+}
+.quiz-tools button svg{width:18px;height:18px}
+.qstem{
+  font-size:1.03rem!important;
+  line-height:1.62!important;
+}
+.qopt{
+  min-height:48px!important;
+  padding:12px 14px!important;
+  border-radius:14px!important;
+  line-height:1.52!important;
+}
+.bank-meta{
+  display:flex;
+  flex-wrap:wrap;
+  gap:14px;
+  align-items:center;
+  line-height:1.4!important;
+}
+.hero-meta{
+  margin-top:12px!important;
+  color:#51605c!important;
+}
+.v83-orb{
+  color:var(--v83-teal)!important;
+}
+.v83-orb svg{
+  width:46px!important;
+  height:46px!important;
+}
+
+/* Tables: readable without microscopic type */
+table,.guideline-table{
+  font-size:15px!important;
+  line-height:1.55!important;
+}
+th,td,.guideline-table th,.guideline-table td{
+  padding:10px 12px!important;
+}
+
+/* Search card */
+.search-wrap{
+  display:flex!important;
+  align-items:center!important;
+  gap:9px!important;
+}
+.search-wrap > span{
+  display:grid!important;
+  place-items:center!important;
+  color:#6a7671!important;
+}
+.search-wrap > span svg{width:19px;height:19px}
+
+/* Desktop: prevent crammed left nav. */
+@media(min-width:901px){
+  .mobile-nav{display:none!important}
+}
+
+/* Phone / iPad narrow */
+@media(max-width:900px){
+  html{font-size:17px!important}
+  body{font-size:17px!important}
+  .layout{display:block!important}
+  .sidebar{display:none!important}
+  .mobile-nav{display:block!important}
+  .top{
+    position:sticky!important;
+    top:0!important;
+    padding:9px 10px!important;
+  }
+  .top > strong{display:none!important}
+  .content{
+    padding:20px 14px 68px!important;
+    max-width:none!important;
+  }
+  .hero,.hero-v82{padding:20px!important;border-radius:20px!important}
+  .hero h1,.hero h2,.hero-v82 h1,.hero-v82 h2{font-size:1.65rem!important}
+  .card{padding:18px!important}
+  .flow{display:grid!important;grid-template-columns:1fr!important}
+  .arrow{display:none!important}
+  .quiz-filter-grid{grid-template-columns:1fr!important}
+  .quiz-tools{display:grid!important;grid-template-columns:1fr 1fr!important}
+  .quiz-tools .danger-btn{grid-column:1/-1}
+  .qnav{grid-template-columns:1fr auto 1fr!important}
+}
