@@ -1,0 +1,1 @@
+Upload extra-lessons.json vào ROOT repo. Sau deploy mở lesson.html?topic=can-giap
