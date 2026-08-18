@@ -1,29 +1,14 @@
-const CACHE='laokhoa-v7-stable-20260818';
-const ASSETS=["./index.html",
-"./than.html",
-"./dai-thao-duong.html",
-"./gout.html",
-"./suy-giap.html",
-"./tang-huyet-ap.html",
-"./benh-mach-vanh.html",
-"./stent.html",
-"./roi-loan-lipid.html",
-"./chinh-lieu-than.html",
-"./tuong-tac-thuoc.html",
-"./cap-cuu.html",
-"./suy-thuong-than.html",
-"./loang-xuong.html",
-"./tao-bon.html",
-"./tieu-chay.html",
-"./nguon.html",
-"./quiz.html",
-"./app.css",
-"./progress.js",
-"./quiz.js",
-"./manifest.webmanifest",
-"./icon-192.png",
-"./icon-512.png",
-"./apple-touch-icon.png"];
-self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
-self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
-self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;const u=new URL(e.request.url);if(u.origin!==location.origin)return;const isPage=e.request.mode==='navigate'||u.pathname.endsWith('.html')||u.pathname.endsWith('/');if(isPage){e.respondWith(fetch(e.request).then(r=>{const c=r.clone();caches.open(CACHE).then(x=>x.put(e.request,c));return r;}).catch(()=>caches.match(e.request).then(r=>r||caches.match('./index.html'))));}else{e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request).then(n=>{const c=n.clone();caches.open(CACHE).then(x=>x.put(e.request,c));return n;})));}});
+const CACHE_NAME='laokhoa-v8-20260818-1';
+const CORE=['./','./index.html','./quiz.html','./geriatric.html','./lesson.html','./app.css','./progress.js','./update.js','./quiz-v8.js','./extra-lessons.js','./manifest.webmanifest','./icon-192.png','./icon-512.png','./apple-touch-icon.png','./data/content-version.json','./data/questions.json','./data/guidelines.json','./data/scales.json','./data/extra-lessons.json'];
+self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE_NAME).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())));
+self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE_NAME).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
+self.addEventListener('fetch',e=>{
+ if(e.request.method!=='GET')return;
+ const u=new URL(e.request.url); if(u.origin!==self.location.origin)return;
+ const dynamic=/\.(html|json|js|css)$/.test(u.pathname)||u.pathname.endsWith('/');
+ if(dynamic){
+   e.respondWith(fetch(e.request).then(r=>{if(r&&r.status===200){const cp=r.clone();caches.open(CACHE_NAME).then(c=>c.put(e.request,cp));}return r;}).catch(()=>caches.match(e.request).then(x=>x||caches.match('./index.html'))));
+ }else{
+   e.respondWith(caches.match(e.request).then(cached=>cached||fetch(e.request).then(r=>{if(r&&r.status===200){const cp=r.clone();caches.open(CACHE_NAME).then(c=>c.put(e.request,cp));}return r;})));
+ }
+});
