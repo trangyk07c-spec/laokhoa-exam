@@ -1,0 +1,85 @@
+{
+  "version": "2026-08-18",
+  "scales": [
+    {
+      "key": "4AT",
+      "name": "4AT — đánh giá nhanh sảng và suy giảm nhận thức",
+      "type": "interactive",
+      "source_key": "FOUR_AT_2026",
+      "range": "0–12",
+      "interpretation": [
+        "0: không gợi sảng hoặc suy giảm nhận thức mức vừa-nặng, nhưng không loại trừ hoàn toàn.",
+        "1–3: gợi suy giảm nhận thức; cần đánh giá thêm.",
+        "≥4: gợi sảng ± suy giảm nhận thức; phải đánh giá lâm sàng nguyên nhân và mức độ khẩn cấp."
+      ],
+      "license": "CC BY 4.0; attribution required."
+    },
+    {
+      "key": "CFS",
+      "name": "Clinical Frailty Scale (CFS)",
+      "type": "reference-only",
+      "source_key": "CFS_DALHOUSIE",
+      "range": "1–9",
+      "interpretation": [
+        "CFS là thang dựa trên phán đoán lâm sàng để tóm tắt mức độ khỏe–suy yếu sau đánh giá toàn diện.",
+        "Không chấm dựa trên tình trạng cấp hiện tại đơn thuần; nên dựa mức chức năng nền trước đợt bệnh cấp.",
+        "App không sao chép toàn bộ mô tả/ảnh CFS vì có bản quyền; dùng nguồn chính thức để xem thang đầy đủ."
+      ]
+    },
+    {
+      "key": "ADL",
+      "name": "Hoạt động sinh hoạt cơ bản hằng ngày (ADL)",
+      "type": "reference-only",
+      "source_key": "WHO_ICOPE_2025",
+      "range": "Đánh giá mức độc lập trong các hoạt động cơ bản",
+      "interpretation": [
+        "Dùng để xác định mức phụ thuộc chức năng và làm cơ sở cá thể hóa mục tiêu điều trị.",
+        "Trong ADA 2026, ≥2 hạn chế ADL là một dấu hiệu quan trọng của nhóm sức khỏe phức tạp hoặc rất phức tạp tùy bối cảnh."
+      ]
+    },
+    {
+      "key": "IADL",
+      "name": "Hoạt động sinh hoạt công cụ hằng ngày (IADL)",
+      "type": "reference-only",
+      "source_key": "WHO_ICOPE_2025",
+      "range": "Đánh giá khả năng sống độc lập ở mức phức tạp hơn",
+      "interpretation": [
+        "Hữu ích để phát hiện sớm suy giảm chức năng trước khi ADL cơ bản bị ảnh hưởng.",
+        "Cần đặt trong bối cảnh văn hóa, vai trò gia đình và mức chức năng nền."
+      ]
+    },
+    {
+      "key": "COGNITION",
+      "name": "Sàng lọc nhận thức",
+      "type": "reference-only",
+      "source_key": "WHO_ICOPE_2025",
+      "range": "Tùy công cụ được sử dụng",
+      "interpretation": [
+        "Ở người cao tuổi, suy giảm nhận thức ảnh hưởng trực tiếp khả năng dùng thuốc, tự tiêm insulin, theo dõi đường huyết và tuân thủ chế độ điều trị.",
+        "Không dùng một điểm sàng lọc đơn độc để chẩn đoán sa sút trí tuệ."
+      ]
+    },
+    {
+      "key": "NUTRITION",
+      "name": "Đánh giá dinh dưỡng và sụt cân",
+      "type": "reference-only",
+      "source_key": "WHO_ICOPE_2025",
+      "range": "Theo công cụ dinh dưỡng phù hợp cơ sở",
+      "interpretation": [
+        "Sụt cân, ăn kém và suy dinh dưỡng làm thay đổi nguy cơ hạ đường huyết, dung nạp thuốc và tiên lượng.",
+        "Khi dùng công cụ có bản quyền như MNA-SF, nên truy cập bản chính thức thay vì chép lại biểu mẫu."
+      ]
+    },
+    {
+      "key": "ORTHOSTATIC",
+      "name": "Đánh giá hạ huyết áp tư thế",
+      "type": "clinical-check",
+      "source_key": "VSH_VNHA_HTN_2022",
+      "range": "Đo huyết áp và triệu chứng khi thay đổi tư thế",
+      "interpretation": [
+        "Đặc biệt quan trọng ở người cao tuổi dùng nhiều thuốc hạ áp, lợi tiểu, thuốc hướng thần hoặc có té ngã/ngất.",
+        "Mục tiêu huyết áp phải cân bằng lợi ích tim mạch với nguy cơ chóng mặt, ngã và giảm tưới máu."
+      ]
+    }
+  ]
+}

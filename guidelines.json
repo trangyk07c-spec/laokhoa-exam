@@ -1,0 +1,130 @@
+{
+  "version": "2026-08-18",
+  "updated_at": "2026-08-18T23:20:00+07:00",
+  "priority_rule": "Ưu tiên Bộ Y tế Việt Nam mới nhất; nếu chưa có hướng dẫn chuyên biệt hoặc cần cá thể hóa lão khoa thì đối chiếu hội chuyên ngành Việt Nam và hướng dẫn quốc tế chính thức mới nhất.",
+  "sources": [
+    {
+      "key": "BYT_KIDNEY_2024",
+      "title": "Bộ Y tế Việt Nam — Quyết định 2388/QĐ-BYT (12/08/2024): Hướng dẫn chẩn đoán và điều trị bệnh thận mạn và một số bệnh lý thận",
+      "year": 2024,
+      "status": "final",
+      "url": "https://kcb.vn/phac-do/quyet-dinh-so-2388-qd-byt-ngay-12-8-2024-ve-viec-ban-hanh-tai-lieu-chuyen-mon-huong-dan-chan-doan-va-dieu-tri-benh-than-.html"
+    },
+    {
+      "key": "BYT_DM_2021",
+      "title": "Bộ Y tế Việt Nam — Hướng dẫn chẩn đoán và điều trị đái tháo đường típ 2, QĐ 5481/2020 và sửa đổi QĐ 1353/2021",
+      "year": 2021,
+      "status": "final",
+      "url": "https://daithaoduong.kcb.vn/huong-dan-chan-doan-va-dieu-tri-dai-thao-duong-tip-2"
+    },
+    {
+      "key": "ADA_OLDER_2026",
+      "title": "American Diabetes Association — Standards of Care in Diabetes 2026, Section 13: Older Adults",
+      "year": 2026,
+      "status": "final",
+      "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S277/163921/13-Older-Adults-Standards-of-Care-in-Diabetes-2026"
+    },
+    {
+      "key": "VSH_VNHA_HTN_2022",
+      "title": "Phân hội Tăng huyết áp / Hội Tim mạch học Việt Nam — Khuyến cáo chẩn đoán và điều trị tăng huyết áp 2022",
+      "year": 2022,
+      "status": "final-current-on-vnha-site",
+      "url": "https://vnha.org.vn/document/khuyen-cao-ve-chan-doan-va-dieu-tri-tang-huyet-ap-2022-625.htm"
+    },
+    {
+      "key": "WHO_ICOPE_2025",
+      "title": "WHO — Integrated care for older people (ICOPE), 2nd edition",
+      "year": 2025,
+      "status": "final",
+      "url": "https://www.who.int/publications/i/item/9789240103726"
+    },
+    {
+      "key": "FOUR_AT_2026",
+      "title": "4AT official current tool and user guide",
+      "year": 2026,
+      "status": "current",
+      "url": "https://www.the4at.com/userguide"
+    },
+    {
+      "key": "CFS_DALHOUSIE",
+      "title": "Dalhousie University — Clinical Frailty Scale official resource",
+      "year": 2026,
+      "status": "current-resource",
+      "url": "https://www.dal.ca/sites/gmr/our-tools/clinical-frailty-scale.html",
+      "license_note": "CFS có bản quyền; app chỉ tóm tắt mục đích/cách dùng, không sao chép toàn bộ bảng mô tả hoặc hình ảnh."
+    },
+    {
+      "key": "KDIGO_CKD_2024",
+      "title": "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of CKD",
+      "year": 2024,
+      "status": "final-current",
+      "url": "https://kdigo.org/guidelines/ckd-evaluation-and-management/"
+    },
+    {
+      "key": "ACR_GOUT_2020",
+      "title": "American College of Rheumatology — 2020 Guideline for the Management of Gout",
+      "year": 2020,
+      "status": "final-current-on-ACR-site",
+      "url": "https://rheumatology.org/gout-guideline"
+    },
+    {
+      "key": "NICE_ADRENAL_2024",
+      "title": "NICE NG243 — Adrenal insufficiency: identification and management",
+      "year": 2024,
+      "status": "final",
+      "url": "https://www.nice.org.uk/guidance/ng243/"
+    },
+    {
+      "key": "NOGG_2024",
+      "title": "NOGG 2024 — Clinical guideline for the prevention and treatment of osteoporosis",
+      "year": 2024,
+      "status": "final-updated-Dec-2024",
+      "url": "https://www.nogg.org.uk/full-guideline"
+    }
+  ],
+  "geriatric_targets": {
+    "diabetes": {
+      "source": "ADA_OLDER_2026",
+      "note": "Không chọn HbA1c chỉ dựa vào tuổi hoặc số năm mắc bệnh. ADA 2026 phân tầng theo tình trạng sức khỏe, bệnh đồng mắc, nhận thức, chức năng, suy yếu và nguy cơ hạ đường huyết.",
+      "rows": [
+        {
+          "group": "Khỏe, ít bệnh đồng mắc ổn định, nhận thức và chức năng còn tốt",
+          "a1c": "<7,0–7,5%",
+          "fasting": "80–130 mg/dL (4,4–7,2 mmol/L)",
+          "bedtime": "80–180 mg/dL (4,4–10,0 mmol/L)",
+          "bp": "<130/80 mmHg"
+        },
+        {
+          "group": "Phức tạp/trung gian: nhiều bệnh mạn, ≥2 hạn chế ADL hoặc suy giảm nhận thức nhẹ-vừa / suy yếu đáng kể",
+          "a1c": "<8,0%",
+          "fasting": "90–150 mg/dL (5,0–8,3 mmol/L)",
+          "bedtime": "100–180 mg/dL (5,6–10,0 mmol/L)",
+          "bp": "<130/80 mmHg nếu phù hợp và dung nạp"
+        },
+        {
+          "group": "Rất phức tạp/sức khỏe kém: bệnh giai đoạn cuối, sa sút trí tuệ vừa-nặng hoặc ≥2 hạn chế ADL",
+          "a1c": "Không dựa chủ yếu vào HbA1c; ưu tiên tránh hạ đường huyết và tăng đường huyết có triệu chứng",
+          "fasting": "100–180 mg/dL (5,6–10,0 mmol/L)",
+          "bedtime": "110–200 mg/dL (6,1–11,1 mmol/L)",
+          "bp": "<140/90 mmHg"
+        }
+      ]
+    },
+    "hypertension": {
+      "source": "VSH_VNHA_HTN_2022",
+      "note": "Khuyến cáo Việt Nam 2022 còn là tài liệu tăng huyết áp chính thức được VNHA niêm yết. Ở người rất cao tuổi/suy yếu phải cá thể hóa theo chức năng, nhận thức và dung nạp.",
+      "rows": [
+        {
+          "age": "70–79",
+          "start_drug": "Nói chung ≥140/90 mmHg",
+          "target": "HATT <140 mmHg; có thể hướng tới <130 mmHg nếu dung nạp; HATTr khoảng 70–<80 mmHg"
+        },
+        {
+          "age": "≥80",
+          "start_drug": "Nói chung ≥160/90 mmHg",
+          "target": "Cá thể hóa; dựa chức năng tâm thần, hoạt động hằng ngày và dung nạp; tránh hạ huyết áp tư thế"
+        }
+      ]
+    }
+  }
+}

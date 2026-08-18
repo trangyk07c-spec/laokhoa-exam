@@ -1,18 +1,1 @@
-(()=>{
-  const KEY='laokhoa.v8.contentVersion';
-  async function check(){
-    try{
-      const r=await fetch('data/content-version.json?t='+Date.now(),{cache:'no-store'});
-      if(!r.ok) return;
-      const v=await r.json();
-      const old=localStorage.getItem(KEY);
-      const el=document.querySelector('.update-banner');
-      if(el){
-        el.classList.add('show');
-        el.innerHTML='<b>V'+v.app_version+'</b> · '+v.message+(old&&old!==v.content_version?' · <strong>Nội dung mới đã được tải.</strong>':'');
-      }
-      localStorage.setItem(KEY,v.content_version);
-    }catch(e){}
-  }
-  check();
-})();
+(()=>{function loadScript(src){return new Promise((ok,fail)=>{if(document.querySelector('script[src="'+src+'"]'))return ok();const s=document.createElement('script');s.src=src;s.onload=ok;s.onerror=fail;document.head.appendChild(s)})}loadScript('nav-v82.js').catch(()=>{});async function banner(){let v=null;try{const r=await fetch('content-version.json?v='+Date.now(),{cache:'no-store'});if(r.ok)v=await r.json()}catch(e){}const el=document.querySelector('.update-banner');if(el&&v){el.classList.add('show');el.innerHTML='<b>V'+(v.app_version||'8.2')+'</b> · '+(v.message||'Nội dung đã sẵn sàng.')}}banner();})();

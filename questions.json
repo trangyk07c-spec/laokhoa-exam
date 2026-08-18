@@ -1,0 +1,3924 @@
+{
+  "version": "150q-2026.08.18",
+  "count": 150,
+  "updated_at": "2026-08-18T23:20:00+07:00",
+  "questions": [
+    {
+      "cat": "Thận",
+      "stem": "Nam 78 tuổi có bệnh thận mạn G3a, đang dùng losartan và hydrochlorothiazid, tiêu chảy 3 ngày. HA 92/58 mmHg, niêm khô, creatinin tăng từ 110 lên 190 µmol/L. Cặn lắng nước tiểu nghèo. Xử trí ban đầu phù hợp nhất là gì?",
+      "opts": [
+        "Truyền dịch tinh thể đẳng trương có đánh giá lại huyết động và tạm rà các thuốc làm nặng giảm tưới máu",
+        "Tiêm furosemid liều cao để tăng nước tiểu",
+        "Bắt đầu lọc máu vì creatinin gần gấp đôi",
+        "Tiếp tục toàn bộ thuốc nền và chỉ theo dõi 48 giờ"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: bệnh cảnh giảm thể tích rõ, ưu tiên phục hồi tưới máu có kiểm soát và rà thuốc.",
+        "Sai: lợi tiểu có thể làm giảm thể tích nặng hơn; không “chữa” TTTC trước thận.",
+        "Sai: lọc máu dựa biến chứng/bệnh cảnh, không dựa mức creatinin đơn độc.",
+        "Sai: losartan/lợi tiểu cần được đánh giá lại khi mất nước và tụt HA."
+      ],
+      "key": "Tiêu chảy + tụt HA + cặn lắng nghèo → nghĩ TTTC trước thận trước tiên.",
+      "id": "OLD001",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Thận",
+      "stem": "Nam 70 tuổi tiêu chảy, lúc vào viện phân suất bài tiết natri 0,6%. Sau bù dịch 48 giờ huyết áp đã ổn nhưng vẫn thiểu niệu, creatinin tăng và cặn lắng xuất hiện nhiều trụ hạt nâu dạng bùn. Chẩn đoán phù hợp nhất?",
+      "opts": [
+        "TTTC trước thận chưa bù đủ dịch",
+        "Tổn thương/hoại tử ống thận cấp do thiếu máu kéo dài",
+        "Viêm cầu thận tiến triển nhanh",
+        "Tắc nghẽn đường niệu"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: sau sửa huyết động vẫn xấu và có trụ hạt nâu cho thấy đã chuyển tổn thương cấu trúc.",
+        "Đúng: đây là chuyển dạng từ giảm tưới máu kéo dài sang tổn thương ống thận.",
+        "Sai: GN gợi hồng cầu biến dạng/trụ hồng cầu.",
+        "Sai: không có dữ kiện tắc nghẽn."
+      ],
+      "key": "Trụ hạt nâu + không cải thiện sau sửa huyết động = tổn thương ống thận.",
+      "id": "OLD002",
+      "task": "Chẩn đoán",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Thận",
+      "stem": "Nữ 72 tuổi hội chứng thận hư, protein niệu 7 g/24 giờ, albumin 18 g/L, đột ngột đau hông trái dữ dội và tiểu máu đại thể, creatinin tăng. Khả năng nào cao nhất?",
+      "opts": [
+        "Viêm thận–bể thận cấp",
+        "Huyết khối tĩnh mạch thận",
+        "Hẹp động mạch thận hai bên",
+        "TTTC trước thận do lợi tiểu"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: thiếu sốt/pyuria và bệnh cảnh tăng đông nổi bật hơn.",
+        "Đúng: hội chứng thận hư nặng + đau hông đột ngột + tiểu máu là pattern kinh điển.",
+        "Sai: hẹp động mạch thận thường gợi THA kháng trị/tăng creatinin sau thuốc ức chế men chuyển/ức chế thụ thể angiotensin II, không phải đau hông cấp.",
+        "Sai: giảm thể tích không giải thích tốt đau hông + đái máu."
+      ],
+      "key": "Hội chứng thận hư nặng tạo trạng thái tăng đông → nhớ huyết khối tĩnh mạch thận.",
+      "id": "OLD003",
+      "task": "Chẩn đoán",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Thận",
+      "stem": "Nam 40 tuổi bệnh thận IgA, hai ngày sau viêm họng xuất hiện đái máu đại thể, HA 155/95, creatinin tăng nhanh; nước tiểu có nhiều hồng cầu biến dạng và trụ hồng cầu. Vị trí tổn thương chủ yếu?",
+      "opts": [
+        "Ống thận",
+        "Cầu thận",
+        "Mô kẽ",
+        "Tắc nghẽn sau thận"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: tổn thương ống thận gợi trụ hạt nâu.",
+        "Đúng: hồng cầu biến dạng và trụ hồng cầu là dấu nguồn gốc cầu thận.",
+        "Sai: viêm kẽ thường bạch cầu/trụ bạch cầu và liên quan thuốc.",
+        "Sai: tắc nghẽn không tạo cặn lắng cầu thận điển hình."
+      ],
+      "key": "Trụ hồng cầu = nghĩ cầu thận trước.",
+      "id": "OLD004",
+      "task": "Chẩn đoán",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Thận",
+      "stem": "Nam 82 tuổi có tiểu khó, tia tiểu yếu nhiều tháng, nay vô niệu 10 giờ, đau căng hạ vị và creatinin tăng. Bước tiếp theo tốt nhất?",
+      "opts": [
+        "Tính phân suất bài tiết natri trước",
+        "Đánh giá bàng quang tồn lưu/đặt thông tiểu khi phù hợp và siêu âm hệ niệu",
+        "Sinh thiết thận",
+        "Truyền furosemid liều cao"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: phân suất bài tiết natri không giải quyết nguyên nhân có khả năng đảo ngược ngay.",
+        "Đúng: pattern tắc nghẽn dưới bàng quang; cần xác định và giải tắc.",
+        "Sai: sinh thiết không phải bước đầu trong ca điển hình sau thận.",
+        "Sai: lợi tiểu không giải quyết tắc nghẽn."
+      ],
+      "key": "Nam già + LUTS + vô niệu + cầu bàng quang = sau thận cho tới khi loại trừ.",
+      "id": "OLD005",
+      "task": "Cận lâm sàng tiếp theo",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Thận",
+      "stem": "Cụ 76 tuổi dùng ramipril, furosemid; tự mua ibuprofen vì đau gối, đồng thời ăn uống kém. Creatinin tăng nhanh. Cơ chế phối hợp nào đúng?",
+      "opts": [
+        "Ibuprofen giãn tiểu động mạch đến; ramipril co tiểu động mạch đi",
+        "Ibuprofen co tiểu động mạch đến; ramipril làm giãn tiểu động mạch đi; lợi tiểu giảm thể tích",
+        "Cả ba thuốc đều trực tiếp độc tế bào ống thận",
+        "Ramipril làm tăng tưới máu cầu thận nên bảo vệ hoàn toàn"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: cơ chế bị đảo ngược.",
+        "Đúng: đây là “bộ ba nguy hiểm” huyết động.",
+        "Sai: cơ chế chính của phối hợp này là huyết động, không phải cả ba đều độc tế bào ống.",
+        "Sai: ACEi có lợi dài hạn trong nhiều bệnh nhưng có thể làm giảm áp lực lọc khi thể tích thấp."
+      ],
+      "key": "thuốc chống viêm không steroid co tiểu động mạch đến + thuốc ức chế men chuyển/ức chế thụ thể angiotensin II giãn tiểu động mạch đi + lợi tiểu giảm thể tích.",
+      "id": "OLD006",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Thận",
+      "stem": "Bệnh nhân TTTC vô niệu, K 7,1 mmol/L, điện tâm đồ QRS giãn. Thuốc nào phải dùng ngay để bảo vệ cơ tim trong lúc đồng thời triển khai biện pháp hạ kali?",
+      "opts": [
+        "Canxi gluconat tĩnh mạch",
+        "Furosemid uống",
+        "Natri bicarbonat uống",
+        "Resin gắn kali đường uống là bước duy nhất"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: canxi ổn định màng cơ tim; không trực tiếp hạ K nhưng ưu tiên khi ECG nguy hiểm.",
+        "Sai: không đủ nhanh và có thể không hiệu quả khi vô niệu.",
+        "Sai: không phải biện pháp bảo vệ tim tức thời.",
+        "Sai: tác dụng chậm và không thay thế cấp cứu."
+      ],
+      "key": "Tăng K + ECG nguy hiểm: bảo vệ tim bằng canxi trước.",
+      "id": "OLD007",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Thận",
+      "stem": "Bệnh nhân TTTC có phù phổi cấp kháng lợi tiểu, toan chuyển hóa nặng và tăng kali tái diễn dù đã điều trị nội khoa. Creatinin 420 µmol/L. Quyết định phù hợp nhất?",
+      "opts": [
+        "Chờ creatinin vượt 500 µmol/L",
+        "Hội chẩn/khởi động điều trị thay thế thận cấp cứu theo bệnh cảnh",
+        "Truyền thêm dịch để tăng GFR",
+        "Chỉ tăng furosemid vô hạn"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: không có ngưỡng creatinin duy nhất quyết định lọc máu.",
+        "Đúng: quá tải dịch, toan và tăng K kháng trị là chỉ định theo bệnh cảnh.",
+        "Sai: sẽ làm phù phổi nặng hơn.",
+        "Sai: nếu không đáp ứng, tăng liều vô hạn không phải chiến lược."
+      ],
+      "key": "Lọc máu dựa biến chứng đe dọa tính mạng, không dựa số creatinin.",
+      "id": "OLD008",
+      "task": "Chẩn đoán",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Thận",
+      "stem": "Bệnh nhân suy tim dùng furosemid nhập viện vì creatinin tăng. phân suất bài tiết natri 2,1% nhưng bệnh cảnh vẫn gợi giảm thể tích tuần hoàn hiệu dụng. Chỉ số nào có thể hỗ trợ hơn trong bối cảnh lợi tiểu?",
+      "opts": [
+        "Phân suất bài tiết urê",
+        "TSH",
+        "Troponin",
+        "Acid uric"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: phân suất bài tiết urê thường hữu ích hơn phân suất bài tiết natri khi lợi tiểu làm tăng thải natri.",
+        "Sai: không giúp phân biệt trước thận/tại thận.",
+        "Sai: dùng cho tổn thương cơ tim.",
+        "Sai: không phải chỉ số phân loại TTTC."
+      ],
+      "key": "Đang dùng lợi tiểu → đừng diễn giải phân suất bài tiết natri máy móc.",
+      "id": "OLD009",
+      "task": "Cận lâm sàng tiếp theo",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Thận",
+      "stem": "Nữ 84 tuổi, cân nặng 42 kg, ít khối cơ, creatinin 82 µmol/L. Kết luận nào đúng nhất?",
+      "opts": [
+        "Chức năng thận chắc chắn bình thường vì creatinin trong khoảng tham chiếu",
+        "Phải đánh giá mức lọc/độ thanh thải và xu hướng creatinin; creatinin “bình thường” có thể che suy thận",
+        "Có TTTC giai đoạn 3",
+        "Không cần xét chức năng thận trước kê thuốc"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: sarcopenia làm creatinin thấp giả tạo so với chức năng lọc.",
+        "Đúng: đây là bẫy người cao tuổi.",
+        "Sai: thiếu thay đổi theo thời gian/tiêu chuẩn giai đoạn.",
+        "Sai: chỉnh liều nhiều thuốc phụ thuộc chức năng thận."
+      ],
+      "key": "Người già ít cơ: creatinin tuyệt đối không đủ để kết luận thận bình thường.",
+      "id": "OLD010",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Đái tháo đường",
+      "stem": "Cụ bà 81 tuổi ĐTĐ típ 2, sa sút trí tuệ nhẹ, ăn thất thường, HbA1c 5,8%, đang glimepirid và insulin nền; 2 lần té ngã buổi sáng, glucose mao mạch 2,9 mmol/L. Ưu tiên nào đúng?",
+      "opts": [
+        "Tăng insulin để HbA1c <5,5%",
+        "Giảm cường độ điều trị gây hạ đường và cá thể hóa mục tiêu HbA1c",
+        "Thêm meglitinid trước bữa ăn",
+        "Không đổi thuốc vì HbA1c rất tốt"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: mục tiêu quá chặt làm hạ đường nguy hiểm.",
+        "Đúng: người già frail/ăn thất thường cần ưu tiên tránh hạ đường và đơn giản hóa.",
+        "Sai: thêm thuốc kích tiết insulin tăng nguy cơ.",
+        "Sai: HbA1c thấp có thể phản ánh điều trị quá mức."
+      ],
+      "key": "Ở lão khoa, HbA1c thấp không luôn là “tốt”; phải hỏi có hạ đường không.",
+      "id": "OLD011",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Đái tháo đường",
+      "stem": "Nam 74 tuổi dùng metformin, bị tiêu chảy nặng, tụt HA và TTTC. Xử trí thuốc hợp lý nhất trong giai đoạn cấp?",
+      "opts": [
+        "Tiếp tục metformin để tránh tăng đường",
+        "Tạm ngừng metformin trong bệnh cấp có giảm tưới máu/TTTC và đánh giá lại sau ổn định",
+        "Tăng gấp đôi metformin",
+        "Đổi ngay sang glyburid liều cao"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: TTTC/mất nước làm tăng nguy cơ tích lũy metformin.",
+        "Đúng: “ngày bệnh” cần tạm ngừng khi mất nước/TTTC rõ.",
+        "Sai: nguy hiểm.",
+        "Sai: sulfonylurea dài tác dụng gây hạ đường ở người già."
+      ],
+      "key": "Metformin + TTTC/mất nước = nghĩ tạm ngừng và đánh giá lại.",
+      "id": "OLD012",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Đái tháo đường",
+      "stem": "Nữ 72 tuổi dùng empagliflozin, nay sốt, nôn, ăn rất ít và mất nước. Dù glucose chỉ 9 mmol/L, bệnh nhân thở nhanh, HCO3- giảm. Điều cần nghĩ?",
+      "opts": [
+        "Nhiễm toan ceton có thể xảy ra với glucose không quá cao khi dùng SGLT2",
+        "SGLT2 loại trừ hoàn toàn nhiễm toan ceton",
+        "Chỉ là tác dụng lợi tiểu vô hại",
+        "Tăng liều SGLT2 trong bệnh cấp"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: SGLT2 có thể liên quan nhiễm toan ceton với glucose không quá cao; bệnh cấp/nhịn ăn là yếu tố thúc đẩy.",
+        "Sai.",
+        "Sai: thở nhanh + HCO3 giảm phải đánh giá toan.",
+        "Sai: bệnh cấp mất nước thường phải tạm ngừng."
+      ],
+      "key": "SGLT2 + bệnh cấp/nhịn ăn + toan = nghĩ nhiễm toan ceton đường huyết không quá cao.",
+      "id": "OLD013",
+      "task": "Chẩn đoán",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Đái tháo đường",
+      "stem": "Cụ ông 79 tuổi BTM, cần thuốc DPP-4. Thuốc nào thường không cần chỉnh liều theo chức năng thận trong nhóm này?",
+      "opts": [
+        "Sitagliptin",
+        "Saxagliptin",
+        "Linagliptin",
+        "Alogliptin"
+      ],
+      "ans": 2,
+      "expl": [
+        "Sai: sitagliptin cần chỉnh theo chức năng thận.",
+        "Sai: saxagliptin có chỉnh liều và còn phải lưu ý suy tim.",
+        "Đúng: linagliptin đào thải không chủ yếu qua thận nên thường không cần chỉnh liều thận.",
+        "Sai: alogliptin cần chỉnh theo thận."
+      ],
+      "key": "Linagliptin là DPP-4 “dễ nhớ” khi hỏi không cần chỉnh liều thận.",
+      "id": "OLD014",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Đái tháo đường",
+      "stem": "Thuốc sulfonylurea nào đặc biệt không thuận lợi ở người cao tuổi vì nguy cơ hạ đường kéo dài?",
+      "opts": [
+        "Glyburid/glibenclamid",
+        "Metformin",
+        "Empagliflozin",
+        "Linagliptin"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: glyburid/glibenclamid có nguy cơ hạ đường kéo dài, đặc biệt suy thận.",
+        "Sai: không thuộc sulfonylurea.",
+        "Sai: SGLT2.",
+        "Sai: DPP-4."
+      ],
+      "key": "Người già + sulfonylurea: tránh thuốc kéo dài nguy cơ hạ đường, nhất là glyburid.",
+      "id": "OLD015",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Đái tháo đường",
+      "stem": "Nam 80 tuổi dùng insulin nền, mức lọc cầu thận ước tính giảm từ 45 xuống 20 mL/phút/1,73 m² sau TTTC hồi phục chưa hoàn toàn. Glucose sáng thường 3,2–3,8 mmol/L. Giải thích hợp lý nhất?",
+      "opts": [
+        "Suy thận làm insulin bị thải nhanh hơn nên cần tăng liều",
+        "Giảm chức năng thận có thể giảm thanh thải insulin, làm tăng nguy cơ hạ đường",
+        "Insulin không liên quan chức năng thận",
+        "Phải thêm sulfonylurea"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: ngược lại.",
+        "Đúng: chức năng thận giảm làm nhu cầu insulin có thể giảm.",
+        "Sai.",
+        "Sai: sẽ tăng hạ đường."
+      ],
+      "key": "Thận xấu đi → nhu cầu insulin có thể giảm; đừng giữ nguyên liều máy móc.",
+      "id": "OLD016",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Đái tháo đường",
+      "stem": "Bệnh nhân 70 tuổi ĐTĐ típ 2, đã đặt stent, BTM có albumin niệu, không có chống chỉ định. Khi chọn thuốc hạ đường dài hạn, ưu tiên hiện đại nào đúng?",
+      "opts": [
+        "Chỉ chọn thuốc theo HbA1c, không quan tâm tim thận",
+        "Ưu tiên thuốc có lợi ích tim–thận như SGLT2 và/hoặc GLP-1 phù hợp bệnh cảnh, độc lập phần nào với nhu cầu hạ HbA1c",
+        "Luôn ưu tiên sulfonylurea vì rẻ",
+        "Ngưng statin để tránh đa thuốc"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: tim–thận là trục quyết định lớn.",
+        "Đúng: người đã bệnh tim mạch do xơ vữa/BTM cần cân lợi ích ngoài đường huyết.",
+        "Sai: nguy cơ hạ đường và không có lợi ích tim–thận tương tự.",
+        "Sai: stent là dự phòng thứ phát rất cần statin."
+      ],
+      "key": "ĐTĐ + bệnh tim mạch do xơ vữa/BTM: chọn thuốc không chỉ vì HbA1c.",
+      "id": "OLD017",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Đái tháo đường",
+      "stem": "Nam 73 tuổi sau đặt stent dùng clopidogrel, ĐTĐ đang dùng repaglinid. Vì sao phối hợp này đáng lo?",
+      "opts": [
+        "Clopidogrel có thể làm tăng phơi nhiễm repaglinid và hạ đường huyết",
+        "Repaglinid làm mất tác dụng stent cơ học",
+        "Hai thuốc gây tăng kali nặng",
+        "Không có tương tác đáng kể"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: đây là tương tác rất dễ bị gài trong toa đa bệnh.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Hai thuốc đúng cho hai bệnh có thể ghép thành toa sai: clopidogrel + repaglinid.",
+      "id": "OLD018",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Gout",
+      "stem": "Cụ ông 76 tuổi gout cấp khớp bàn–ngón chân cái, BTM G4, suy tim, đang aspirin + clopidogrel sau stent và tiền sử xuất huyết tiêu hóa. Lựa chọn nào kém phù hợp nhất?",
+      "opts": [
+        "thuốc chống viêm không steroid liều cao",
+        "Corticosteroid ngắn ngày sau khi đã loại nhiễm khuẩn phù hợp",
+        "Colchicin với liều/khả năng dùng được cân theo chức năng thận và tương tác",
+        "Chọc hút khớp nếu nghi viêm khớp nhiễm khuẩn"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: thuốc chống viêm không steroid làm tăng nguy cơ xuất huyết, suy tim và TTTC trong ca này.",
+        "Hợp lý hơn tùy bệnh cảnh.",
+        "Có thể dùng nhưng phải đặc biệt chỉnh/cân nguy cơ ở BTM.",
+        "Đúng khi chẩn đoán chưa chắc."
+      ],
+      "key": "Gout cấp + BTM + suy tim + kháng kết tập tiểu cầu kép + tiền sử xuất huyết = tránh thuốc chống viêm không steroid nếu có lựa chọn khác.",
+      "id": "OLD019",
+      "task": "Chẩn đoán",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Gout",
+      "stem": "Bệnh nhân đang trong cơn gout điển hình nhưng acid uric máu 330 µmol/L. Kết luận nào đúng?",
+      "opts": [
+        "Loại trừ gout vì acid uric không tăng",
+        "Acid uric có thể không tăng trong cơn cấp; chẩn đoán dựa toàn bộ bệnh cảnh và tinh thể khi cần",
+        "Chắc chắn viêm khớp nhiễm khuẩn",
+        "Phải bắt đầu allopurinol liều tối đa ngay chỉ dựa xét nghiệm này"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: bẫy kinh điển.",
+        "Đúng.",
+        "Sai: vẫn phải phân biệt nếu có dấu nhiễm khuẩn, nhưng acid uric bình thường không chứng minh nhiễm khuẩn.",
+        "Sai: điều trị hạ urat cần chỉ định và chuẩn độ."
+      ],
+      "key": "Acid uric bình thường trong cơn không loại gout.",
+      "id": "OLD020",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Gout",
+      "stem": "Tinh thể nào xác định gout khi soi kính phân cực?",
+      "opts": [
+        "Tinh thể calci pyrophosphat hình thoi, lưỡng chiết dương yếu",
+        "Tinh thể monosodium urat hình kim, lưỡng chiết âm mạnh",
+        "Tinh thể cholesterol",
+        "Tinh thể oxalat hình phong bì"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: gợi bệnh lắng đọng calci pyrophosphat.",
+        "Đúng: tinh thể urat monosodium hình kim, lưỡng chiết âm.",
+        "Sai.",
+        "Sai: gặp oxalat niệu."
+      ],
+      "key": "Gout = tinh thể urat monosodium hình kim, lưỡng chiết âm.",
+      "id": "OLD021",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Gout",
+      "stem": "Nam 72 tuổi gout tophi, mức lọc cầu thận ước tính 32. Khi khởi allopurinol, chiến lược nào phù hợp?",
+      "opts": [
+        "Khởi liều cao ngay để acid uric về đích trong 3 ngày",
+        "Khởi liều thấp, còn thấp hơn khi BTM, rồi tăng dần theo urat và dung nạp",
+        "Không bao giờ dùng allopurinol nếu mức lọc cầu thận ước tính <60",
+        "Chỉ dùng khi đang đau cấp và ngưng ngay khi hết đau"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: tăng nguy cơ độc tính.",
+        "Đúng: ACR ủng hộ low start, go slow và điều trị theo mục tiêu.",
+        "Sai: allopurinol vẫn là thuốc đầu tay ở nhiều bệnh nhân BTM.",
+        "Sai: ULT là điều trị dài hạn."
+      ],
+      "key": "Allopurinol: khởi thấp, tăng dần, điều trị theo mục tiêu urat.",
+      "id": "OLD022",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Gout",
+      "stem": "Khi bắt đầu thuốc hạ urat ở người có cơn gout tái diễn, điều gì thường được cân nhắc để giảm bùng phát cơn trong những tháng đầu?",
+      "opts": [
+        "Dự phòng chống viêm bằng colchicin/thuốc chống viêm không steroid/corticosteroid phù hợp nguy cơ",
+        "Ngừng mọi thuốc chống viêm",
+        "Tăng lợi tiểu thiazid",
+        "Chỉ uống allopurinol khi đau rồi ngừng"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: prophylaxis chống viêm thường được dùng khi khởi ULT.",
+        "Sai.",
+        "Sai: có thể làm urat tăng.",
+        "Sai: ULT không phải thuốc cắt cơn dùng ngắt quãng."
+      ],
+      "key": "Khởi ULT có thể kích phát cơn → nhớ dự phòng chống viêm phù hợp.",
+      "id": "OLD023",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Gout",
+      "stem": "Vì sao xét nghiệm HLA-B*58:01 được quan tâm trước allopurinol ở một số quần thể nguy cơ?",
+      "opts": [
+        "Dự đoán chắc chắn thuốc có hạ urat hay không",
+        "Liên quan nguy cơ phản ứng quá mẫn nặng với allopurinol",
+        "Dự đoán chảy máu do colchicin",
+        "Đánh giá chức năng thận"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai.",
+        "Đúng: allele này liên quan hội chứng quá mẫn allopurinol nặng.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "HLA-B*58:01 = an toàn allopurinol, không phải hiệu quả thuốc.",
+      "id": "OLD024",
+      "task": "Cận lâm sàng tiếp theo",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Suy giáp",
+      "stem": "Nữ 74 tuổi mệt, táo bón, nhịp chậm; TSH tăng rõ, FT4 giảm. Chẩn đoán phù hợp nhất?",
+      "opts": [
+        "Suy giáp nguyên phát rõ",
+        "Suy giáp trung ương",
+        "Suy giáp dưới lâm sàng",
+        "Hội chứng bình giáp bệnh nặng"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: TSH tăng + FT4 giảm.",
+        "Sai: trung ương thường FT4 thấp với TSH thấp/không tăng thích hợp.",
+        "Sai: dưới lâm sàng FT4 còn bình thường.",
+        "Sai: bệnh nặng có pattern khác và bối cảnh cấp."
+      ],
+      "key": "TSH ↑ + FT4 ↓ = suy giáp nguyên phát rõ.",
+      "id": "OLD025",
+      "task": "Chẩn đoán",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Suy giáp",
+      "stem": "Nam 69 tuổi không triệu chứng rõ, TSH tăng nhẹ lặp lại, FT4 bình thường. Thuật ngữ phù hợp?",
+      "opts": [
+        "Suy giáp dưới lâm sàng",
+        "Cường giáp",
+        "Suy giáp trung ương",
+        "Hôn mê do suy giáp"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai.",
+        "Sai.",
+        "Sai: đây là cấp cứu với biểu hiện nặng."
+      ],
+      "key": "Suy giáp dưới lâm sàng: TSH tăng, FT4 bình thường.",
+      "id": "OLD026",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Suy giáp",
+      "stem": "Cụ ông 80 tuổi có bệnh mạch vành ổn định, mới chẩn đoán suy giáp rõ. Cách khởi levothyroxin hợp lý nhất?",
+      "opts": [
+        "Khởi ngay liều thay thế đầy đủ như người trẻ khỏe",
+        "Khởi liều thấp khoảng 12,5–25 microgam/ngày và tăng chậm theo TSH/triệu chứng",
+        "Không điều trị bao giờ vì tuổi cao",
+        "Dùng liothyronin liều cao ngay"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: có thể kích thiếu máu cơ tim/loạn nhịp.",
+        "Đúng: người già/CAD cần khởi thấp và chỉnh chậm.",
+        "Sai: tuổi không phải chống chỉ định tuyệt đối.",
+        "Sai: không phải chiến lược thường quy."
+      ],
+      "key": "Người già + CAD + levothyroxin = khởi thấp, tăng chậm.",
+      "id": "OLD027",
+      "task": "Chẩn đoán",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Suy giáp",
+      "stem": "Bệnh nhân ICU nhiễm khuẩn nặng có T3 thấp, TSH không tăng như suy giáp nguyên phát, không có tiền sử tuyến giáp. Điều nên nghĩ trước?",
+      "opts": [
+        "Hội chứng bình giáp bệnh nặng",
+        "Suy giáp nguyên phát chắc chắn",
+        "Bắt đầu levothyroxin liều cao ngay",
+        "Bệnh Addison chắc chắn"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: bệnh nặng có thể làm thay đổi xét nghiệm tuyến giáp mà không phải suy giáp nguyên phát.",
+        "Sai: pattern không điển hình.",
+        "Sai: không điều trị xét nghiệm đơn độc.",
+        "Sai."
+      ],
+      "key": "Xét nghiệm tuyến giáp bất thường trong bệnh nặng phải đặt vào bối cảnh.",
+      "id": "OLD028",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Tăng huyết áp",
+      "stem": "Nữ 78 tuổi đang dùng 3 thuốc hạ áp, than chóng mặt khi đứng và té ngã. HA nằm 138/72, sau đứng 3 phút 112/64. Bước phù hợp nhất?",
+      "opts": [
+        "Tăng thêm thuốc vì HA nằm chưa <120",
+        "Xác nhận hạ huyết áp tư thế, rà mất nước và thuốc, cá thể hóa mục tiêu",
+        "Ngưng hết thuốc hạ áp vĩnh viễn",
+        "Chỉ cho thuốc an thần"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: triệu chứng tư thế là vấn đề ưu tiên.",
+        "Đúng: cần cân lợi ích kiểm soát HA và nguy cơ té ngã.",
+        "Sai: nhiều thuốc vẫn có lợi ích bắt buộc.",
+        "Sai."
+      ],
+      "key": "Người già + té + chênh HA tư thế = rà toa trước khi tăng thuốc.",
+      "id": "OLD029",
+      "task": "Chẩn đoán",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Tăng huyết áp",
+      "stem": "Một người 67 tuổi có HA phòng khám 148/88 nhiều lần nhưng HA tại nhà trung bình 128/78. Cần nghĩ?",
+      "opts": [
+        "Tăng huyết áp áo choàng trắng",
+        "Tăng huyết áp ẩn giấu",
+        "Cấp cứu tăng huyết áp",
+        "Shock"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: cao ở phòng khám nhưng bình thường ngoài phòng khám.",
+        "Sai: ẩn giấu là ngược lại.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Phòng khám cao – tại nhà bình thường = áo choàng trắng.",
+      "id": "OLD030",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Tăng huyết áp",
+      "stem": "Nam 72 tuổi HA 220/125, khó thở, phù phổi cấp và troponin tăng. Đây là?",
+      "opts": [
+        "Tăng huyết áp không biến chứng, có thể hẹn tái khám",
+        "Cấp cứu tăng huyết áp vì có tổn thương cơ quan đích cấp",
+        "Chỉ là hiệu ứng áo choàng trắng",
+        "Không liên quan huyết áp"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai.",
+        "Đúng: HA rất cao + phù phổi/ACS = cấp cứu.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Cấp cứu tăng huyết áp được định nghĩa bởi tổn thương cơ quan đích cấp, không chỉ con số HA.",
+      "id": "OLD031",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Tăng huyết áp",
+      "stem": "Cụ ông BTM dùng ACEi và spironolacton, sau đó tự dùng thuốc chống viêm không steroid; K tăng 6,1 mmol/L và creatinin tăng. Việc nào quan trọng?",
+      "opts": [
+        "Rà toàn bộ thuốc làm tăng K/giảm tưới máu và xử trí tăng K theo mức độ",
+        "Tăng liều spironolacton",
+        "Bổ sung kali",
+        "Chỉ giảm muối và hẹn 1 tháng"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai: làm tăng K.",
+        "Sai.",
+        "Sai: K 6,1 cần đánh giá khẩn hơn."
+      ],
+      "key": "BTM + ACEi/MRA + thuốc chống viêm không steroid = nguy cơ tăng K + TTTC.",
+      "id": "OLD032",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Bệnh mạch vành",
+      "stem": "Nam 75 tuổi đau ngực khi đi bộ 300 m trong 3 tháng, hết sau nghỉ vài phút; hôm nay đau xuất hiện khi đang ngồi, kéo dài 25 phút. Thay đổi quan trọng nhất?",
+      "opts": [
+        "Vẫn xem là hội chứng vành mạn ổn định như cũ",
+        "Phải đánh giá hội chứng vành cấp vì tính chất đau đã thay đổi",
+        "Chỉ tăng thuốc dạ dày",
+        "Không cần điện tâm đồ/troponin"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: triệu chứng đã mất tính ổn định.",
+        "Đúng: đau khi nghỉ/kéo dài là red flag.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Một ca “mạn” có thể chuyển cấp; thời gian và hoàn cảnh đau quyết định.",
+      "id": "OLD033",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Bệnh mạch vành",
+      "stem": "Nữ 79 tuổi ĐTĐ, không đau ngực nhưng khó thở gắng sức mới xuất hiện, vã mồ hôi và mệt khi leo cầu thang. Nhận định đúng?",
+      "opts": [
+        "Không có đau ngực nên loại bệnh mạch vành",
+        "Người già/ĐTĐ có thể biểu hiện thiếu máu cơ tim không điển hình; cần đánh giá tim mạch",
+        "Chắc chắn chỉ do tuổi già",
+        "Chỉ cần thuốc bổ"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai.",
+        "Đúng.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Người già và ĐTĐ có thể thiếu triệu chứng đau ngực điển hình.",
+      "id": "OLD034",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Stent",
+      "stem": "Nam 70 tuổi đặt stent phủ thuốc 1 tháng trước vì hội chứng vành cấp, đang aspirin + ticagrelor. Nay cần mổ chương trình không cấp cứu. Nguyên tắc đúng?",
+      "opts": [
+        "Tự ngưng cả hai thuốc ngay 7 ngày rồi mổ",
+        "Cân nhắc trì hoãn mổ chương trình và hội chẩn tim mạch vì ngừng kháng kết tập quá sớm tăng nguy cơ huyết khối stent",
+        "kháng kết tập tiểu cầu kép không còn cần sau 1 tháng",
+        "Chuyển sang thuốc chống viêm không steroid trước mổ"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: nguy cơ huyết khối stent rất cao.",
+        "Đúng: thời điểm PCI, lý do PCI và nguy cơ chảy máu phẫu thuật quyết định.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Stent + mổ: hỏi stent khi nào, vì ACS hay hội chứng vành mạn, đang dùng thuốc gì.",
+      "id": "OLD035",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Stent",
+      "stem": "Nữ 76 tuổi đang aspirin + clopidogrel sau PCI, xuất hiện gout cấp. Lựa chọn giảm đau nào cần tránh nhất nếu có phương án khác?",
+      "opts": [
+        "thuốc chống viêm không steroid kéo dài",
+        "Corticosteroid ngắn ngày sau loại nhiễm khuẩn",
+        "Colchicin được cân theo thận/tương tác",
+        "Chườm lạnh hỗ trợ"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: kháng kết tập tiểu cầu kép + thuốc chống viêm không steroid làm tăng chảy máu và còn nguy cơ thận/tim.",
+        "Có thể là lựa chọn phù hợp tùy bệnh cảnh.",
+        "Có thể nhưng phải chỉnh.",
+        "Hỗ trợ."
+      ],
+      "key": "kháng kết tập tiểu cầu kép + thuốc chống viêm không steroid = bẫy xuất huyết.",
+      "id": "OLD036",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Stent",
+      "stem": "Nam 78 tuổi rung nhĩ phải dùng thuốc chống đông, vừa PCI. Tư duy nào đúng?",
+      "opts": [
+        "Luôn duy trì ba thuốc chống huyết khối suốt đời",
+        "Cần cân bằng huyết khối stent, đột quỵ và chảy máu; thời gian phối hợp ba thuốc thường được rút ngắn tùy nguy cơ",
+        "Ngưng thuốc chống đông vì đã có aspirin",
+        "Ngưng tất cả thuốc kháng tiểu cầu ngay sau PCI"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: chảy máu rất cao.",
+        "Đúng: đây là bài toán cá thể hóa.",
+        "Sai: aspirin không thay chống đông trong AF.",
+        "Sai: giai đoạn sau PCI vẫn cần bảo vệ stent."
+      ],
+      "key": "AF + stent = bài toán ba nguy cơ; không có công thức “ba thuốc suốt đời”.",
+      "id": "OLD037",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Rối loạn lipid",
+      "stem": "Nam 68 tuổi đã nhồi máu cơ tim và đặt stent, LDL-C 2,0 mmol/L dù bệnh nhân nói “phòng xét nghiệm ghi gần bình thường”. Nhận định đúng?",
+      "opts": [
+        "Không cần statin vì LDL gần bình thường",
+        "Đây là dự phòng thứ phát nguy cơ rất cao; mục tiêu LDL nghiêm ngặt hơn khoảng tham chiếu labo và cần điều trị hạ LDL cường độ cao phù hợp",
+        "Chỉ cần ăn kiêng",
+        "Ngưng statin nếu LDL xuống dưới 2,6 mmol/L"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: khoảng tham chiếu không phải mục tiêu theo nguy cơ.",
+        "Đúng.",
+        "Sai: lifestyle quan trọng nhưng không thay thuốc trong dự phòng thứ phát.",
+        "Sai."
+      ],
+      "key": "LDL “bình thường” của labo ≠ LDL đạt mục tiêu ở người đã stent.",
+      "id": "OLD038",
+      "task": "Cận lâm sàng tiếp theo",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Rối loạn lipid",
+      "stem": "Bệnh nhân dùng simvastatin, được kê thêm clarithromycin rồi đau cơ, CK tăng. Cơ chế cần nghĩ?",
+      "opts": [
+        "Tương tác làm tăng phơi nhiễm statin và nguy cơ bệnh cơ",
+        "Clarithromycin làm giảm statin nên LDL tăng",
+        "Không liên quan thuốc",
+        "Chỉ do tuổi"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: ức chế chuyển hóa có thể làm tăng nồng độ một số statin.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Statin + thuốc ức chế chuyển hóa mạnh = nhớ độc cơ.",
+      "id": "OLD039",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Suy thượng thận",
+      "stem": "Cụ bà 73 tuổi dùng prednisolon kéo dài vì viêm đa khớp, tự ngừng 4 ngày. Nay viêm phổi, nôn, HA 78/45, glucose 3,1 mmol/L, Na 126 mmol/L. Xử trí ưu tiên?",
+      "opts": [
+        "Chờ cortisol sáng hôm sau rồi mới điều trị",
+        "Hydrocortison 100 mg tĩnh mạch/tiêm bắp ngay, hồi sức dịch và glucose khi cần",
+        "Chỉ dùng thuốc vận mạch, không steroid",
+        "Uống lại liều prednisolon cũ và cho về"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: cơn suy thượng thận là cấp cứu.",
+        "Đúng: nghi đủ mạnh phải điều trị ngay.",
+        "Sai: thiếu cortisol làm giảm đáp ứng catecholamin; phải thay steroid.",
+        "Sai: bệnh nhân shock cần xử trí cấp cứu."
+      ],
+      "key": "Ngừng steroid kéo dài + stress + shock/hạ Na/hạ đường = cơn suy thượng thận cho tới khi loại trừ.",
+      "id": "OLD040",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Suy thượng thận",
+      "stem": "Dấu nào hướng suy thượng thận nguyên phát hơn suy trung ương?",
+      "opts": [
+        "Tăng kali máu và tăng sắc tố",
+        "Kali bình thường",
+        "Tiền sử dùng glucocorticoid kéo dài",
+        "ACTH thấp"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: thiếu aldosteron và ACTH tăng gợi nguyên phát.",
+        "Không đặc hiệu.",
+        "Gợi suy do ức chế trục trung ương.",
+        "Gợi trung ương."
+      ],
+      "key": "Nguyên phát: ACTH ↑, tăng sắc tố, có thể tăng K do thiếu aldosteron.",
+      "id": "OLD041",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Suy thượng thận",
+      "stem": "Sau liều hydrocortison 100 mg đầu tiên trong cơn suy thượng thận, chế độ duy trì phù hợp theo NICE 2024 là?",
+      "opts": [
+        "Hydrocortison 200 mg/24 giờ hoặc 50 mg mỗi 6 giờ",
+        "Hydrocortison 5 mg mỗi 24 giờ",
+        "Levothyroxin 100 microgam mỗi 6 giờ",
+        "Fludrocortison là thuốc duy nhất trong 24 giờ đầu"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai: không đủ liều stress.",
+        "Sai: không phải điều trị cơn suy thượng thận.",
+        "Sai: không thay thế glucocorticoid cấp cứu."
+      ],
+      "key": "Cơn cấp: 100 mg ngay → 200 mg/24h hoặc 50 mg mỗi 6h.",
+      "id": "OLD042",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Suy thượng thận",
+      "stem": "Ở người nghi cơn suy thượng thận nhưng chưa có kết quả cortisol/ACTH, nguyên tắc nào đúng?",
+      "opts": [
+        "Nếu lấy được mẫu ngay thì lấy trước steroid, nhưng không được trì hoãn điều trị",
+        "Không bao giờ lấy cortisol",
+        "Phải đợi nghiệm pháp kích thích ACTH rồi mới tiêm hydrocortison",
+        "Chỉ truyền nước, steroid có thể đợi 24 giờ"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai: xét nghiệm vẫn hữu ích nếu không làm chậm điều trị.",
+        "Sai: không phù hợp cấp cứu.",
+        "Sai."
+      ],
+      "key": "Trong cấp cứu, xét nghiệm không được trở thành lý do trì hoãn hydrocortison.",
+      "id": "OLD043",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Loãng xương",
+      "stem": "Nữ 79 tuổi trượt ngã từ tư thế đứng và gãy cổ xương đùi. T-score cổ xương đùi -2,1. Nhận định phù hợp nhất?",
+      "opts": [
+        "Không có loãng xương/nguy cơ cao vì T-score chưa -2,5",
+        "Đây là gãy xương do sang chấn nhẹ, bản thân đã đặt bệnh nhân vào nhóm nguy cơ cao cần đánh giá và điều trị loãng xương",
+        "Chỉ bổ sung canxi là đủ",
+        "Không cần đánh giá nguy cơ té ngã"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: gãy fragility quan trọng hơn việc chờ T-score đạt -2,5.",
+        "Đúng.",
+        "Sai: cần chiến lược chống gãy đầy đủ.",
+        "Sai: té ngã là mục tiêu lão khoa quan trọng."
+      ],
+      "key": "Fragility fracture có thể “vượt” T-score trong quyết định điều trị.",
+      "id": "OLD044",
+      "task": "Chẩn đoán",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Loãng xương",
+      "stem": "T-score nào phù hợp định nghĩa vận hành loãng xương ở vị trí chẩn đoán thích hợp?",
+      "opts": [
+        "≤ -1,0",
+        "≤ -1,5",
+        "≤ -2,5",
+        "≤ -4,0"
+      ],
+      "ans": 2,
+      "expl": [
+        "Sai.",
+        "Sai.",
+        "Đúng.",
+        "Sai: -4 rất thấp nhưng không phải ngưỡng định nghĩa."
+      ],
+      "key": "T-score ≤ -2,5 là ngưỡng kinh điển; nguy cơ gãy vẫn phải đánh giá toàn diện.",
+      "id": "OLD045",
+      "task": "Chẩn đoán",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Loãng xương",
+      "stem": "Nữ 77 tuổi loãng xương, mức lọc cầu thận ước tính 28 mL/phút/1,73 m², trào ngược nặng và hẹp thực quản. Toa alendronat 70 mg/tuần có vấn đề gì?",
+      "opts": [
+        "Hoàn toàn phù hợp",
+        "Có cả vấn đề thực quản và chức năng thận; cần chọn chiến lược khác",
+        "Chỉ cần uống alendronat ngay trước khi ngủ",
+        "Tăng liều lên 140 mg/tuần"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai.",
+        "Đúng: bệnh thực quản cản trở tống xuất và GFR thấp là các vấn đề quan trọng.",
+        "Sai: tăng nguy cơ tổn thương thực quản.",
+        "Sai."
+      ],
+      "key": "Bisphosphonat uống: hỏi thực quản, khả năng ngồi thẳng và chức năng thận.",
+      "id": "OLD046",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Loãng xương",
+      "stem": "Bệnh nhân dùng denosumab 60 mg mỗi 6 tháng được 4 năm, muốn “ngừng hẳn vì xương đã tốt” và không có kế hoạch thuốc khác. Điều gì đáng lo nhất?",
+      "opts": [
+        "Tăng nguy cơ gãy nhiều đốt sống do hiệu ứng bật lại sau ngừng",
+        "Tăng acid uric",
+        "Gây hạ đường huyết",
+        "Không có hậu quả vì denosumab lưu trong xương nhiều năm như bisphosphonat"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: ngừng không kế hoạch làm mất xương nhanh và tăng gãy đốt sống.",
+        "Sai.",
+        "Sai.",
+        "Sai: denosumab không có “residual” như bisphosphonate."
+      ],
+      "key": "Denosumab không được ngừng/trễ liều tùy tiện; phải có kế hoạch nối tiếp.",
+      "id": "OLD047",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Loãng xương",
+      "stem": "Bệnh nhân 75 tuổi dự định truyền zoledronat, độ thanh thải creatinin 32 mL/phút. Theo NOGG 2024, điều nào đúng?",
+      "opts": [
+        "Có thể truyền 5 mg ngay, không cần quan tâm thận",
+        "Zoledronat chống chỉ định khi chức năng thận nặng khoảng GFR ≤35 mL/phút; cần chọn phương án khác",
+        "Giảm xuống 2,5 mg là phác đồ chuẩn loãng xương",
+        "Chỉ cần uống nhiều nước rồi truyền"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai.",
+        "Đúng.",
+        "Sai: không có chiến lược giảm liều chuẩn như vậy cho loãng xương.",
+        "Sai: hydrat hóa không xóa chống chỉ định."
+      ],
+      "key": "Zoledronat: kiểm tra thận trước, GFR/độ thanh thải creatinin quanh ≤35 là red flag.",
+      "id": "OLD048",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Táo bón",
+      "stem": "Cụ ông 86 tuổi sa sút trí tuệ, dùng opioid, 7 ngày không đi tiêu rồi xuất hiện són phân lỏng từng ít một. Trực tràng đầy khối phân cứng. Chẩn đoán hợp lý?",
+      "opts": [
+        "Tiêu chảy nhiễm trùng cấp",
+        "Tiêu chảy tràn do phân đóng khối",
+        "Viêm loét đại tràng",
+        "Cường giáp"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai.",
+        "Đúng: phân lỏng chảy quanh khối phân.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Người già táo bón rồi “tiêu chảy” lượng ít → khám trực tràng tìm phân đóng khối.",
+      "id": "OLD049",
+      "task": "Chẩn đoán",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Táo bón",
+      "stem": "Nữ 72 tuổi táo bón mới 2 tháng, sụt 6 kg, Hb 86 g/L, phân có máu ẩn. Bước đúng?",
+      "opts": [
+        "Chỉ kê chất xơ 6 tháng",
+        "Đánh giá nguyên nhân cấu trúc/ung thư đại trực tràng phù hợp, không xem là táo bón chức năng đơn thuần",
+        "Cho loperamid",
+        "Không cần xét nghiệm vì tuổi cao"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: có nhiều dấu báo động.",
+        "Đúng.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Táo bón mới + sụt cân + thiếu máu/chảy máu = không được chỉ kê nhuận tràng.",
+      "id": "OLD050",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Táo bón",
+      "stem": "Theo AGA–ACG 2023, thuốc không kê đơn nào có khuyến cáo mạnh cho táo bón vô căn mạn ở người lớn?",
+      "opts": [
+        "Polyethylene glycol",
+        "Kháng sinh",
+        "Loperamid",
+        "Morphin"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: PEG có khuyến cáo mạnh.",
+        "Sai.",
+        "Sai: thuốc cầm tiêu chảy.",
+        "Sai: opioid gây táo bón."
+      ],
+      "key": "PEG là trụ cột dược lý OTC cho táo bón vô căn mạn.",
+      "id": "OLD051",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Táo bón",
+      "stem": "Bệnh nhân BTM G4 táo bón, đang tự dùng magnesi oxyd liều cao nhiều ngày. Điều cần lưu ý?",
+      "opts": [
+        "Suy thận có thể làm tích lũy magnesi; nên rà lại lựa chọn",
+        "Magnesi luôn an toàn vì không hấp thu",
+        "Tăng liều vô hạn nếu chưa đi tiêu",
+        "Không cần kiểm tra điện giải"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Thuốc “không kê đơn” vẫn có thể nguy hiểm trong BTM.",
+      "id": "OLD052",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Táo bón",
+      "stem": "Người bệnh đang phân đóng khối trực tràng và bụng chướng. Hành động nào kém hợp lý nhất?",
+      "opts": [
+        "Đánh giá và tháo phân phù hợp",
+        "Rà opioid/kháng cholinergic",
+        "Ép tăng lượng lớn chất xơ ngay trước khi giải quyết khối phân",
+        "Đánh giá dấu tắc ruột"
+      ],
+      "ans": 2,
+      "expl": [
+        "Hợp lý.",
+        "Hợp lý.",
+        "Đúng là lựa chọn kém: chất xơ có thể làm chướng hơn khi đang ứ/tắc.",
+        "Hợp lý."
+      ],
+      "key": "Phải giải quyết phân đóng khối/tắc trước khi “tăng chất xơ”.",
+      "id": "OLD053",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Tiêu chảy",
+      "stem": "Nam 80 tuổi tiêu chảy nước 1 ngày, không sốt, không máu, mất nước nhẹ–vừa, còn uống được. Điều trị nền đầu tiên?",
+      "opts": [
+        "Dung dịch bù nước đường uống",
+        "Ciprofloxacin ngay cho mọi trường hợp",
+        "Loperamid trước khi bù nước",
+        "Nhịn ăn hoàn toàn 48 giờ"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: ORS là đầu tay cho mất nước nhẹ–vừa.",
+        "Sai: đa số tiêu chảy nước cấp không cần kháng sinh kinh nghiệm.",
+        "Sai: bù nước ưu tiên trước.",
+        "Sai: nên trở lại chế độ ăn thích hợp sau bù nước."
+      ],
+      "key": "Tiêu chảy: ưu tiên trạng thái thể tích trước tác nhân.",
+      "id": "OLD054",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Tiêu chảy",
+      "stem": "Cụ bà 75 tuổi sốt 39°C, đau quặn bụng và tiêu phân máu. Thuốc nào nên tránh?",
+      "opts": [
+        "Loperamid",
+        "Bù dịch",
+        "Xét nghiệm phân phù hợp",
+        "Đánh giá sepsis"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: tránh thuốc giảm nhu động khi tiêu chảy viêm/sốt vì nguy cơ biến chứng.",
+        "Hợp lý.",
+        "Hợp lý.",
+        "Hợp lý."
+      ],
+      "key": "Loperamid chỉ hợp hơn với tiêu chảy nước không viêm ở người lớn miễn dịch bình thường.",
+      "id": "OLD055",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Tiêu chảy",
+      "stem": "Nam 78 tuổi vừa dùng cephalosporin, nằm viện 10 ngày, nay tiêu chảy nước nhiều lần. Xét nghiệm nào cần nghĩ sớm?",
+      "opts": [
+        "Xét nghiệm C. difficile trên mẫu phân tiêu chảy phù hợp",
+        "ANA",
+        "Acid uric",
+        "PSA"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: kháng sinh + cơ sở y tế + tuổi cao là pattern C. difficile.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Tiêu chảy sau kháng sinh/nhập viện ở người già → C. difficile.",
+      "id": "OLD056",
+      "task": "Cận lâm sàng tiếp theo",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Tiêu chảy",
+      "stem": "Đợt C. difficile đầu tiên không tối cấp ở người lớn, phác đồ nào phù hợp theo IDSA/SHEA hiện hành?",
+      "opts": [
+        "Fidaxomicin 200 mg uống 2 lần/ngày 10 ngày; vancomycin 125 mg uống 4 lần/ngày 10 ngày là lựa chọn chấp nhận được",
+        "Metronidazol là lựa chọn ưu tiên tuyệt đối cho mọi ca",
+        "Loperamid đơn trị",
+        "Không cần điều trị nếu còn tiêu chảy"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: fidaxomicin được ưu tiên nếu khả thi, vancomycin uống vẫn chấp nhận được.",
+        "Sai: không còn là ưu tiên chuẩn cho mọi ca.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "C. difficile: nhớ fidaxomicin ưu tiên, vancomycin uống vẫn là lựa chọn chuẩn chấp nhận được.",
+      "id": "OLD057",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Tiêu chảy",
+      "stem": "Bệnh nhân 82 tuổi tiêu chảy, HA 78/42, lơ mơ, đầu chi lạnh, không uống được. Xử trí bù dịch?",
+      "opts": [
+        "Dịch tinh thể đẳng trương đường tĩnh mạch, đánh giá lại huyết động liên tục",
+        "Chỉ ORS tại nhà",
+        "Không truyền vì tuổi cao",
+        "Chỉ dùng loperamid"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: shock/mất nước nặng cần IV isotonic.",
+        "Sai: không đủ trong shock/lơ mơ.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Mất nước nặng/shock → dịch tĩnh mạch, không trì hoãn vì tuổi.",
+      "id": "OLD058",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Tiêu chảy",
+      "stem": "Sau ăn thịt tái, bệnh nhân tiêu chảy máu, đau quặn, ít sốt; nghi E. coli sinh độc tố Shiga. Điều nào đúng?",
+      "opts": [
+        "Tránh kháng sinh kinh nghiệm khi nghi STEC có độc tố Shiga 2/không rõ kiểu độc tố",
+        "Cho fluoroquinolon ngay cho mọi trường hợp",
+        "Cho loperamid liều cao",
+        "Không cần theo dõi chức năng thận"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: kháng sinh có thể tăng nguy cơ hội chứng tán huyết urê huyết trong một số STEC.",
+        "Sai.",
+        "Sai: tiêu chảy máu nên tránh thuốc giảm nhu động.",
+        "Sai: HUS có thể gây TTTC."
+      ],
+      "key": "Tiêu chảy máu nghi STEC = đừng tự động cho kháng sinh.",
+      "id": "OLD059",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "cat": "Tiêu chảy",
+      "stem": "Cụ ông ĐTĐ dùng metformin, empagliflozin, perindopril và furosemid; tiêu chảy 4 ngày, HA thấp, creatinin tăng. Tư duy thuốc đúng?",
+      "opts": [
+        "Tạm đánh giá/ngừng các thuốc làm nặng mất nước/TTTC như SGLT2, metformin và thuốc huyết động tùy tình trạng, đồng thời bù dịch và khôi phục sau ổn định",
+        "Giữ nguyên tất cả vì thuốc mạn không bao giờ được đổi",
+        "Tăng furosemid để “thải độc”",
+        "Tăng metformin vì glucose tăng do stress"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: đây là tình huống ngày bệnh đa thuốc.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Tiêu chảy + TTTC = không chỉ chữa tiêu chảy; phải sửa toa tạm thời và hồi phục đúng lúc.",
+      "id": "OLD060",
+      "task": "Điều trị/xử trí",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": true,
+      "source_keys": []
+    },
+    {
+      "id": "Q061",
+      "cat": "Đái tháo đường",
+      "task": "Chẩn đoán",
+      "stem": "Nam 68 tuổi, đái tháo đường típ 2 đã 12 năm, tăng huyết áp kiểm soát tốt, còn làm việc bán thời gian, tự quản lý thuốc, không té ngã, nhận thức và ADL/IADL độc lập. HbA1c 7,8%, không có hạ đường huyết gần đây. Theo khung ADA 2026, bệnh nhân gần nhất với nhóm sức khỏe nào?",
+      "opts": [
+        "Khỏe/ít bệnh đồng mắc ổn định, chức năng và nhận thức còn tốt",
+        "Phức tạp/trung gian bắt buộc chỉ vì tuổi ≥65",
+        "Rất phức tạp/sức khỏe kém",
+        "Cuối đời"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: tuổi ≥65 không tự động đưa vào nhóm mục tiêu lỏng; chức năng, nhận thức, bệnh đồng mắc và suy yếu mới quyết định.",
+        "Sai: không phân tầng chỉ theo tuổi.",
+        "Sai: không có bệnh giai đoạn cuối, sa sút trí tuệ vừa-nặng hay phụ thuộc ADL.",
+        "Sai: không có bối cảnh cuối đời."
+      ],
+      "key": "Lão khoa phải phân tầng theo “health status”, không theo tuổi đơn độc.",
+      "series_id": "C01",
+      "series_step": 1,
+      "series_title": "ĐTĐ ở người cao tuổi còn khỏe và độc lập",
+      "legacy": false,
+      "source_keys": [
+        "ADA_OLDER_2026"
+      ]
+    },
+    {
+      "id": "Q062",
+      "cat": "Đái tháo đường",
+      "task": "Cận lâm sàng tiếp theo",
+      "stem": "Nam 68 tuổi, đái tháo đường típ 2 đã 12 năm, tăng huyết áp kiểm soát tốt, còn làm việc bán thời gian, tự quản lý thuốc, không té ngã, nhận thức và ADL/IADL độc lập. HbA1c 7,8%, không có hạ đường huyết gần đây. Trước khi siết điều trị HbA1c, đánh giá nào quan trọng nhất để bảo đảm mục tiêu an toàn?",
+      "opts": [
+        "Chỉ lặp HbA1c sau 1 tuần",
+        "Hỏi hạ đường huyết, rà chức năng thận, thuốc đang dùng và khả năng tự quản lý",
+        "Chụp CT não thường quy",
+        "Định lượng insulin huyết tương"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: HbA1c không thay đổi có ý nghĩa sau một tuần.",
+        "Đúng: nguy cơ hạ đường, chức năng thận và khả năng tự quản lý quyết định lựa chọn thuốc/mục tiêu ở người cao tuổi.",
+        "Sai: không có chỉ định.",
+        "Sai: không cần để cá thể hóa điều trị thường quy."
+      ],
+      "key": "Trước khi “hạ HbA1c”, phải chắc bệnh nhân chịu được phác đồ.",
+      "series_id": "C01",
+      "series_step": 2,
+      "series_title": "ĐTĐ ở người cao tuổi còn khỏe và độc lập",
+      "legacy": false,
+      "source_keys": [
+        "ADA_OLDER_2026",
+        "KDIGO_CKD_2024"
+      ]
+    },
+    {
+      "id": "Q063",
+      "cat": "Đái tháo đường",
+      "task": "Điều trị/xử trí",
+      "stem": "Nam 68 tuổi, đái tháo đường típ 2 đã 12 năm, tăng huyết áp kiểm soát tốt, còn làm việc bán thời gian, tự quản lý thuốc, không té ngã, nhận thức và ADL/IADL độc lập. HbA1c 7,8%, không có hạ đường huyết gần đây. Mục tiêu HbA1c hợp lý nhất nếu sau đánh giá vẫn thuộc nhóm khỏe và ít nguy cơ hạ đường?",
+      "opts": [
+        "<5,5%",
+        "<6,0%",
+        "Khoảng <7,0–7,5%",
+        "Luôn <8,5%"
+      ],
+      "ans": 2,
+      "expl": [
+        "Sai: quá chặt và tăng nguy cơ hạ đường.",
+        "Sai: không phải mục tiêu thường quy cho người cao tuổi.",
+        "Đúng: ADA 2026 gợi <7,0–7,5% cho người cao tuổi khỏe, chức năng còn tốt.",
+        "Sai: <8%/lỏng hơn dành cho sức khỏe phức tạp hoặc nguy cơ cao hơn."
+      ],
+      "key": "Người ≥65 khỏe vẫn có thể dùng mục tiêu tương đối chặt, nhưng phải an toàn.",
+      "series_id": "C01",
+      "series_step": 3,
+      "series_title": "ĐTĐ ở người cao tuổi còn khỏe và độc lập",
+      "legacy": false,
+      "source_keys": [
+        "ADA_OLDER_2026"
+      ]
+    },
+    {
+      "id": "Q064",
+      "cat": "Đái tháo đường",
+      "task": "Chẩn đoán",
+      "stem": "Nữ 79 tuổi, đái tháo đường 18 năm, bệnh mạch vành đã đặt stent, BTM G3b, suy giảm nhận thức nhẹ, hai lần té ngã trong 6 tháng, đang dùng insulin nền và sulfonylurea. HbA1c 6,1%. Nhận định nào đúng nhất về HbA1c hiện tại?",
+      "opts": [
+        "Kiểm soát lý tưởng nên giữ nguyên",
+        "Có thể là điều trị quá mức trong bối cảnh nguy cơ hạ đường huyết cao",
+        "Chứng minh bệnh nhân không còn đái tháo đường",
+        "Cần tăng sulfonylurea"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: HbA1c thấp không đồng nghĩa tốt nếu đổi bằng hạ đường/té ngã.",
+        "Đúng: đa bệnh, nhận thức, BTM và thuốc gây hạ đường làm lợi ích-nguy cơ nghiêng về giảm cường độ.",
+        "Sai: HbA1c do điều trị không xóa chẩn đoán.",
+        "Sai: tăng nguy cơ hạ đường."
+      ],
+      "key": "Ở lão khoa, HbA1c thấp có thể là dấu hiệu overtreatment.",
+      "series_id": "C02",
+      "series_step": 1,
+      "series_title": "ĐTĐ phức tạp: tim mạch, thận, nhận thức và té ngã",
+      "legacy": false,
+      "source_keys": [
+        "ADA_OLDER_2026"
+      ]
+    },
+    {
+      "id": "Q065",
+      "cat": "Đái tháo đường",
+      "task": "Cận lâm sàng tiếp theo",
+      "stem": "Nữ 79 tuổi, đái tháo đường 18 năm, bệnh mạch vành đã đặt stent, BTM G3b, suy giảm nhận thức nhẹ, hai lần té ngã trong 6 tháng, đang dùng insulin nền và sulfonylurea. HbA1c 6,1%. Dữ kiện nào cần hỏi/đo ngay để quyết định giảm cường độ?",
+      "opts": [
+        "Các cơn hạ đường huyết, glucose lúc triệu chứng, khả năng ăn uống và tự tiêm thuốc",
+        "Nồng độ vitamin C",
+        "X-quang phổi",
+        "Kháng thể kháng insulin"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: đây là dữ kiện trực tiếp liên quan nguy cơ hạ đường và khả năng tự quản lý.",
+        "Sai: không quyết định.",
+        "Sai: không liên quan nếu không triệu chứng hô hấp.",
+        "Sai: không phải đánh giá thường quy."
+      ],
+      "key": "Té ngã + insulin/SU = phải truy tìm hạ đường huyết.",
+      "series_id": "C02",
+      "series_step": 2,
+      "series_title": "ĐTĐ phức tạp: tim mạch, thận, nhận thức và té ngã",
+      "legacy": false,
+      "source_keys": [
+        "ADA_OLDER_2026"
+      ]
+    },
+    {
+      "id": "Q066",
+      "cat": "Đái tháo đường",
+      "task": "Điều trị/xử trí",
+      "stem": "Nữ 79 tuổi, đái tháo đường 18 năm, bệnh mạch vành đã đặt stent, BTM G3b, suy giảm nhận thức nhẹ, hai lần té ngã trong 6 tháng, đang dùng insulin nền và sulfonylurea. HbA1c 6,1%. Nếu xác nhận nhóm sức khỏe phức tạp/trung gian, lựa chọn nào phù hợp nhất?",
+      "opts": [
+        "Đặt HbA1c <6% và tăng insulin",
+        "Hướng mục tiêu khoảng <8%, giảm thuốc gây hạ đường và đơn giản hóa phác đồ",
+        "Ngừng mọi điều trị đái tháo đường",
+        "Chỉ thay đổi chế độ ăn, không theo dõi"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: quá chặt.",
+        "Đúng: ADA 2026 ưu tiên tránh hạ đường và giảm gánh nặng điều trị ở nhóm phức tạp.",
+        "Sai: vẫn cần tránh tăng đường có triệu chứng.",
+        "Sai: vẫn cần theo dõi và điều trị cá thể hóa."
+      ],
+      "key": "Đa bệnh + MCI + té ngã → thường nghĩ mục tiêu lỏng hơn và deintensify.",
+      "series_id": "C02",
+      "series_step": 3,
+      "series_title": "ĐTĐ phức tạp: tim mạch, thận, nhận thức và té ngã",
+      "legacy": false,
+      "source_keys": [
+        "ADA_OLDER_2026"
+      ]
+    },
+    {
+      "id": "Q067",
+      "cat": "Đái tháo đường",
+      "task": "Chẩn đoán",
+      "stem": "Cụ 87 tuổi sống tại cơ sở chăm sóc dài hạn, sa sút trí tuệ nặng, phụ thuộc tắm và mặc quần áo, suy tim giai đoạn tiến triển. HbA1c 7,2%, hay bỏ bữa. Theo ADA 2026, bệnh nhân thuộc nhóm nào?",
+      "opts": [
+        "Khỏe",
+        "Phức tạp nhẹ",
+        "Rất phức tạp/sức khỏe kém",
+        "Không phân loại được"
+      ],
+      "ans": 2,
+      "expl": [
+        "Sai.",
+        "Sai: mức phụ thuộc và sa sút trí tuệ đã nặng.",
+        "Đúng: sa sút trí tuệ vừa-nặng, phụ thuộc ADL và bệnh giai đoạn cuối phù hợp nhóm rất phức tạp.",
+        "Sai: có đủ dữ kiện."
+      ],
+      "key": "Phân tầng dựa chức năng, nhận thức và bệnh nặng.",
+      "series_id": "C03",
+      "series_step": 1,
+      "series_title": "ĐTĐ rất phức tạp ở người phụ thuộc chăm sóc",
+      "legacy": false,
+      "source_keys": [
+        "ADA_OLDER_2026"
+      ]
+    },
+    {
+      "id": "Q068",
+      "cat": "Đái tháo đường",
+      "task": "Cận lâm sàng tiếp theo",
+      "stem": "Cụ 87 tuổi sống tại cơ sở chăm sóc dài hạn, sa sút trí tuệ nặng, phụ thuộc tắm và mặc quần áo, suy tim giai đoạn tiến triển. HbA1c 7,2%, hay bỏ bữa. Theo dõi đường huyết nên tập trung nhất vào điều gì?",
+      "opts": [
+        "Chỉ HbA1c mỗi tháng",
+        "Hạ đường huyết và tăng đường huyết có triệu chứng, kèm khả năng ăn uống",
+        "OGTT hằng tuần",
+        "C-peptide mỗi tháng"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: không nên dựa chủ yếu HbA1c.",
+        "Đúng: mục tiêu trọng tâm là an toàn và triệu chứng.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Ở sức khỏe rất kém, “comfort and safety” quan trọng hơn số HbA1c đẹp.",
+      "series_id": "C03",
+      "series_step": 2,
+      "series_title": "ĐTĐ rất phức tạp ở người phụ thuộc chăm sóc",
+      "legacy": false,
+      "source_keys": [
+        "ADA_OLDER_2026"
+      ]
+    },
+    {
+      "id": "Q069",
+      "cat": "Đái tháo đường",
+      "task": "Điều trị/xử trí",
+      "stem": "Cụ 87 tuổi sống tại cơ sở chăm sóc dài hạn, sa sút trí tuệ nặng, phụ thuộc tắm và mặc quần áo, suy tim giai đoạn tiến triển. HbA1c 7,2%, hay bỏ bữa. Chiến lược hợp lý nhất?",
+      "opts": [
+        "Tăng insulin để HbA1c <6,5%",
+        "Đơn giản hóa phác đồ, tránh thuốc nguy cơ hạ đường cao, không ép mục tiêu HbA1c chặt",
+        "Thêm sulfonylurea",
+        "Bắt buộc CGM mục tiêu TIR ≥90%"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai.",
+        "Đúng: giảm gánh nặng và tránh hạ đường là trọng tâm.",
+        "Sai: tăng nguy cơ hạ đường khi bỏ bữa.",
+        "Sai: mục tiêu quá chặt và không phù hợp."
+      ],
+      "key": "Không phải ai cũng hưởng lợi từ kiểm soát glucose chặt.",
+      "series_id": "C03",
+      "series_step": 3,
+      "series_title": "ĐTĐ rất phức tạp ở người phụ thuộc chăm sóc",
+      "legacy": false,
+      "source_keys": [
+        "ADA_OLDER_2026"
+      ]
+    },
+    {
+      "id": "Q070",
+      "cat": "Tăng huyết áp",
+      "task": "Chẩn đoán",
+      "stem": "Nam 75 tuổi, sống độc lập, không suy yếu, HA phòng khám lặp lại 148/86 mmHg, đo đúng kỹ thuật; không tụt HA tư thế. Theo VSH/VNHA 2022, ngưỡng khởi trị thuốc nói chung ở tuổi 70–79 là gì?",
+      "opts": [
+        "≥120/70",
+        "≥130/80 ở mọi trường hợp",
+        "≥140/90 mmHg",
+        "Chỉ khi ≥180/120"
+      ],
+      "ans": 2,
+      "expl": [
+        "Sai.",
+        "Sai: khuyến cáo Việt Nam 2022 không dùng ngưỡng này cho mọi người 70–79.",
+        "Đúng: nói chung 70–79 tuổi ngưỡng ≥140/90 mmHg.",
+        "Sai: đó là mức rất cao/cấp cứu tùy tổn thương cơ quan."
+      ],
+      "key": "70–79: nhớ ngưỡng nói chung 140/90 theo VSH/VNHA 2022.",
+      "series_id": "C04",
+      "series_step": 1,
+      "series_title": "Tăng huyết áp 75 tuổi còn khỏe",
+      "legacy": false,
+      "source_keys": [
+        "VSH_VNHA_HTN_2022"
+      ]
+    },
+    {
+      "id": "Q071",
+      "cat": "Tăng huyết áp",
+      "task": "Cận lâm sàng tiếp theo",
+      "stem": "Nam 75 tuổi, sống độc lập, không suy yếu, HA phòng khám lặp lại 148/86 mmHg, đo đúng kỹ thuật; không tụt HA tư thế. Đánh giá nào đặc biệt quan trọng trước khi tăng cường thuốc ở người cao tuổi?",
+      "opts": [
+        "Đo HA tư thế và hỏi chóng mặt/ngã, rà thuốc và chức năng thận",
+        "Chỉ đo HA một lần ngồi",
+        "Chụp CT sọ não thường quy",
+        "Định lượng catecholamine cho mọi bệnh nhân"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: dung nạp và hạ HA tư thế là trọng tâm lão khoa.",
+        "Sai: dễ bỏ sót tụt HA tư thế.",
+        "Sai: không chỉ định thường quy.",
+        "Sai: chỉ khi nghi nguyên nhân thứ phát thích hợp."
+      ],
+      "key": "Mục tiêu HA lão khoa không tách khỏi nguy cơ ngã và chức năng.",
+      "series_id": "C04",
+      "series_step": 2,
+      "series_title": "Tăng huyết áp 75 tuổi còn khỏe",
+      "legacy": false,
+      "source_keys": [
+        "VSH_VNHA_HTN_2022"
+      ]
+    },
+    {
+      "id": "Q072",
+      "cat": "Tăng huyết áp",
+      "task": "Điều trị/xử trí",
+      "stem": "Nam 75 tuổi, sống độc lập, không suy yếu, HA phòng khám lặp lại 148/86 mmHg, đo đúng kỹ thuật; không tụt HA tư thế. Mục tiêu HATT hợp lý theo khuyến cáo Việt Nam 2022?",
+      "opts": [
+        "Luôn <110",
+        "<140 mmHg; có thể hướng tới <130 nếu dung nạp",
+        "Chỉ cần <160",
+        "Không cần điều trị sau 70 tuổi"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: quá thấp.",
+        "Đúng.",
+        "Sai: <160 không phải mục tiêu chung cho người 75 tuổi khỏe.",
+        "Sai: điều trị vẫn giảm nguy cơ nếu dung nạp."
+      ],
+      "key": "≥70: <140, cân nhắc xuống <130 nếu dung nạp.",
+      "series_id": "C04",
+      "series_step": 3,
+      "series_title": "Tăng huyết áp 75 tuổi còn khỏe",
+      "legacy": false,
+      "source_keys": [
+        "VSH_VNHA_HTN_2022"
+      ]
+    },
+    {
+      "id": "Q073",
+      "cat": "Tăng huyết áp",
+      "task": "Chẩn đoán",
+      "stem": "Nữ 84 tuổi, CFS lâm sàng gợi suy yếu, đi lại cần trợ giúp, hai lần ngã, HA phòng khám 158/82 mmHg, HA đứng sau 3 phút 132/72 mmHg kèm choáng. Vấn đề lão khoa quan trọng nhất đang chi phối quyết định điều trị?",
+      "opts": [
+        "Hạ huyết áp tư thế có triệu chứng và nguy cơ ngã",
+        "Tăng huyết áp ác tính",
+        "Cường giáp",
+        "Hội chứng thận hư"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: sụt HA khi đứng kèm choáng là dữ kiện quyết định dung nạp.",
+        "Sai: không có tổn thương cơ quan cấp và HA không ở mức ác tính.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Đích HA đẹp nhưng bệnh nhân ngã là phác đồ không đẹp.",
+      "series_id": "C05",
+      "series_step": 1,
+      "series_title": "Tăng huyết áp ở người ≥80 tuổi suy yếu",
+      "legacy": false,
+      "source_keys": [
+        "VSH_VNHA_HTN_2022"
+      ]
+    },
+    {
+      "id": "Q074",
+      "cat": "Tăng huyết áp",
+      "task": "Cận lâm sàng tiếp theo",
+      "stem": "Nữ 84 tuổi, CFS lâm sàng gợi suy yếu, đi lại cần trợ giúp, hai lần ngã, HA phòng khám 158/82 mmHg, HA đứng sau 3 phút 132/72 mmHg kèm choáng. Bước rà soát tiếp theo phù hợp nhất?",
+      "opts": [
+        "Rà lợi tiểu, giãn mạch, thuốc hướng thần; đánh giá mất nước và điện giải/chức năng thận",
+        "Tăng ngay tất cả thuốc hạ áp",
+        "Không cần hỏi thuốc",
+        "Chỉ đo HA nằm"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: nhiều thuốc và giảm thể tích thường gây hạ HA tư thế.",
+        "Sai: có thể làm ngã nặng hơn.",
+        "Sai.",
+        "Sai: cần tư thế đứng."
+      ],
+      "key": "Hạ HA tư thế = rà thuốc + thể tích + chức năng.",
+      "series_id": "C05",
+      "series_step": 2,
+      "series_title": "Tăng huyết áp ở người ≥80 tuổi suy yếu",
+      "legacy": false,
+      "source_keys": [
+        "VSH_VNHA_HTN_2022",
+        "WHO_ICOPE_2025"
+      ]
+    },
+    {
+      "id": "Q075",
+      "cat": "Tăng huyết áp",
+      "task": "Điều trị/xử trí",
+      "stem": "Nữ 84 tuổi, CFS lâm sàng gợi suy yếu, đi lại cần trợ giúp, hai lần ngã, HA phòng khám 158/82 mmHg, HA đứng sau 3 phút 132/72 mmHg kèm choáng. Theo tinh thần VSH/VNHA 2022 ở người rất già, chiến lược phù hợp nhất?",
+      "opts": [
+        "Ép HATT <120 bất kể triệu chứng",
+        "Cá thể hóa mục tiêu theo chức năng/nhận thức/dung nạp và ưu tiên giảm nguy cơ ngã",
+        "Ngừng mọi thuốc vĩnh viễn",
+        "Chỉ dựa tuổi để quyết định"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai.",
+        "Đúng: người ≥80 và suy yếu cần cá thể hóa.",
+        "Sai: có thể vẫn cần thuốc sau điều chỉnh.",
+        "Sai: tuổi chỉ là một phần."
+      ],
+      "key": "≥80: chức năng và dung nạp quyết định nhiều hơn một con số.",
+      "series_id": "C05",
+      "series_step": 3,
+      "series_title": "Tăng huyết áp ở người ≥80 tuổi suy yếu",
+      "legacy": false,
+      "source_keys": [
+        "VSH_VNHA_HTN_2022"
+      ]
+    },
+    {
+      "id": "Q076",
+      "cat": "Thận",
+      "task": "Chẩn đoán",
+      "stem": "Nam 78 tuổi BTM G3a, dùng losartan và lợi tiểu, tiêu chảy 3 ngày, HA 92/58. Creatinin tăng 110→190 µmol/L, cặn lắng ban đầu nghèo. Chẩn đoán ban đầu phù hợp nhất?",
+      "opts": [
+        "TTTC trước thận do giảm thể tích",
+        "Viêm cầu thận tiến triển nhanh",
+        "Tắc nghẽn sau thận",
+        "Huyết khối tĩnh mạch thận"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: mất dịch, tụt HA và cặn lắng nghèo.",
+        "Sai: thiếu cặn lắng cầu thận.",
+        "Sai: không có triệu chứng tắc.",
+        "Sai: không hội chứng thận hư/đau hông cấp."
+      ],
+      "key": "Dòng thời gian bắt đầu ở giảm tưới máu.",
+      "series_id": "C06",
+      "series_step": 1,
+      "series_title": "Tiêu chảy → TTTC trước thận → tổn thương ống thận",
+      "legacy": false,
+      "source_keys": [
+        "BYT_KIDNEY_2024"
+      ]
+    },
+    {
+      "id": "Q077",
+      "cat": "Thận",
+      "task": "Cận lâm sàng tiếp theo",
+      "stem": "Nam 78 tuổi BTM G3a, dùng losartan và lợi tiểu, tiêu chảy 3 ngày, HA 92/58. Creatinin tăng 110→190 µmol/L, cặn lắng ban đầu nghèo. Sau bù dịch phù hợp, dữ kiện nào sẽ gợi đã chuyển sang tổn thương ống thận?",
+      "opts": [
+        "Creatinin giảm nhanh và tiểu tăng",
+        "Vẫn thiểu niệu, creatinin tăng và xuất hiện trụ hạt nâu dạng bùn",
+        "FENa <1% đơn độc khi đang lợi tiểu",
+        "Nước tiểu trong hoàn toàn"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: gợi hồi phục trước thận.",
+        "Đúng: pattern điển hình của tổn thương ống thận do thiếu máu kéo dài.",
+        "Sai: FENa bị nhiễu bởi lợi tiểu và không thắng cặn lắng.",
+        "Sai."
+      ],
+      "key": "Dữ kiện mới có thể buộc đổi nhánh chẩn đoán.",
+      "series_id": "C06",
+      "series_step": 2,
+      "series_title": "Tiêu chảy → TTTC trước thận → tổn thương ống thận",
+      "legacy": false,
+      "source_keys": [
+        "BYT_KIDNEY_2024"
+      ]
+    },
+    {
+      "id": "Q078",
+      "cat": "Thận",
+      "task": "Điều trị/xử trí",
+      "stem": "Nam 78 tuổi BTM G3a, dùng losartan và lợi tiểu, tiêu chảy 3 ngày, HA 92/58. Creatinin tăng 110→190 µmol/L, cặn lắng ban đầu nghèo. Xử trí ban đầu đúng nhất?",
+      "opts": [
+        "Bù dịch tinh thể có đánh giá lại, tạm rà thuốc làm nặng giảm tưới máu và theo dõi điện giải/nước tiểu",
+        "Furosemid liều cao để “khởi động thận”",
+        "Lọc máu chỉ vì creatinin gần gấp đôi",
+        "Tiếp tục lợi tiểu và losartan bất kể tụt HA"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: phục hồi tưới máu và rà thuốc là ưu tiên.",
+        "Sai: lợi tiểu không chữa TTTC trước thận.",
+        "Sai: lọc máu theo biến chứng/bệnh cảnh.",
+        "Sai: có thể làm giảm tưới máu nặng hơn."
+      ],
+      "key": "TTTC trước thận: sửa huyết động trước.",
+      "series_id": "C06",
+      "series_step": 3,
+      "series_title": "Tiêu chảy → TTTC trước thận → tổn thương ống thận",
+      "legacy": false,
+      "source_keys": [
+        "BYT_KIDNEY_2024"
+      ]
+    },
+    {
+      "id": "Q079",
+      "cat": "Gout",
+      "task": "Chẩn đoán",
+      "stem": "Nam 76 tuổi BTM G3b, gout nhiều cơn, đang đau cấp khớp bàn-ngón cái chân, sưng nóng đỏ, không sốt. Acid uric 6,0 mg/dL trong cơn. Nhận định nào đúng nhất?",
+      "opts": [
+        "Acid uric bình thường loại trừ gout",
+        "Bệnh cảnh vẫn rất gợi cơn gout cấp; acid uric trong cơn không loại trừ",
+        "Chắc chắn viêm khớp nhiễm khuẩn",
+        "Chỉ có thể là thoái hóa khớp"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: urate có thể không tăng trong cơn cấp.",
+        "Đúng.",
+        "Sai: phải nghĩ nhiễm khuẩn nếu có dấu gợi ý, nhưng ca này chưa “chắc chắn”.",
+        "Sai."
+      ],
+      "key": "Không dùng acid uric trong cơn để loại gout.",
+      "series_id": "C07",
+      "series_step": 1,
+      "series_title": "Gout ở người cao tuổi có bệnh thận mạn",
+      "legacy": false,
+      "source_keys": [
+        "ACR_GOUT_2020"
+      ]
+    },
+    {
+      "id": "Q080",
+      "cat": "Gout",
+      "task": "Cận lâm sàng tiếp theo",
+      "stem": "Nam 76 tuổi BTM G3b, gout nhiều cơn, đang đau cấp khớp bàn-ngón cái chân, sưng nóng đỏ, không sốt. Acid uric 6,0 mg/dL trong cơn. Nếu khớp gối sưng lớn, sốt 38,5°C và chẩn đoán phân biệt nhiễm khuẩn còn đáng kể, bước tốt nhất?",
+      "opts": [
+        "Chọc hút dịch khớp để xét nghiệm tinh thể và nhiễm khuẩn",
+        "Chỉ đo lại acid uric",
+        "MRI não",
+        "Bắt đầu allopurinol liều cao rồi chờ"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: cần loại nhiễm khuẩn khớp khi nguy cơ hiện hữu.",
+        "Sai: không đủ.",
+        "Sai.",
+        "Sai: không thay thế đánh giá nhiễm khuẩn."
+      ],
+      "key": "Khớp cấp + sốt = đừng để gout che mất septic arthritis.",
+      "series_id": "C07",
+      "series_step": 2,
+      "series_title": "Gout ở người cao tuổi có bệnh thận mạn",
+      "legacy": false,
+      "source_keys": [
+        "ACR_GOUT_2020"
+      ]
+    },
+    {
+      "id": "Q081",
+      "cat": "Gout",
+      "task": "Điều trị/xử trí",
+      "stem": "Nam 76 tuổi BTM G3b, gout nhiều cơn, đang đau cấp khớp bàn-ngón cái chân, sưng nóng đỏ, không sốt. Acid uric 6,0 mg/dL trong cơn. Về điều trị hạ urate dài hạn ở bệnh nhân có chỉ định, nhận định nào phù hợp ACR 2020?",
+      "opts": [
+        "Allopurinol có thể là lựa chọn đầu tay kể cả khi có CKD, khởi liều thấp và chỉnh dần",
+        "CKD tuyệt đối chống chỉ định allopurinol",
+        "Chỉ dùng probenecid ở mọi CKD",
+        "Không cần chiến lược treat-to-target"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: ACR nhấn mạnh allopurinol first-line, kể cả CKD, với khởi liều thấp và chỉnh.",
+        "Sai.",
+        "Sai: uricosuric thường kém phù hợp khi chức năng thận thấp.",
+        "Sai: treat-to-target là trọng tâm."
+      ],
+      "key": "CKD không đồng nghĩa “cấm allopurinol”; quan trọng là khởi thấp, chỉnh và theo dõi.",
+      "series_id": "C07",
+      "series_step": 3,
+      "series_title": "Gout ở người cao tuổi có bệnh thận mạn",
+      "legacy": false,
+      "source_keys": [
+        "ACR_GOUT_2020"
+      ]
+    },
+    {
+      "id": "Q082",
+      "cat": "Suy giáp",
+      "task": "Chẩn đoán",
+      "stem": "Nữ 82 tuổi mệt, táo bón, da khô, nhịp 56; TSH tăng rõ, FT4 giảm. Có bệnh mạch vành ổn định. Chẩn đoán phù hợp nhất?",
+      "opts": [
+        "Suy giáp nguyên phát rõ",
+        "Cường giáp",
+        "Suy giáp dưới lâm sàng",
+        "Chỉ do lão hóa bình thường"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: TSH tăng + FT4 giảm.",
+        "Sai.",
+        "Sai: dưới lâm sàng thường FT4 còn bình thường.",
+        "Sai: xét nghiệm xác định bệnh."
+      ],
+      "key": "TSH↑ + FT4↓ = suy giáp nguyên phát rõ.",
+      "series_id": "C08",
+      "series_step": 1,
+      "series_title": "Suy giáp ở người cao tuổi có bệnh mạch vành",
+      "legacy": false,
+      "source_keys": []
+    },
+    {
+      "id": "Q083",
+      "cat": "Suy giáp",
+      "task": "Cận lâm sàng tiếp theo",
+      "stem": "Nữ 82 tuổi mệt, táo bón, da khô, nhịp 56; TSH tăng rõ, FT4 giảm. Có bệnh mạch vành ổn định. Trước và trong điều trị, yếu tố nào phải theo dõi sát nhất vì có bệnh mạch vành?",
+      "opts": [
+        "Triệu chứng thiếu máu cơ tim/nhịp tim cùng TSH, FT4",
+        "Chỉ acid uric",
+        "Chỉ men gan",
+        "Không cần theo dõi tim"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: thay thế hormon quá nhanh có thể làm tăng nhu cầu cơ tim.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Ở người già có CAD: chỉnh hormon từ tốn và theo dõi tim.",
+      "series_id": "C08",
+      "series_step": 2,
+      "series_title": "Suy giáp ở người cao tuổi có bệnh mạch vành",
+      "legacy": false,
+      "source_keys": []
+    },
+    {
+      "id": "Q084",
+      "cat": "Suy giáp",
+      "task": "Điều trị/xử trí",
+      "stem": "Nữ 82 tuổi mệt, táo bón, da khô, nhịp 56; TSH tăng rõ, FT4 giảm. Có bệnh mạch vành ổn định. Nguyên tắc khởi levothyroxine phù hợp nhất?",
+      "opts": [
+        "Khởi liều đầy đủ như người trẻ khỏe",
+        "Start low, go slow; tăng dần theo lâm sàng và TSH",
+        "Dùng liều lớn một lần mỗi tháng",
+        "Không điều trị dù FT4 giảm"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: nguy cơ tim.",
+        "Đúng.",
+        "Sai.",
+        "Sai: suy giáp rõ thường cần điều trị, nhưng cá thể hóa."
+      ],
+      "key": "Người cao tuổi + CAD: khởi thấp, tăng chậm.",
+      "series_id": "C08",
+      "series_step": 3,
+      "series_title": "Suy giáp ở người cao tuổi có bệnh mạch vành",
+      "legacy": false,
+      "source_keys": []
+    },
+    {
+      "id": "Q085",
+      "cat": "Suy thượng thận",
+      "task": "Chẩn đoán",
+      "stem": "Nam 72 tuổi dùng prednisolone kéo dài, tự ngừng thuốc 5 ngày trước vì viêm phổi. Nay lơ mơ, HA 78/46, Na 126 mmol/L, K 5,7 mmol/L, glucose 3,2 mmol/L. Chẩn đoán cần nghĩ đầu tiên?",
+      "opts": [
+        "Cơn suy thượng thận cấp",
+        "Cường giáp",
+        "Tăng aldosteron nguyên phát",
+        "Chỉ hạ natri do tuổi già"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: ngừng steroid + stress nhiễm trùng + sốc, hạ Na/hạ glucose là pattern điển hình.",
+        "Sai.",
+        "Sai.",
+        "Sai: không giải thích sốc toàn cảnh."
+      ],
+      "key": "Sốc sau ngừng steroid = adrenal crisis cho tới khi loại trừ.",
+      "series_id": "C09",
+      "series_step": 1,
+      "series_title": "Cơn suy thượng thận cấp ở người dùng glucocorticoid kéo dài",
+      "legacy": false,
+      "source_keys": [
+        "NICE_ADRENAL_2024"
+      ]
+    },
+    {
+      "id": "Q086",
+      "cat": "Suy thượng thận",
+      "task": "Cận lâm sàng tiếp theo",
+      "stem": "Nam 72 tuổi dùng prednisolone kéo dài, tự ngừng thuốc 5 ngày trước vì viêm phổi. Nay lơ mơ, HA 78/46, Na 126 mmol/L, K 5,7 mmol/L, glucose 3,2 mmol/L. Nếu có thể lấy mẫu nhanh mà không trì hoãn điều trị, xét nghiệm nào hữu ích?",
+      "opts": [
+        "Cortisol và ACTH trước steroid nếu thực hiện ngay được",
+        "HbA1c",
+        "Acid uric",
+        "D-dimer bắt buộc"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: có thể hỗ trợ chẩn đoán, nhưng không được làm chậm điều trị.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Cấp cứu: xét nghiệm không được trì hoãn hydrocortisone và hồi sức.",
+      "series_id": "C09",
+      "series_step": 2,
+      "series_title": "Cơn suy thượng thận cấp ở người dùng glucocorticoid kéo dài",
+      "legacy": false,
+      "source_keys": [
+        "NICE_ADRENAL_2024"
+      ]
+    },
+    {
+      "id": "Q087",
+      "cat": "Suy thượng thận",
+      "task": "Điều trị/xử trí",
+      "stem": "Nam 72 tuổi dùng prednisolone kéo dài, tự ngừng thuốc 5 ngày trước vì viêm phổi. Nay lơ mơ, HA 78/46, Na 126 mmol/L, K 5,7 mmol/L, glucose 3,2 mmol/L. Xử trí ưu tiên?",
+      "opts": [
+        "Hydrocortisone cấp cứu + hồi sức dịch phù hợp, sửa hạ đường/điện giải và điều trị yếu tố khởi phát",
+        "Chờ cortisol về mới điều trị",
+        "Chỉ truyền glucose rồi cho về",
+        "Dùng lợi tiểu"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai: nguy hiểm.",
+        "Sai: không giải quyết sốc/hormone deficiency.",
+        "Sai."
+      ],
+      "key": "Adrenal crisis là cấp cứu: điều trị ngay, không chờ xác nhận đầy đủ.",
+      "series_id": "C09",
+      "series_step": 3,
+      "series_title": "Cơn suy thượng thận cấp ở người dùng glucocorticoid kéo dài",
+      "legacy": false,
+      "source_keys": [
+        "NICE_ADRENAL_2024"
+      ]
+    },
+    {
+      "id": "Q088",
+      "cat": "Loãng xương",
+      "task": "Chẩn đoán",
+      "stem": "Nữ 81 tuổi té từ tư thế đứng, gãy cổ xương đùi. Tiền sử chưa từng điều trị loãng xương, eGFR 48 mL/phút/1,73m². Gãy xương này được xem như dấu hiệu gì?",
+      "opts": [
+        "Gãy xương do chấn thương năng lượng thấp, nguy cơ gãy tiếp theo cao",
+        "Chỉ tai nạn không liên quan xương",
+        "Bằng chứng loại trừ loãng xương",
+        "Không cần đánh giá thêm"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: gãy sau té từ tư thế đứng là fragility fracture điển hình.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Fragility fracture = tín hiệu nguy cơ rất cao.",
+      "series_id": "C10",
+      "series_step": 1,
+      "series_title": "Gãy xương do loãng xương ở người 81 tuổi",
+      "legacy": false,
+      "source_keys": [
+        "NOGG_2024"
+      ]
+    },
+    {
+      "id": "Q089",
+      "cat": "Loãng xương",
+      "task": "Cận lâm sàng tiếp theo",
+      "stem": "Nữ 81 tuổi té từ tư thế đứng, gãy cổ xương đùi. Tiền sử chưa từng điều trị loãng xương, eGFR 48 mL/phút/1,73m². Sau xử trí gãy xương cấp, đánh giá nào nên được tích hợp?",
+      "opts": [
+        "Nguy cơ gãy xương, vitamin D/calci khi phù hợp, nguyên nhân thứ phát và lựa chọn thuốc theo chức năng thận",
+        "Chỉ lipid máu",
+        "Chỉ MRI não",
+        "Không cần vì đã gãy rồi"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: phòng gãy lần hai cần đánh giá toàn diện.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Sau gãy fragility phải nghĩ secondary fracture prevention.",
+      "series_id": "C10",
+      "series_step": 2,
+      "series_title": "Gãy xương do loãng xương ở người 81 tuổi",
+      "legacy": false,
+      "source_keys": [
+        "NOGG_2024"
+      ]
+    },
+    {
+      "id": "Q090",
+      "cat": "Loãng xương",
+      "task": "Điều trị/xử trí",
+      "stem": "Nữ 81 tuổi té từ tư thế đứng, gãy cổ xương đùi. Tiền sử chưa từng điều trị loãng xương, eGFR 48 mL/phút/1,73m². Nguyên tắc phù hợp nhất?",
+      "opts": [
+        "Không trì hoãn vô lý điều trị chống loãng xương ở người nguy cơ cao sau gãy và chọn thuốc theo thận/nguy cơ",
+        "Chỉ bổ sung calci là đủ",
+        "Không bao giờ dùng thuốc ở >80 tuổi",
+        "Dừng vận động hoàn toàn lâu dài"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai: thường không đủ khi nguy cơ cao.",
+        "Sai: tuổi không phải chống chỉ định tuyệt đối.",
+        "Sai: phục hồi vận động an toàn rất quan trọng."
+      ],
+      "key": "Mục tiêu là ngăn gãy lần hai, không chỉ chữa gãy hiện tại.",
+      "series_id": "C10",
+      "series_step": 3,
+      "series_title": "Gãy xương do loãng xương ở người 81 tuổi",
+      "legacy": false,
+      "source_keys": [
+        "NOGG_2024"
+      ]
+    },
+    {
+      "id": "Q091",
+      "cat": "Stent",
+      "task": "Chẩn đoán",
+      "stem": "Nam 77 tuổi đặt stent mạch vành gần đây, đang dùng aspirin + clopidogrel, nay được đề nghị mổ chương trình không tim mạch. Vấn đề chính phải cân bằng là gì?",
+      "opts": [
+        "Nguy cơ huyết khối stent/thiếu máu cơ tim khi ngừng kháng kết tập so với nguy cơ chảy máu phẫu thuật",
+        "Chỉ cholesterol",
+        "Chỉ đường huyết",
+        "Không có nguy cơ đặc biệt"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai.",
+        "Sai.",
+        "Sai: thời điểm sau PCI và DAPT rất quan trọng."
+      ],
+      "key": "Sau stent, câu hỏi phẫu thuật luôn là huyết khối vs chảy máu.",
+      "series_id": "C11",
+      "series_step": 1,
+      "series_title": "Đặt stent và chuẩn bị phẫu thuật",
+      "legacy": false,
+      "source_keys": []
+    },
+    {
+      "id": "Q092",
+      "cat": "Stent",
+      "task": "Cận lâm sàng tiếp theo",
+      "stem": "Nam 77 tuổi đặt stent mạch vành gần đây, đang dùng aspirin + clopidogrel, nay được đề nghị mổ chương trình không tim mạch. Thông tin nào cần xác định trước khi tự ý ngừng thuốc?",
+      "opts": [
+        "Loại/chỉ định PCI, thời điểm đặt stent, nguy cơ chảy máu phẫu thuật và ý kiến tim mạch",
+        "Chỉ nhóm máu",
+        "Chỉ BMI",
+        "Không cần hỏi thời điểm đặt stent"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai.",
+        "Sai.",
+        "Sai: thời điểm là dữ kiện quyết định."
+      ],
+      "key": "Đừng ngừng DAPT trước khi biết “stent khi nào, vì sao, mổ gì”.",
+      "series_id": "C11",
+      "series_step": 2,
+      "series_title": "Đặt stent và chuẩn bị phẫu thuật",
+      "legacy": false,
+      "source_keys": []
+    },
+    {
+      "id": "Q093",
+      "cat": "Stent",
+      "task": "Điều trị/xử trí",
+      "stem": "Nam 77 tuổi đặt stent mạch vành gần đây, đang dùng aspirin + clopidogrel, nay được đề nghị mổ chương trình không tim mạch. Xử trí hợp lý nhất?",
+      "opts": [
+        "Phối hợp tim mạch–phẫu thuật–gây mê để quyết định thời điểm và kế hoạch kháng kết tập; không tự ý ngừng cả hai thuốc",
+        "Ngừng cả aspirin và clopidogrel ngay cho mọi ca",
+        "Tiếp tục bất kể loại phẫu thuật mà không hội chẩn",
+        "Đổi sang warfarin"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai: có thể gây huyết khối stent.",
+        "Sai: nguy cơ chảy máu phải được cân nhắc.",
+        "Sai: không tương đương DAPT."
+      ],
+      "key": "Stent + mổ = quyết định liên chuyên khoa.",
+      "series_id": "C11",
+      "series_step": 3,
+      "series_title": "Đặt stent và chuẩn bị phẫu thuật",
+      "legacy": false,
+      "source_keys": []
+    },
+    {
+      "id": "Q094",
+      "cat": "Rối loạn lipid",
+      "task": "Chẩn đoán",
+      "stem": "Nam 80 tuổi tiền sử nhồi máu cơ tim và stent, LDL-C hiện 2,4 mmol/L, đang dùng statin liều trung bình, dung nạp tốt. Đây là bối cảnh dự phòng nào?",
+      "opts": [
+        "Dự phòng thứ phát nguy cơ tim mạch cao/rất cao",
+        "Dự phòng nguyên phát nguy cơ thấp",
+        "Không cần quản lý lipid vì >75 tuổi",
+        "Chỉ là tăng triglycerid"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: đã có ASCVD.",
+        "Sai.",
+        "Sai: tuổi không xóa lợi ích dự phòng thứ phát.",
+        "Sai: LDL là dữ kiện được nêu."
+      ],
+      "key": "Đã MI/stent = secondary prevention.",
+      "series_id": "C12",
+      "series_step": 1,
+      "series_title": "Rối loạn lipid ở người cao tuổi có ASCVD",
+      "legacy": false,
+      "source_keys": []
+    },
+    {
+      "id": "Q095",
+      "cat": "Rối loạn lipid",
+      "task": "Cận lâm sàng tiếp theo",
+      "stem": "Nam 80 tuổi tiền sử nhồi máu cơ tim và stent, LDL-C hiện 2,4 mmol/L, đang dùng statin liều trung bình, dung nạp tốt. Trước khi tăng cường điều trị, bước hợp lý?",
+      "opts": [
+        "Xác nhận tuân thủ, dung nạp, tương tác và mục tiêu LDL theo khuyến cáo hiện hành",
+        "Ngừng statin vì tuổi 80",
+        "Chỉ đo acid uric",
+        "Không cần hỏi thuốc khác"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai.",
+        "Sai.",
+        "Sai: tương tác quan trọng ở đa thuốc."
+      ],
+      "key": "Lipid ở lão khoa vẫn cần rà tương tác và dung nạp.",
+      "series_id": "C12",
+      "series_step": 2,
+      "series_title": "Rối loạn lipid ở người cao tuổi có ASCVD",
+      "legacy": false,
+      "source_keys": []
+    },
+    {
+      "id": "Q096",
+      "cat": "Rối loạn lipid",
+      "task": "Điều trị/xử trí",
+      "stem": "Nam 80 tuổi tiền sử nhồi máu cơ tim và stent, LDL-C hiện 2,4 mmol/L, đang dùng statin liều trung bình, dung nạp tốt. Nếu LDL vẫn trên mục tiêu dù statin tối đa dung nạp, nguyên tắc nào hợp lý?",
+      "opts": [
+        "Cân nhắc tăng cường hạ LDL bằng thuốc bổ sung theo nguy cơ và khuyến cáo",
+        "Bỏ hẳn statin",
+        "Chỉ dùng niacin bắt buộc",
+        "Không điều trị vì tuổi"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Dự phòng thứ phát: đạt mục tiêu bằng statin tối đa dung nạp ± thuốc bổ sung.",
+      "series_id": "C12",
+      "series_step": 3,
+      "series_title": "Rối loạn lipid ở người cao tuổi có ASCVD",
+      "legacy": false,
+      "source_keys": []
+    },
+    {
+      "id": "Q097",
+      "cat": "Táo bón",
+      "task": "Chẩn đoán",
+      "stem": "Nữ 83 tuổi đau do ung thư, mới tăng liều opioid 1 tuần. Từ đó không đi tiêu 5 ngày, bụng chướng nhẹ, còn trung tiện, không nôn, không đau khu trú dữ dội. Nguyên nhân có khả năng nhất?",
+      "opts": [
+        "Táo bón liên quan opioid",
+        "Viêm ruột thừa",
+        "Cường giáp",
+        "Tiêu chảy thẩm thấu"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: liên hệ thời gian rất rõ.",
+        "Sai.",
+        "Sai: cường giáp thường tăng nhu động.",
+        "Sai."
+      ],
+      "key": "Thuốc mới là trigger lớn trong lão khoa.",
+      "series_id": "C13",
+      "series_step": 1,
+      "series_title": "Táo bón do opioid ở người cao tuổi",
+      "legacy": false,
+      "source_keys": []
+    },
+    {
+      "id": "Q098",
+      "cat": "Táo bón",
+      "task": "Cận lâm sàng tiếp theo",
+      "stem": "Nữ 83 tuổi đau do ung thư, mới tăng liều opioid 1 tuần. Từ đó không đi tiêu 5 ngày, bụng chướng nhẹ, còn trung tiện, không nôn, không đau khu trú dữ dội. Trước khi chỉ tăng nhuận tràng, cần loại trừ gì bằng hỏi khám?",
+      "opts": [
+        "Tắc ruột/phân đóng khối và dấu báo động",
+        "Chỉ tăng cholesterol",
+        "Viêm tai giữa",
+        "Cận thị"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: chướng, nôn, bí trung đại tiện hoặc đau nhiều đổi hướng xử trí.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Táo bón người già: đừng bỏ sót fecal impaction/obstruction.",
+      "series_id": "C13",
+      "series_step": 2,
+      "series_title": "Táo bón do opioid ở người cao tuổi",
+      "legacy": false,
+      "source_keys": []
+    },
+    {
+      "id": "Q099",
+      "cat": "Táo bón",
+      "task": "Điều trị/xử trí",
+      "stem": "Nữ 83 tuổi đau do ung thư, mới tăng liều opioid 1 tuần. Từ đó không đi tiêu 5 ngày, bụng chướng nhẹ, còn trung tiện, không nôn, không đau khu trú dữ dội. Nếu không có tắc, nguyên tắc điều trị hợp lý?",
+      "opts": [
+        "Chủ động phác đồ nhuận tràng phù hợp và rà thuốc, dịch/vận động theo khả năng",
+        "Chỉ chờ tự khỏi",
+        "Ngừng opioid đột ngột bất kể đau",
+        "Dùng thuốc chống tiêu chảy"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai.",
+        "Sai: cần cân bằng kiểm soát đau và tác dụng phụ.",
+        "Sai."
+      ],
+      "key": "Opioid thường cần dự phòng/điều trị táo bón chủ động.",
+      "series_id": "C13",
+      "series_step": 3,
+      "series_title": "Táo bón do opioid ở người cao tuổi",
+      "legacy": false,
+      "source_keys": []
+    },
+    {
+      "id": "Q100",
+      "cat": "Tiêu chảy",
+      "task": "Chẩn đoán",
+      "stem": "Nam 82 tuổi vừa dùng kháng sinh phổ rộng 10 ngày, nay tiêu chảy nước 8 lần/ngày, đau bụng, bạch cầu tăng, creatinin tăng so với nền. Chẩn đoán cần ưu tiên nghĩ?",
+      "opts": [
+        "Nhiễm Clostridioides difficile",
+        "Táo bón chức năng",
+        "Hội chứng ruột kích thích mạn",
+        "Chỉ do tuổi già"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: kháng sinh gần đây + tiêu chảy nhiều + dấu nặng.",
+        "Sai.",
+        "Sai: bối cảnh cấp và bạch cầu/AKI không phù hợp.",
+        "Sai."
+      ],
+      "key": "Kháng sinh gần đây + tiêu chảy = nhớ C. difficile.",
+      "series_id": "C14",
+      "series_step": 1,
+      "series_title": "Tiêu chảy sau kháng sinh ở người 82 tuổi",
+      "legacy": false,
+      "source_keys": []
+    },
+    {
+      "id": "Q101",
+      "cat": "Tiêu chảy",
+      "task": "Cận lâm sàng tiếp theo",
+      "stem": "Nam 82 tuổi vừa dùng kháng sinh phổ rộng 10 ngày, nay tiêu chảy nước 8 lần/ngày, đau bụng, bạch cầu tăng, creatinin tăng so với nền. Bước tiếp theo phù hợp?",
+      "opts": [
+        "Đánh giá mức độ mất nước/điện giải/TTTC và xét nghiệm phân theo thuật toán C. difficile của cơ sở",
+        "Chỉ nội soi đại tràng ngay cho mọi ca",
+        "Không cần xét nghiệm",
+        "Chỉ đo HbA1c"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai: nội soi không phải bước đầu thường quy.",
+        "Sai: cần xác định và đánh giá nặng.",
+        "Sai."
+      ],
+      "key": "Ở người già, tiêu chảy có thể nhanh chóng gây TTTC và rối loạn điện giải.",
+      "series_id": "C14",
+      "series_step": 2,
+      "series_title": "Tiêu chảy sau kháng sinh ở người 82 tuổi",
+      "legacy": false,
+      "source_keys": []
+    },
+    {
+      "id": "Q102",
+      "cat": "Tiêu chảy",
+      "task": "Điều trị/xử trí",
+      "stem": "Nam 82 tuổi vừa dùng kháng sinh phổ rộng 10 ngày, nay tiêu chảy nước 8 lần/ngày, đau bụng, bạch cầu tăng, creatinin tăng so với nền. Nguyên tắc xử trí hợp lý nhất?",
+      "opts": [
+        "Bù dịch/điện giải, ngừng kháng sinh không cần thiết nếu có thể, điều trị C. difficile theo hướng dẫn hiện hành và kiểm soát lây nhiễm",
+        "Dùng loperamide đơn độc rồi cho về",
+        "Tiếp tục mọi kháng sinh và không bù dịch",
+        "Dùng NSAID"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai: có thể nguy hiểm trong colitis nặng và không giải quyết nguyên nhân.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Điều trị nguyên nhân + hồi sức + stewardship.",
+      "series_id": "C14",
+      "series_step": 3,
+      "series_title": "Tiêu chảy sau kháng sinh ở người 82 tuổi",
+      "legacy": false,
+      "source_keys": []
+    },
+    {
+      "id": "Q103",
+      "cat": "Đánh giá lão khoa",
+      "task": "Chẩn đoán",
+      "stem": "Nữ 85 tuổi trước đây giao tiếp bình thường, nhập viện vì viêm phổi. Sau 24 giờ đột ngột mất định hướng, lúc lơ mơ lúc kích động, chú ý kém. Hội chứng phù hợp nhất?",
+      "opts": [
+        "Sảng",
+        "Sa sút trí tuệ tiến triển chậm đơn thuần",
+        "Trầm cảm đơn thuần",
+        "Lão hóa bình thường"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: khởi phát cấp, dao động, giảm chú ý.",
+        "Sai: dementia thường mạn tính hơn.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Acute + fluctuating + inattention = delirium.",
+      "series_id": "C15",
+      "series_step": 1,
+      "series_title": "Sảng sau nhập viện ở người cao tuổi",
+      "legacy": false,
+      "source_keys": [
+        "FOUR_AT_2026"
+      ]
+    },
+    {
+      "id": "Q104",
+      "cat": "Đánh giá lão khoa",
+      "task": "Cận lâm sàng tiếp theo",
+      "stem": "Nữ 85 tuổi trước đây giao tiếp bình thường, nhập viện vì viêm phổi. Sau 24 giờ đột ngột mất định hướng, lúc lơ mơ lúc kích động, chú ý kém. Công cụ nhanh phù hợp để sàng lọc/đánh giá ban đầu?",
+      "opts": [
+        "4AT",
+        "FRAX",
+        "CHA2DS2-VASc",
+        "Wells DVT"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: 4AT là công cụ nhanh cho sảng và suy giảm nhận thức.",
+        "Sai: nguy cơ gãy xương.",
+        "Sai: nguy cơ đột quỵ ở AF.",
+        "Sai: DVT."
+      ],
+      "key": "4AT dùng nhanh tại giường cho sảng.",
+      "series_id": "C15",
+      "series_step": 2,
+      "series_title": "Sảng sau nhập viện ở người cao tuổi",
+      "legacy": false,
+      "source_keys": [
+        "FOUR_AT_2026"
+      ]
+    },
+    {
+      "id": "Q105",
+      "cat": "Đánh giá lão khoa",
+      "task": "Điều trị/xử trí",
+      "stem": "Nữ 85 tuổi trước đây giao tiếp bình thường, nhập viện vì viêm phổi. Sau 24 giờ đột ngột mất định hướng, lúc lơ mơ lúc kích động, chú ý kém. Xử trí ưu tiên?",
+      "opts": [
+        "Tìm và điều trị nguyên nhân cấp, rà thuốc, tối ưu oxy/dịch/đau/ngủ và biện pháp không dùng thuốc; thuốc an thần chỉ khi có chỉ định rõ",
+        "Chỉ kê benzodiazepine cho mọi sảng",
+        "Không cần tìm nguyên nhân",
+        "Trói cố định thường quy"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai: benzodiazepine có thể làm sảng nặng hơn trừ chỉ định đặc biệt như cai rượu.",
+        "Sai.",
+        "Sai: hạn chế tối đa biện pháp gây hại."
+      ],
+      "key": "Sảng là dấu hiệu bệnh cấp; điều trị nguyên nhân trước.",
+      "series_id": "C15",
+      "series_step": 3,
+      "series_title": "Sảng sau nhập viện ở người cao tuổi",
+      "legacy": false,
+      "source_keys": [
+        "FOUR_AT_2026",
+        "WHO_ICOPE_2025"
+      ]
+    },
+    {
+      "id": "Q106",
+      "cat": "Đánh giá lão khoa",
+      "task": "Chẩn đoán",
+      "stem": "Nam 86 tuổi nhập viện vì nhiễm trùng. Hiện cần trợ giúp mọi hoạt động, nhưng con gái cho biết 2 tuần trước ông còn tự ăn, tự mặc, đi quanh nhà bằng gậy. Khi đánh giá suy yếu/chức năng để lập kế hoạch, mốc nào có giá trị nhất?",
+      "opts": [
+        "Chỉ tình trạng tệ nhất hôm nay",
+        "Mức chức năng nền trước đợt bệnh cấp, ví dụ khoảng 2 tuần trước",
+        "Tình trạng 10 năm trước",
+        "Tuổi đơn độc"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai: bệnh cấp làm giảm chức năng tạm thời.",
+        "Đúng: CGA/CFS nhấn mạnh baseline pre-acute state.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Phân biệt “acute disability” với baseline frailty.",
+      "series_id": "C16",
+      "series_step": 1,
+      "series_title": "Suy yếu và mức chức năng nền",
+      "legacy": false,
+      "source_keys": [
+        "CFS_DALHOUSIE",
+        "WHO_ICOPE_2025"
+      ]
+    },
+    {
+      "id": "Q107",
+      "cat": "Đánh giá lão khoa",
+      "task": "Cận lâm sàng tiếp theo",
+      "stem": "Nam 86 tuổi nhập viện vì nhiễm trùng. Hiện cần trợ giúp mọi hoạt động, nhưng con gái cho biết 2 tuần trước ông còn tự ăn, tự mặc, đi quanh nhà bằng gậy. Đánh giá toàn diện nên bao gồm?",
+      "opts": [
+        "Nhận thức, vận động, dinh dưỡng, thị giác, thính giác, tâm lý, hỗ trợ xã hội và chức năng",
+        "Chỉ ECG",
+        "Chỉ công thức máu",
+        "Chỉ tuổi"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: đây là tinh thần ICOPE/CGA đa miền.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "CGA là đa miền, không phải một xét nghiệm.",
+      "series_id": "C16",
+      "series_step": 2,
+      "series_title": "Suy yếu và mức chức năng nền",
+      "legacy": false,
+      "source_keys": [
+        "WHO_ICOPE_2025"
+      ]
+    },
+    {
+      "id": "Q108",
+      "cat": "Đánh giá lão khoa",
+      "task": "Điều trị/xử trí",
+      "stem": "Nam 86 tuổi nhập viện vì nhiễm trùng. Hiện cần trợ giúp mọi hoạt động, nhưng con gái cho biết 2 tuần trước ông còn tự ăn, tự mặc, đi quanh nhà bằng gậy. Kế hoạch ra viện tốt nhất?",
+      "opts": [
+        "Dựa mức nền, mục tiêu phục hồi thực tế, hỗ trợ gia đình, vật lý trị liệu và rà thuốc",
+        "Chỉ dựa tuổi để quyết định dưỡng lão",
+        "Không đánh giá khả năng tự dùng thuốc",
+        "Tăng số thuốc để “đủ bệnh”"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Mục tiêu lão khoa là chức năng và khả năng sống thực tế.",
+      "series_id": "C16",
+      "series_step": 3,
+      "series_title": "Suy yếu và mức chức năng nền",
+      "legacy": false,
+      "source_keys": [
+        "WHO_ICOPE_2025"
+      ]
+    },
+    {
+      "id": "Q109",
+      "cat": "Đánh giá lão khoa",
+      "task": "Chẩn đoán",
+      "stem": "Nữ 80 tuổi té ngã 3 lần, dùng amlodipine, hydrochlorothiazide, clonazepam ban đêm, glimepiride; ăn kém. HA đứng thấp hơn HA nằm và glucose sáng có lúc 3,1 mmol/L. Cách hiểu đúng nhất?",
+      "opts": [
+        "Té ngã có thể đa yếu tố: hạ HA tư thế + thuốc an thần + hạ đường huyết",
+        "Chỉ do tuổi già",
+        "Chắc chắn động kinh",
+        "Không liên quan thuốc"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: nhiều yếu tố cùng hội tụ.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Ca lão khoa thường không có một nguyên nhân duy nhất.",
+      "series_id": "C17",
+      "series_step": 1,
+      "series_title": "Té ngã tái diễn do đa thuốc",
+      "legacy": false,
+      "source_keys": [
+        "WHO_ICOPE_2025",
+        "ADA_OLDER_2026",
+        "VSH_VNHA_HTN_2022"
+      ]
+    },
+    {
+      "id": "Q110",
+      "cat": "Đánh giá lão khoa",
+      "task": "Cận lâm sàng tiếp theo",
+      "stem": "Nữ 80 tuổi té ngã 3 lần, dùng amlodipine, hydrochlorothiazide, clonazepam ban đêm, glimepiride; ăn kém. HA đứng thấp hơn HA nằm và glucose sáng có lúc 3,1 mmol/L. Bước rà soát ưu tiên?",
+      "opts": [
+        "Đo HA tư thế chuẩn, xem log glucose/hạ đường và rà thuốc tăng nguy cơ ngã",
+        "Chỉ chụp MRI não cho mọi ca",
+        "Chỉ đo cholesterol",
+        "Không hỏi thời điểm uống thuốc"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Falls review = orthostatic + hypoglycemia + CNS meds.",
+      "series_id": "C17",
+      "series_step": 2,
+      "series_title": "Té ngã tái diễn do đa thuốc",
+      "legacy": false,
+      "source_keys": [
+        "ADA_OLDER_2026",
+        "VSH_VNHA_HTN_2022"
+      ]
+    },
+    {
+      "id": "Q111",
+      "cat": "Đánh giá lão khoa",
+      "task": "Điều trị/xử trí",
+      "stem": "Nữ 80 tuổi té ngã 3 lần, dùng amlodipine, hydrochlorothiazide, clonazepam ban đêm, glimepiride; ăn kém. HA đứng thấp hơn HA nằm và glucose sáng có lúc 3,1 mmol/L. Xử trí hợp lý nhất?",
+      "opts": [
+        "Giảm/đổi thuốc gây hạ đường và an thần khi phù hợp, điều chỉnh hạ áp theo dung nạp, can thiệp phòng ngã",
+        "Tăng glimepiride vì HbA1c chưa biết",
+        "Tăng clonazepam để ngủ",
+        "Không thay gì vì mỗi thuốc đều có chỉ định riêng"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: phải tối ưu toàn toa theo nguy cơ tổng thể.",
+        "Sai.",
+        "Sai.",
+        "Sai: thuốc đúng riêng lẻ có thể tạo toa sai tổng thể."
+      ],
+      "key": "“Each drug is indicated” không đồng nghĩa “the regimen is safe”.",
+      "series_id": "C17",
+      "series_step": 3,
+      "series_title": "Té ngã tái diễn do đa thuốc",
+      "legacy": false,
+      "source_keys": [
+        "ADA_OLDER_2026",
+        "VSH_VNHA_HTN_2022",
+        "WHO_ICOPE_2025"
+      ]
+    },
+    {
+      "id": "Q112",
+      "cat": "Thận",
+      "task": "Chẩn đoán",
+      "stem": "Nữ 84 tuổi nặng 43 kg, ít khối cơ, creatinin 82 µmol/L. Bác sĩ chuẩn bị kê thuốc cần chỉnh theo chức năng thận. Nhận định nào đúng?",
+      "opts": [
+        "Creatinin trong khoảng tham chiếu chắc chắn nghĩa là thận bình thường",
+        "Creatinin có thể đánh giá quá lạc quan chức năng thận ở người ít cơ",
+        "Có TTTC giai đoạn 3 chắc chắn",
+        "Không cần cân nặng khi kê thuốc"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai.",
+        "Đúng: sarcopenia làm creatinin thấp tương đối.",
+        "Sai: thiếu tiêu chuẩn thay đổi cấp.",
+        "Sai: một số công thức/nhãn thuốc cần cân nặng."
+      ],
+      "key": "Người già ít cơ: creatinin “đẹp” có thể đánh lừa.",
+      "series_id": "C18",
+      "series_step": 1,
+      "series_title": "Chỉnh liều thuốc ở người già ít khối cơ",
+      "legacy": false,
+      "source_keys": [
+        "KDIGO_CKD_2024"
+      ]
+    },
+    {
+      "id": "Q113",
+      "cat": "Thận",
+      "task": "Cận lâm sàng tiếp theo",
+      "stem": "Nữ 84 tuổi nặng 43 kg, ít khối cơ, creatinin 82 µmol/L. Bác sĩ chuẩn bị kê thuốc cần chỉnh theo chức năng thận. Cách tiếp cận tốt nhất trước chỉnh liều?",
+      "opts": [
+        "Xem eGFR, xu hướng creatinin và dùng CrCl/Cockcroft–Gault nếu nhãn thuốc yêu cầu; lưu ý TTTC làm mọi ước tính kém tin cậy",
+        "Chỉ nhìn creatinin tuyệt đối",
+        "Chỉ nhìn tuổi",
+        "Không cần biết thuốc đào thải qua đâu"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Chỉnh liều theo chỉ dẫn của chính thuốc, không dùng một con số cho tất cả.",
+      "series_id": "C18",
+      "series_step": 2,
+      "series_title": "Chỉnh liều thuốc ở người già ít khối cơ",
+      "legacy": false,
+      "source_keys": [
+        "KDIGO_CKD_2024"
+      ]
+    },
+    {
+      "id": "Q114",
+      "cat": "Thận",
+      "task": "Điều trị/xử trí",
+      "stem": "Nữ 84 tuổi nặng 43 kg, ít khối cơ, creatinin 82 µmol/L. Bác sĩ chuẩn bị kê thuốc cần chỉnh theo chức năng thận. Nếu chức năng thận đang thay đổi nhanh do TTTC, nguyên tắc?",
+      "opts": [
+        "Thận trọng hơn với ước tính, ưu tiên xu hướng/lâm sàng và điều chỉnh hoặc tạm ngừng thuốc tích lũy theo nguy cơ",
+        "Tin tuyệt đối eGFR máy tính tại một thời điểm",
+        "Tăng liều thuốc độc thận",
+        "Không theo dõi lại"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai: steady-state assumption bị phá vỡ.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "AKI = creatinin động, eGFR tĩnh có thể lừa.",
+      "series_id": "C18",
+      "series_step": 3,
+      "series_title": "Chỉnh liều thuốc ở người già ít khối cơ",
+      "legacy": false,
+      "source_keys": [
+        "BYT_KIDNEY_2024",
+        "KDIGO_CKD_2024"
+      ]
+    },
+    {
+      "id": "Q115",
+      "cat": "Thận",
+      "task": "Chẩn đoán",
+      "stem": "Nam 79 tuổi BTM, K 7,0 mmol/L, yếu cơ, ECG có QRS giãn. Mức độ ưu tiên?",
+      "opts": [
+        "Tăng kali nặng có biến đổi ECG — cấp cứu",
+        "Chỉ bất thường xét nghiệm nhẹ",
+        "Hạ kali máu",
+        "Không liên quan thận"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "K cao + ECG = cấp cứu ngay.",
+      "series_id": "C19",
+      "series_step": 1,
+      "series_title": "Tăng kali máu đe dọa tính mạng",
+      "legacy": false,
+      "source_keys": [
+        "BYT_KIDNEY_2024"
+      ]
+    },
+    {
+      "id": "Q116",
+      "cat": "Thận",
+      "task": "Cận lâm sàng tiếp theo",
+      "stem": "Nam 79 tuổi BTM, K 7,0 mmol/L, yếu cơ, ECG có QRS giãn. Trong lúc điều trị, cần theo dõi gì?",
+      "opts": [
+        "ECG liên tục/nhắc lại kali, glucose và nguyên nhân/thuốc gây tăng K",
+        "Chỉ HbA1c",
+        "Chỉ lipid",
+        "Không cần lặp kali"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Điều trị tăng K là quá trình theo dõi động.",
+      "series_id": "C19",
+      "series_step": 2,
+      "series_title": "Tăng kali máu đe dọa tính mạng",
+      "legacy": false,
+      "source_keys": [
+        "BYT_KIDNEY_2024"
+      ]
+    },
+    {
+      "id": "Q117",
+      "cat": "Thận",
+      "task": "Điều trị/xử trí",
+      "stem": "Nam 79 tuổi BTM, K 7,0 mmol/L, yếu cơ, ECG có QRS giãn. Trình tự nguyên tắc đúng?",
+      "opts": [
+        "Ổn định màng tim bằng canxi khi ECG nguy hiểm + chuyển K vào nội bào + loại K khỏi cơ thể/điều trị nguyên nhân",
+        "Chỉ resin uống và chờ",
+        "Chỉ furosemid dù vô niệu",
+        "Không cần canxi vì canxi không hạ K"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai: quá chậm cho tình huống ECG nguy hiểm.",
+        "Sai.",
+        "Sai: canxi không hạ K nhưng bảo vệ tim."
+      ],
+      "key": "Canxi bảo vệ tim; insulin/glucose chuyển K; loại K mới là xử trí dứt điểm.",
+      "series_id": "C19",
+      "series_step": 3,
+      "series_title": "Tăng kali máu đe dọa tính mạng",
+      "legacy": false,
+      "source_keys": [
+        "BYT_KIDNEY_2024"
+      ]
+    },
+    {
+      "id": "Q118",
+      "cat": "Đánh giá lão khoa",
+      "task": "Chẩn đoán",
+      "stem": "Nam 78 tuổi ĐTĐ típ 2, THA, BTM G3b, gout, bệnh mạch vành. Thuốc: metformin, glimepiride, losartan, hydrochlorothiazide, aspirin, statin. Sau 3 ngày tiêu chảy: HA 94/58, creatinin tăng, glucose sáng 3,0 mmol/L, đau khớp bàn-ngón cái. Nhận định tích hợp phù hợp nhất?",
+      "opts": [
+        "Có giảm thể tích/TTTC, nguy cơ hạ đường do ăn kém + sulfonylurea, và cơn gout có thể bị thúc đẩy bởi bệnh cấp/thuốc",
+        "Chỉ có gout",
+        "Chỉ có ĐTĐ không kiểm soát",
+        "Mọi thuốc đang hoàn toàn an toàn"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: phải nhìn đa vấn đề cùng lúc.",
+        "Sai.",
+        "Sai: glucose đang thấp.",
+        "Sai: mất nước/AKI làm nhiều thuốc cần rà lại."
+      ],
+      "key": "Ca đa bệnh: xếp ưu tiên, không chữa từng bệnh như silo.",
+      "series_id": "C20",
+      "series_step": 1,
+      "series_title": "Ca đa bệnh lý: ĐTĐ + THA + BTM + gout + đa thuốc",
+      "legacy": false,
+      "source_keys": [
+        "ADA_OLDER_2026",
+        "BYT_KIDNEY_2024",
+        "ACR_GOUT_2020"
+      ]
+    },
+    {
+      "id": "Q119",
+      "cat": "Đánh giá lão khoa",
+      "task": "Cận lâm sàng tiếp theo",
+      "stem": "Nam 78 tuổi ĐTĐ típ 2, THA, BTM G3b, gout, bệnh mạch vành. Thuốc: metformin, glimepiride, losartan, hydrochlorothiazide, aspirin, statin. Sau 3 ngày tiêu chảy: HA 94/58, creatinin tăng, glucose sáng 3,0 mmol/L, đau khớp bàn-ngón cái. Bước đánh giá ngay có giá trị nhất?",
+      "opts": [
+        "Tình trạng thể tích, điện giải/kali, mức độ TTTC, glucose lặp lại và ECG nếu rối loạn K; rà thuốc ngày bệnh",
+        "Chỉ acid uric",
+        "Chỉ HbA1c",
+        "Chỉ TSH"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai: không giải quyết nguy cơ cấp.",
+        "Sai: HbA1c không ưu tiên hơn hạ đường/AKI.",
+        "Sai."
+      ],
+      "key": "Ưu tiên biến chứng đe dọa trước mục tiêu mạn tính.",
+      "series_id": "C20",
+      "series_step": 2,
+      "series_title": "Ca đa bệnh lý: ĐTĐ + THA + BTM + gout + đa thuốc",
+      "legacy": false,
+      "source_keys": [
+        "ADA_OLDER_2026",
+        "BYT_KIDNEY_2024"
+      ]
+    },
+    {
+      "id": "Q120",
+      "cat": "Đánh giá lão khoa",
+      "task": "Điều trị/xử trí",
+      "stem": "Nam 78 tuổi ĐTĐ típ 2, THA, BTM G3b, gout, bệnh mạch vành. Thuốc: metformin, glimepiride, losartan, hydrochlorothiazide, aspirin, statin. Sau 3 ngày tiêu chảy: HA 94/58, creatinin tăng, glucose sáng 3,0 mmol/L, đau khớp bàn-ngón cái. Chiến lược tốt nhất?",
+      "opts": [
+        "Hồi sức giảm thể tích có đánh giá lại, xử trí hạ đường, tạm rà/giữ các thuốc không an toàn trong bệnh cấp và điều trị gout phù hợp thận; sau ổn định phải có kế hoạch khởi lại thuốc có lợi",
+        "Chỉ thêm NSAID liều cao",
+        "Tăng glimepiride",
+        "Ngừng vĩnh viễn mọi thuốc tim-thận"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng: cần cả “sick-day hold” và kế hoạch restart.",
+        "Sai: CKD/AKI làm NSAID nguy hiểm.",
+        "Sai: đang hạ đường.",
+        "Sai: nhiều thuốc có lợi dài hạn nên cần tái đánh giá để khởi lại khi an toàn."
+      ],
+      "key": "Tạm ngừng trong bệnh cấp không đồng nghĩa ngừng vĩnh viễn.",
+      "series_id": "C20",
+      "series_step": 3,
+      "series_title": "Ca đa bệnh lý: ĐTĐ + THA + BTM + gout + đa thuốc",
+      "legacy": false,
+      "source_keys": [
+        "ADA_OLDER_2026",
+        "BYT_KIDNEY_2024",
+        "ACR_GOUT_2020"
+      ]
+    },
+    {
+      "id": "Q121",
+      "cat": "Đái tháo đường",
+      "task": "Điều trị/xử trí",
+      "stem": "Theo ADA 2026, người ≥65 tuổi còn khỏe, chức năng và nhận thức tốt thường có mục tiêu HbA1c hợp lý nào?",
+      "opts": [
+        "<5,5%",
+        "<6,0%",
+        "<7,0–7,5%",
+        "Luôn <9%"
+      ],
+      "ans": 2,
+      "expl": [
+        "Sai.",
+        "Sai.",
+        "Đúng.",
+        "Sai."
+      ],
+      "key": "ADA dùng phân tầng sức khỏe, không dùng tuổi đơn độc.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "ADA_OLDER_2026"
+      ]
+    },
+    {
+      "id": "Q122",
+      "cat": "Đái tháo đường",
+      "task": "Điều trị/xử trí",
+      "stem": "Người cao tuổi ĐTĐ có nhiều bệnh mạn, suy giảm nhận thức nhẹ và nguy cơ hạ đường cao thường phù hợp mục tiêu nào?",
+      "opts": [
+        "<6%",
+        "<6,5%",
+        "Khoảng <8%",
+        "Bắt buộc <7%"
+      ],
+      "ans": 2,
+      "expl": [
+        "Sai.",
+        "Sai.",
+        "Đúng: nhóm phức tạp/trung gian thường lỏng hơn.",
+        "Sai."
+      ],
+      "key": "Complex/intermediate → thường <8%.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "ADA_OLDER_2026"
+      ]
+    },
+    {
+      "id": "Q123",
+      "cat": "Đái tháo đường",
+      "task": "Điều trị/xử trí",
+      "stem": "Ở người rất phức tạp/sức khỏe kém, ADA 2026 khuyên điều gì?",
+      "opts": [
+        "Ép HbA1c <6,5%",
+        "Không dựa chủ yếu HbA1c; ưu tiên tránh hạ đường và tăng đường có triệu chứng",
+        "Ngừng theo dõi hoàn toàn",
+        "Tăng sulfonylurea"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai.",
+        "Đúng.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Very complex → safety over tight A1c.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "ADA_OLDER_2026"
+      ]
+    },
+    {
+      "id": "Q124",
+      "cat": "Đái tháo đường",
+      "task": "Điều trị/xử trí",
+      "stem": "Thuốc nào đặc biệt đáng ngại ở người cao tuổi ăn thất thường vì hạ đường kéo dài?",
+      "opts": [
+        "Glibenclamide/glyburide",
+        "Metformin",
+        "Linagliptin",
+        "Acarbose"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Sulfonylurea kéo dài + bỏ bữa = bẫy hạ đường.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "ADA_OLDER_2026"
+      ]
+    },
+    {
+      "id": "Q125",
+      "cat": "Đái tháo đường",
+      "task": "Cận lâm sàng tiếp theo",
+      "stem": "Người 82 tuổi HbA1c 5,9% nhưng té ngã tái diễn khi dùng insulin. Câu hỏi tiếp theo quan trọng nhất?",
+      "opts": [
+        "Có hạ đường huyết khi té/ngủ dậy không?",
+        "Màu mắt gì?",
+        "Nhóm máu?",
+        "Có cận thị không?"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Đừng khen HbA1c trước khi hỏi hypoglycemia.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "ADA_OLDER_2026"
+      ]
+    },
+    {
+      "id": "Q126",
+      "cat": "Đái tháo đường",
+      "task": "Điều trị/xử trí",
+      "stem": "Bệnh nhân lớn tuổi ĐTĐ đang dùng SGLT2i, nôn và nhịn ăn vì bệnh cấp. Nguyên tắc nào đúng?",
+      "opts": [
+        "Tiếp tục bất kể mất nước",
+        "Rà sick-day plan và tạm ngừng khi có nguy cơ mất nước/ketoacidosis theo bối cảnh",
+        "Tăng liều",
+        "Bổ sung sulfonylurea"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai.",
+        "Đúng.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Bệnh cấp/nhịn ăn làm thay đổi an toàn thuốc.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "ADA_OLDER_2026",
+        "KDIGO_CKD_2024"
+      ]
+    },
+    {
+      "id": "Q127",
+      "cat": "Đái tháo đường",
+      "task": "Điều trị/xử trí",
+      "stem": "Trong ADA 2026, huyết áp mục tiêu hợp lý ở người cao tuổi ĐTĐ khỏe hoặc phức tạp/trung gian nếu dung nạp thường là?",
+      "opts": [
+        "<160/100",
+        "<150/90",
+        "<130/80",
+        "<110/60"
+      ],
+      "ans": 2,
+      "expl": [
+        "Sai.",
+        "Sai.",
+        "Đúng theo bảng framework ADA 2026.",
+        "Sai: quá thấp."
+      ],
+      "key": "ADA 2026 tích hợp cả glucose và BP theo health status.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "ADA_OLDER_2026"
+      ]
+    },
+    {
+      "id": "Q128",
+      "cat": "Đái tháo đường",
+      "task": "Điều trị/xử trí",
+      "stem": "Ở nhóm rất phức tạp/sức khỏe kém theo ADA 2026, huyết áp hợp lý trong bảng framework là?",
+      "opts": [
+        "<100/60",
+        "<120/70",
+        "<140/90",
+        "Không bao giờ điều trị"
+      ],
+      "ans": 2,
+      "expl": [
+        "Sai.",
+        "Sai.",
+        "Đúng.",
+        "Sai."
+      ],
+      "key": "Mục tiêu cũng được nới theo lợi ích-nguy cơ.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "ADA_OLDER_2026"
+      ]
+    },
+    {
+      "id": "Q129",
+      "cat": "Tăng huyết áp",
+      "task": "Điều trị/xử trí",
+      "stem": "Theo VSH/VNHA 2022, ngưỡng khởi trị thuốc nói chung ở người 70–79 tuổi là?",
+      "opts": [
+        "≥120/70",
+        "≥130/80",
+        "≥140/90",
+        "≥180/120"
+      ],
+      "ans": 2,
+      "expl": [
+        "Sai.",
+        "Sai.",
+        "Đúng.",
+        "Sai."
+      ],
+      "key": "70–79 → 140/90.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "VSH_VNHA_HTN_2022"
+      ]
+    },
+    {
+      "id": "Q130",
+      "cat": "Tăng huyết áp",
+      "task": "Điều trị/xử trí",
+      "stem": "Theo VSH/VNHA 2022, ngưỡng nói chung ở người ≥80 tuổi là?",
+      "opts": [
+        "≥130/80",
+        "≥140/90",
+        "≥150/90",
+        "≥160/90"
+      ],
+      "ans": 3,
+      "expl": [
+        "Sai.",
+        "Sai.",
+        "Sai.",
+        "Đúng."
+      ],
+      "key": "≥80 → nói chung 160/90, cá thể hóa.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "VSH_VNHA_HTN_2022"
+      ]
+    },
+    {
+      "id": "Q131",
+      "cat": "Tăng huyết áp",
+      "task": "Điều trị/xử trí",
+      "stem": "Mục tiêu HATT chung ở người cao tuổi theo VSH/VNHA 2022 là?",
+      "opts": [
+        "<100",
+        "<120 bắt buộc",
+        "<140; có thể <130 nếu dung nạp",
+        "Chỉ cần <170"
+      ],
+      "ans": 2,
+      "expl": [
+        "Sai.",
+        "Sai.",
+        "Đúng.",
+        "Sai."
+      ],
+      "key": "Mục tiêu phải đi cùng đánh giá dung nạp.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "VSH_VNHA_HTN_2022"
+      ]
+    },
+    {
+      "id": "Q132",
+      "cat": "Tăng huyết áp",
+      "task": "Cận lâm sàng tiếp theo",
+      "stem": "Ở người 84 tuổi hay chóng mặt/ngã đang dùng 3 thuốc hạ áp, thao tác nào không được bỏ?",
+      "opts": [
+        "Đo huyết áp tư thế",
+        "Chỉ đo HA nằm",
+        "Chỉ đo nhịp thở",
+        "Chỉ kiểm tra thị lực"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Orthostatic BP là phần cốt lõi lão khoa.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "VSH_VNHA_HTN_2022"
+      ]
+    },
+    {
+      "id": "Q133",
+      "cat": "Tăng huyết áp",
+      "task": "Điều trị/xử trí",
+      "stem": "Tăng huyết áp tâm thu đơn độc ở người cao tuổi, nhóm thuốc nào thường được ưu tiên trong VSH/VNHA 2022?",
+      "opts": [
+        "Thiazide-like và chẹn kênh canxi",
+        "Alpha blocker đơn trị liệu bắt buộc",
+        "NSAID",
+        "Nitrate kéo dài cho mọi người"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "ISH ở elderly: nhớ thiazide-like/CCB.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "VSH_VNHA_HTN_2022"
+      ]
+    },
+    {
+      "id": "Q134",
+      "cat": "Tăng huyết áp",
+      "task": "Điều trị/xử trí",
+      "stem": "Người ≥80 tuổi suy yếu, HA 150/78 nhưng đứng 118/66 và choáng. Cách xử trí phù hợp nhất?",
+      "opts": [
+        "Tăng thuốc để HATT <120",
+        "Cá thể hóa, rà thuốc và ưu tiên giảm hạ HA tư thế/ngã",
+        "Không đo HA nữa",
+        "Thêm lợi tiểu"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai.",
+        "Đúng.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Dung nạp thắng “con số đẹp”.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "VSH_VNHA_HTN_2022"
+      ]
+    },
+    {
+      "id": "Q135",
+      "cat": "Đánh giá lão khoa",
+      "task": "Chẩn đoán",
+      "stem": "Điểm 4AT ≥4 được hiểu thế nào?",
+      "opts": [
+        "Loại trừ sảng",
+        "Gợi sảng ± suy giảm nhận thức và cần đánh giá lâm sàng",
+        "Chẩn đoán chắc chắn sa sút trí tuệ",
+        "Bình thường"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai.",
+        "Đúng.",
+        "Sai: 4AT không chẩn đoán dementia.",
+        "Sai."
+      ],
+      "key": "4AT ≥4 = possible delirium.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "FOUR_AT_2026"
+      ]
+    },
+    {
+      "id": "Q136",
+      "cat": "Đánh giá lão khoa",
+      "task": "Chẩn đoán",
+      "stem": "Điểm 4AT 1–3 thường gợi?",
+      "opts": [
+        "Suy giảm nhận thức có thể có, chưa gợi sảng theo ngưỡng 4AT",
+        "Chắc chắn không có vấn đề nhận thức",
+        "Sảng chắc chắn",
+        "Hạ đường huyết"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "1–3 → possible cognitive impairment.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "FOUR_AT_2026"
+      ]
+    },
+    {
+      "id": "Q137",
+      "cat": "Đánh giá lão khoa",
+      "task": "Cận lâm sàng tiếp theo",
+      "stem": "WHO ICOPE 2025 nhấn mạnh đánh giá các miền nào của “intrinsic capacity”?",
+      "opts": [
+        "Nhận thức, vận động, sinh lực/dinh dưỡng, thị giác, thính giác, tâm lý",
+        "Chỉ tim và thận",
+        "Chỉ huyết áp",
+        "Chỉ BMI"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "ICOPE là cách tiếp cận đa miền.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "WHO_ICOPE_2025"
+      ]
+    },
+    {
+      "id": "Q138",
+      "cat": "Đánh giá lão khoa",
+      "task": "Chẩn đoán",
+      "stem": "Clinical Frailty Scale nên phản ánh chủ yếu điều gì?",
+      "opts": [
+        "Tình trạng cấp tệ nhất hôm nay",
+        "Mức sức khỏe/chức năng nền dựa đánh giá lâm sàng, không phải chỉ một triệu chứng",
+        "Chỉ tuổi",
+        "Chỉ creatinin"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai.",
+        "Đúng.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "CFS là judgement-based summary of baseline fitness/frailty.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "CFS_DALHOUSIE"
+      ]
+    },
+    {
+      "id": "Q139",
+      "cat": "Đánh giá lão khoa",
+      "task": "Cận lâm sàng tiếp theo",
+      "stem": "Trong lập kế hoạch điều trị lão khoa, vì sao ADL/IADL quan trọng?",
+      "opts": [
+        "Giúp xác định mức độc lập và khả năng tự quản lý, từ đó cá thể hóa mục tiêu",
+        "Chỉ để tính BMI",
+        "Không ảnh hưởng thuốc",
+        "Chỉ dùng ở trẻ em"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Function changes targets and regimen complexity.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "WHO_ICOPE_2025",
+        "ADA_OLDER_2026"
+      ]
+    },
+    {
+      "id": "Q140",
+      "cat": "Đánh giá lão khoa",
+      "task": "Chẩn đoán",
+      "stem": "Khởi phát lú lẫn trong vài giờ, dao động trong ngày và giảm chú ý gợi mạnh nhất?",
+      "opts": [
+        "Sảng",
+        "Sa sút trí tuệ Alzheimer tiến triển điển hình",
+        "Trầm cảm mạn",
+        "Lão hóa bình thường"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Acute fluctuation + inattention = delirium.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "FOUR_AT_2026"
+      ]
+    },
+    {
+      "id": "Q141",
+      "cat": "Đánh giá lão khoa",
+      "task": "Điều trị/xử trí",
+      "stem": "Ở bệnh nhân cao tuổi đa bệnh, mục tiêu điều trị tốt nhất thường phải cân bằng?",
+      "opts": [
+        "Chỉ kéo dài sống bằng mọi giá",
+        "Lợi ích bệnh-specific + chức năng + nhận thức + suy yếu + nguy cơ tác dụng phụ + ưu tiên người bệnh",
+        "Chỉ xét nghiệm",
+        "Chỉ tuổi"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai.",
+        "Đúng.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "CGA/ICOPE đặt người bệnh ở trung tâm.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "WHO_ICOPE_2025"
+      ]
+    },
+    {
+      "id": "Q142",
+      "cat": "Đánh giá lão khoa",
+      "task": "Cận lâm sàng tiếp theo",
+      "stem": "Người già té ngã tái diễn, đánh giá nào hợp lý nhất?",
+      "opts": [
+        "Thuốc, hạ HA tư thế, hạ đường, thị giác, dáng đi/cân bằng và môi trường",
+        "Chỉ CT não",
+        "Chỉ acid uric",
+        "Chỉ X-quang ngực"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Falls là hội chứng đa yếu tố.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "WHO_ICOPE_2025"
+      ]
+    },
+    {
+      "id": "Q143",
+      "cat": "Thận",
+      "task": "Chẩn đoán",
+      "stem": "Cặn lắng có trụ hạt nâu dạng bùn gợi mạnh nhất?",
+      "opts": [
+        "Tổn thương ống thận cấp",
+        "Viêm cầu thận",
+        "Viêm bàng quang",
+        "Hội chứng thận hư đơn thuần"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai: GN gợi trụ hồng cầu.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Muddy brown casts = tubular injury.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "BYT_KIDNEY_2024"
+      ]
+    },
+    {
+      "id": "Q144",
+      "cat": "Thận",
+      "task": "Chẩn đoán",
+      "stem": "Trụ hồng cầu và hồng cầu biến dạng trong nước tiểu gợi nguồn tổn thương?",
+      "opts": [
+        "Cầu thận",
+        "Ống thận",
+        "Niệu đạo",
+        "Bàng quang đơn thuần"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "RBC cast = glomerular.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "BYT_KIDNEY_2024"
+      ]
+    },
+    {
+      "id": "Q145",
+      "cat": "Thận",
+      "task": "Điều trị/xử trí",
+      "stem": "TTTC vô niệu có phù phổi, toan nặng và tăng K kháng trị. Quyết định nào đúng?",
+      "opts": [
+        "Chờ creatinin đạt một ngưỡng cố định",
+        "Đánh giá/khởi điều trị thay thế thận cấp cứu theo biến chứng",
+        "Truyền thêm dịch bắt buộc",
+        "Chỉ tăng lợi tiểu vô hạn"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai.",
+        "Đúng.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "RRT theo biến chứng, không theo creatinin đơn độc.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "BYT_KIDNEY_2024"
+      ]
+    },
+    {
+      "id": "Q146",
+      "cat": "Thận",
+      "task": "Cận lâm sàng tiếp theo",
+      "stem": "Người già ít cơ, creatinin “bình thường” nhưng sắp dùng thuốc có độc tính thận. Cần làm gì?",
+      "opts": [
+        "Ước tính chức năng thận và xem xu hướng, không dựa creatinin tuyệt đối",
+        "Không cần gì",
+        "Chỉ đo uric acid",
+        "Chỉ đo cholesterol"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Sarcopenia làm creatinin thấp giả tạo.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "KDIGO_CKD_2024"
+      ]
+    },
+    {
+      "id": "Q147",
+      "cat": "Loãng xương",
+      "task": "Chẩn đoán",
+      "stem": "Gãy cổ xương đùi sau té từ tư thế đứng ở người 79 tuổi được xem là?",
+      "opts": [
+        "Gãy xương do chấn thương năng lượng thấp/fragility fracture",
+        "Gãy do chấn thương năng lượng cao",
+        "Không liên quan nguy cơ loãng xương",
+        "Bình thường theo tuổi"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Fragility fracture là dấu nguy cơ cao.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "NOGG_2024"
+      ]
+    },
+    {
+      "id": "Q148",
+      "cat": "Loãng xương",
+      "task": "Điều trị/xử trí",
+      "stem": "Sau fragility fracture, nguyên tắc nào đúng?",
+      "opts": [
+        "Cần secondary fracture prevention và không nên trì hoãn vô lý điều trị ở người nguy cơ cao",
+        "Chỉ calci là đủ cho mọi người",
+        "Không điều trị >80 tuổi",
+        "Nằm bất động kéo dài"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Sau gãy phải ngăn gãy lần hai.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "NOGG_2024"
+      ]
+    },
+    {
+      "id": "Q149",
+      "cat": "Suy thượng thận",
+      "task": "Điều trị/xử trí",
+      "stem": "Nghi cơn suy thượng thận cấp có sốc: có nên chờ cortisol trước khi dùng hydrocortisone?",
+      "opts": [
+        "Có, luôn chờ",
+        "Không; nếu lấy mẫu nhanh được thì lấy nhưng không trì hoãn điều trị",
+        "Chỉ chờ ACTH",
+        "Không cần hydrocortisone"
+      ],
+      "ans": 1,
+      "expl": [
+        "Sai.",
+        "Đúng.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Adrenal crisis là cấp cứu.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "NICE_ADRENAL_2024"
+      ]
+    },
+    {
+      "id": "Q150",
+      "cat": "Suy thượng thận",
+      "task": "Chẩn đoán",
+      "stem": "Ngừng glucocorticoid kéo dài đột ngột rồi sốc, hạ Na, hạ glucose gợi?",
+      "opts": [
+        "Cơn suy thượng thận cấp",
+        "Tăng aldosteron",
+        "Cường giáp",
+        "Hội chứng Cushing"
+      ],
+      "ans": 0,
+      "expl": [
+        "Đúng.",
+        "Sai.",
+        "Sai.",
+        "Sai."
+      ],
+      "key": "Steroid withdrawal + stress = adrenal crisis risk.",
+      "series_id": null,
+      "series_step": null,
+      "series_title": null,
+      "legacy": false,
+      "source_keys": [
+        "NICE_ADRENAL_2024"
+      ]
+    }
+  ]
+}

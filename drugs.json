@@ -1,0 +1,876 @@
+{
+  "version": "2026.08.18.1",
+  "updated_at": "2026-08-18T23:45:00+07:00",
+  "title": "Trung tâm thuốc lão khoa — liều, tăng liều, ưu tiên, phối hợp và dừng thuốc",
+  "disclaimer": "Dùng để học. Liều trong người bệnh thật phải đối chiếu tờ hướng dẫn sử dụng/biệt dược cụ thể, chức năng thận-gan, tương tác, phác đồ bệnh viện và hướng dẫn Bộ Y tế/hội chuyên ngành mới nhất. Biệt dược chỉ là ví dụ, không hàm ý ưu tiên hay tình trạng lưu hành tại mọi cơ sở.",
+  "principles": [
+    "Start low, go slow — nhưng không được under-treat bệnh có lợi ích tiên lượng rõ.",
+    "Tách 4 khái niệm: liều khởi trị, liều thường dùng, liều tối đa theo nhãn, và liều tối đa hợp lý ở người già cụ thể.",
+    "Mỗi lần tăng liều phải gắn với một biến theo dõi: HA tư thế, nhịp, K/creatinin, đường huyết, urate, TSH, LDL, triệu chứng hoặc chức năng.",
+    "Khi thêm thuốc mới, luôn hỏi có thuốc cũ nào nên giảm/ngưng để tránh hạ đường huyết, tụt HA, tăng K, chảy máu hoặc té ngã.",
+    "Không dừng đột ngột những thuốc có nguy cơ rebound/biến cố như chẹn beta, glucocorticoid lệ thuộc, DAPT sau stent, denosumab nếu chưa có kế hoạch chuyển tiếp."
+  ],
+  "drugs": [
+    {
+      "id": "metformin-er",
+      "generic": "Metformin phóng thích kéo dài",
+      "brands": "Glucophage XR; các generic metformin XR",
+      "drug_class": "Biguanid",
+      "domains": [
+        "Đái tháo đường"
+      ],
+      "route": "Uống",
+      "start": "500 mg buổi tối cùng bữa ăn. Ở người già dễ rối loạn tiêu hóa: khởi thấp và tăng chậm.",
+      "usual": "1.000–2.000 mg/ngày, thường 1 lần buổi tối hoặc chia theo chế phẩm.",
+      "max": "2.000 mg/ngày với đa số chế phẩm ER; IR có thể tới 2.550 mg/ngày theo nhãn riêng.",
+      "titrate": "Tăng 500 mg mỗi khoảng 1 tuần nếu dung nạp và cần thêm kiểm soát đường huyết.",
+      "prefer": "Ưu tiên khi cần thuốc nền ít gây hạ đường huyết, còn dung nạp và chức năng thận phù hợp.",
+      "combine": "Có thể phối hợp SGLT2i, GLP-1 RA, DPP-4i, insulin tùy bệnh đồng mắc và mục tiêu.",
+      "hold_stop": "Tạm ngưng khi bệnh cấp gây giảm tưới máu/thiếu oxy, mất nước, AKI; quanh cản quang theo nguy cơ; ngưng nếu eGFR <30.",
+      "adverse": "Rối loạn tiêu hóa, giảm ngon miệng; thiếu vitamin B12 dùng kéo dài; toan lactic rất hiếm nhưng nguy hiểm khi tích lũy.",
+      "monitor": "eGFR, triệu chứng tiêu hóa, B12 định kỳ khi dùng dài; cân nặng và ăn uống ở người già.",
+      "renal": "Không khởi theo nhãn FDA khi eGFR 30–45; ADA 2026 cho phép dùng ở eGFR ≥30 với liều thấp hơn và theo dõi sát.",
+      "trend": "Xu hướng lão khoa: vẫn hữu ích nhưng không còn mặc định “phải có” nếu người bệnh có ASCVD/HF/CKD cần thuốc bảo vệ tim-thận hoặc đang suy dinh dưỡng/AKI.",
+      "exam_trap": "Sai hay gặp: tiếp tục metformin trong tiêu chảy mất nước + AKI chỉ vì “thuốc nền lâu năm”.",
+      "sources": [
+        "https://diabetesjournals.org/care/article/49/Supplement_1/S277/163921/13-Older-Adults-Standards-of-Care-in-Diabetes-2026",
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dc65065b-cba0-46d7-8fb5-3368f3210b4d"
+      ]
+    },
+    {
+      "id": "empagliflozin",
+      "generic": "Empagliflozin",
+      "brands": "Jardiance",
+      "drug_class": "Ức chế SGLT2",
+      "domains": [
+        "Đái tháo đường",
+        "Suy tim",
+        "Bệnh thận mạn"
+      ],
+      "route": "Uống",
+      "start": "10 mg mỗi sáng, có hoặc không cùng thức ăn; đánh giá thể tích tuần hoàn trước khởi trị.",
+      "usual": "10 mg/ngày; tăng 25 mg/ngày chủ yếu nếu cần thêm tác dụng hạ đường huyết và dung nạp.",
+      "max": "25 mg/ngày.",
+      "titrate": "Nếu mục tiêu là hạ đường huyết và 10 mg dung nạp, có thể tăng 25 mg; lợi ích tim-thận không đòi hỏi phải tăng 25 mg.",
+      "prefer": "Rất ưu tiên ở ĐTĐ típ 2 có suy tim hoặc CKD, và hữu ích ở ASCVD; lợi ích tim-thận độc lập phần nào với HbA1c.",
+      "combine": "Phối hợp tốt với metformin, GLP-1 RA, insulin; khi phối insulin/SU cần xem giảm thuốc gây hạ đường huyết.",
+      "hold_stop": "Ngưng tạm ít nhất 3 ngày trước đại phẫu/nhịn đói kéo dài; giữ khi mất nước, nhiễm trùng nặng, nghi nhiễm toan ceton; khởi lại khi ổn định và ăn uống lại.",
+      "adverse": "Nhiễm nấm sinh dục, tiểu nhiều, giảm thể tích/tụt HA, AKI do mất nước hiếm; nhiễm toan ceton có thể đường huyết không quá cao.",
+      "monitor": "Thể tích, HA tư thế, eGFR, triệu chứng nhiễm nấm, dấu nhiễm toan ceton.",
+      "renal": "Hiệu quả hạ đường huyết giảm khi eGFR thấp; chỉ định tim-thận phụ thuộc nhãn/khuyến cáo hiện hành.",
+      "trend": "Xu hướng 2026: chọn vì bảo vệ tim-thận chứ không chỉ vì hạ HbA1c; ở người già phải cân nguy cơ mất nước/tụt HA.",
+      "exam_trap": "Bẫy: người già đang tiêu chảy, dùng lợi tiểu quai, HA thấp mà vẫn giữ SGLT2i.",
+      "sources": [
+        "https://diabetesjournals.org/care/article/49/Supplement_1/S277/163921/13-Older-Adults-Standards-of-Care-in-Diabetes-2026",
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a77214ca-572e-485e-aae9-f7950187e5fb"
+      ]
+    },
+    {
+      "id": "sitagliptin",
+      "generic": "Sitagliptin",
+      "brands": "Januvia",
+      "drug_class": "Ức chế DPP-4",
+      "domains": [
+        "Đái tháo đường"
+      ],
+      "route": "Uống",
+      "start": "100 mg ngày 1 lần nếu eGFR ≥45.",
+      "usual": "100 mg/ngày; 50 mg nếu eGFR 30–44; 25 mg nếu eGFR <30 hoặc ESRD.",
+      "max": "100 mg/ngày.",
+      "titrate": "Không cần tăng liều; chọn đúng liều theo eGFR.",
+      "prefer": "Hữu ích ở người già cần phác đồ đơn giản, nguy cơ hạ đường huyết thấp, tăng đường huyết mức nhẹ-vừa.",
+      "combine": "Có thể phối hợp metformin/SGLT2i/insulin; không phối hợp DPP-4i với GLP-1 RA vì ít lợi ích cộng thêm.",
+      "hold_stop": "Dừng khi phản ứng quá mẫn nặng; xem lại nếu viêm tụy nghi ngờ hoặc không còn lợi ích.",
+      "adverse": "Đau đầu/viêm mũi họng; hiếm viêm tụy, đau khớp nặng, pemphigoid bóng nước.",
+      "monitor": "eGFR để chỉnh liều; triệu chứng viêm tụy/da khi có.",
+      "renal": "Bắt buộc chỉnh liều theo eGFR như trên.",
+      "trend": "Xu hướng: an toàn và đơn giản nhưng không có lợi ích tim-thận mạnh như SGLT2i/GLP-1 RA.",
+      "exam_trap": "Bẫy: eGFR 25 mà vẫn kê 100 mg/ngày.",
+      "sources": [
+        "https://diabetesjournals.org/care/article/49/Supplement_1/S277/163921/13-Older-Adults-Standards-of-Care-in-Diabetes-2026",
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=39253ddd-0245-43b1-ad28-d5923983afb4"
+      ]
+    },
+    {
+      "id": "linagliptin",
+      "generic": "Linagliptin",
+      "brands": "Trajenta/Tradjenta",
+      "drug_class": "Ức chế DPP-4",
+      "domains": [
+        "Đái tháo đường"
+      ],
+      "route": "Uống",
+      "start": "5 mg ngày 1 lần.",
+      "usual": "5 mg/ngày.",
+      "max": "5 mg/ngày.",
+      "titrate": "Không tăng liều.",
+      "prefer": "Đặc biệt tiện ở người già có CKD vì không cần chỉnh liều thận.",
+      "combine": "Phối hợp được metformin/SGLT2i/insulin; không phối DPP-4i với GLP-1 RA.",
+      "hold_stop": "Dừng nếu quá mẫn nặng/viêm tụy nghi ngờ; xem lại nếu mục tiêu đã đạt và muốn giảm đa thuốc.",
+      "adverse": "Tương đối ít tác dụng phụ; có thể viêm tụy/đau khớp/pemphigoid hiếm.",
+      "monitor": "Đường huyết/HbA1c; không cần chỉnh theo eGFR.",
+      "renal": "Không cần chỉnh liều thận.",
+      "trend": "Xu hướng: lựa chọn “đơn giản hóa” ở người già CKD khi không cần hiệu lực hạ đường mạnh.",
+      "exam_trap": "Bẫy: tưởng mọi DPP-4i đều không cần chỉnh thận; sitagliptin thì có.",
+      "sources": [
+        "https://diabetesjournals.org/care/article/49/Supplement_1/S277/163921/13-Older-Adults-Standards-of-Care-in-Diabetes-2026"
+      ]
+    },
+    {
+      "id": "semaglutide-sc",
+      "generic": "Semaglutide tiêm dưới da",
+      "brands": "Ozempic",
+      "drug_class": "Đồng vận GLP-1",
+      "domains": [
+        "Đái tháo đường",
+        "ASCVD/CKD chọn lọc"
+      ],
+      "route": "Tiêm dưới da",
+      "start": "0,25 mg mỗi tuần × 4 tuần; đây là liều làm quen, không phải liều điều trị đầy đủ.",
+      "usual": "0,5–1 mg/tuần; có thể 2 mg/tuần nếu cần kiểm soát đường huyết hơn.",
+      "max": "2 mg/tuần cho chỉ định ĐTĐ theo nhãn Ozempic hiện hành.",
+      "titrate": "Sau ≥4 tuần ở 0,25 → 0,5 mg; nếu cần sau ≥4 tuần ở 0,5 → 1 mg; sau ≥4 tuần ở 1 → 2 mg.",
+      "prefer": "Ưu tiên khi cần giảm HbA1c mạnh, giảm cân và lợi ích tim mạch; nhưng ở lão khoa phải đánh giá suy dinh dưỡng/sarcopenia.",
+      "combine": "Có thể phối hợp metformin/SGLT2i; nếu kèm insulin/SU cân nhắc giảm thuốc gây hạ đường huyết.",
+      "hold_stop": "Dừng/tạm giữ khi mất nước nặng, nôn ói kéo dài; không ưu tiên nếu sụt cân không giải thích, suy dinh dưỡng, liệt dạ dày đáng kể.",
+      "adverse": "Buồn nôn, nôn, tiêu chảy/táo bón, giảm ăn; nguy cơ mất nước và mất khối cơ ở người già; bệnh túi mật/viêm tụy hiếm.",
+      "monitor": "Cân nặng, dinh dưỡng, khối cơ/chức năng, triệu chứng GI, đường huyết; thận khi mất nước.",
+      "renal": "Không cần chỉnh liều thường quy theo eGFR, nhưng mất nước có thể làm xấu thận.",
+      "trend": "Xu hướng 2026: hiệu quả cao và bảo vệ tim-thận ở nhóm phù hợp; lão khoa ưu tiên tránh “giảm cân quá mức”.",
+      "exam_trap": "Bẫy: 82 tuổi BMI thấp, ăn kém, vẫn tăng GLP-1 RA chỉ vì HbA1c 7,8%.",
+      "sources": [
+        "https://diabetesjournals.org/care/article/49/Supplement_1/S277/163921/13-Older-Adults-Standards-of-Care-in-Diabetes-2026",
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adec4fd2-6858-4c99-91d4-531f5f2a2d79"
+      ]
+    },
+    {
+      "id": "insulin-glargine",
+      "generic": "Insulin glargine nền",
+      "brands": "Lantus; Toujeo (nồng độ khác)",
+      "drug_class": "Insulin tác dụng kéo dài",
+      "domains": [
+        "Đái tháo đường"
+      ],
+      "route": "Tiêm dưới da",
+      "start": "ĐTĐ típ 2 chưa dùng insulin: thường khoảng 10 đơn vị/ngày hoặc 0,1–0,2 đơn vị/kg/ngày; ở người già nguy cơ hạ đường huyết nên khởi thấp hơn nếu cần.",
+      "usual": "Cá thể hóa theo đường huyết đói; không có “liều chuẩn” chung.",
+      "max": "Không có tối đa tuyệt đối; liều cao phải xem lại kỹ thuật, ăn uống, tuân thủ và kháng insulin.",
+      "titrate": "Tăng chậm theo đường đói; thực hành thường 1–2 đơn vị mỗi vài ngày ở người già, giảm nếu hạ đường huyết.",
+      "prefer": "Ưu tiên dạng nền đơn giản khi cần insulin ở người già; tránh phác đồ quá phức tạp nếu nhận thức/chức năng hạn chế.",
+      "combine": "Có thể phối hợp metformin/SGLT2i/GLP-1 RA; tránh duy trì SU không cần thiết khi đã dùng insulin vì hạ đường huyết.",
+      "hold_stop": "Giảm/đơn giản hóa khi hạ đường huyết, ăn uống thất thường, chức năng nhận thức giảm hoặc mục tiêu HbA1c được nới.",
+      "adverse": "Hạ đường huyết, tăng cân; sai kỹ thuật tiêm; lipodystrophy.",
+      "monitor": "Đường huyết/CGM nếu có, hạ đường huyết ban đêm, khả năng tự tiêm, chức năng nhận thức.",
+      "renal": "Nhu cầu insulin thường giảm khi chức năng thận giảm; không có bảng chỉnh liều cố định.",
+      "trend": "Xu hướng lão khoa: deintensification và simplification quan trọng ngang việc hạ HbA1c.",
+      "exam_trap": "Bẫy: tăng insulin vì HbA1c mà không hỏi hạ đường huyết/ăn bỏ bữa.",
+      "sources": [
+        "https://diabetesjournals.org/care/article/49/Supplement_1/S277/163921/13-Older-Adults-Standards-of-Care-in-Diabetes-2026"
+      ]
+    },
+    {
+      "id": "amlodipine",
+      "generic": "Amlodipine",
+      "brands": "Norvasc; generic amlodipine",
+      "drug_class": "Chẹn kênh canxi dihydropyridine",
+      "domains": [
+        "Tăng huyết áp",
+        "Đau thắt ngực"
+      ],
+      "route": "Uống",
+      "start": "Thông thường 5 mg/ngày; người nhỏ con, suy yếu, cao tuổi hoặc suy gan có thể 2,5 mg/ngày.",
+      "usual": "2,5–10 mg/ngày.",
+      "max": "10 mg/ngày.",
+      "titrate": "Thường chờ 7–14 ngày giữa các bước chỉnh liều nếu không cần nhanh hơn.",
+      "prefer": "Rất hữu ích ở tăng HA tâm thu đơn độc; ít phụ thuộc chức năng thận.",
+      "combine": "Phối hợp tốt ACEi/ARB ± lợi tiểu thiazide-like; đơn viên phối hợp giúp giảm gánh thuốc.",
+      "hold_stop": "Giảm/ngưng nếu phù ngoại biên nặng, tụt HA, chóng mặt/té ngã; không cần taper đặc biệt.",
+      "adverse": "Phù mắt cá, đỏ bừng, nhức đầu; hiếm tăng sản lợi.",
+      "monitor": "HA ngồi/đứng, phù, chóng mặt.",
+      "renal": "Không cần chỉnh liều thận thường quy.",
+      "trend": "Xu hướng: thuốc nền thuận tiện ở lão khoa nhưng phải phân biệt phù do thuốc với suy tim.",
+      "exam_trap": "Bẫy: phù chân hai bên sau tăng amlodipine bị chẩn đoán nhầm suy tim và thêm lợi tiểu.",
+      "sources": [
+        "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/elevated-blood-pressure-and-hypertension/",
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1080fcea-a5da-499d-a855-690c13559071"
+      ]
+    },
+    {
+      "id": "losartan",
+      "generic": "Losartan",
+      "brands": "Cozaar; generic losartan",
+      "drug_class": "ARB",
+      "domains": [
+        "Tăng huyết áp",
+        "CKD có albumin niệu"
+      ],
+      "route": "Uống",
+      "start": "50 mg/ngày; có thể 25 mg/ngày nếu giảm thể tích/đang lợi tiểu mạnh hoặc cần khởi rất thận trọng.",
+      "usual": "25–100 mg/ngày, 1 lần hoặc chia.",
+      "max": "100 mg/ngày cho tăng HA.",
+      "titrate": "Đánh giá HA, creatinin và kali sau khởi/tăng liều; tăng theo đáp ứng thường sau vài tuần.",
+      "prefer": "Ưu tiên khi có albumin niệu/ĐTĐ CKD và dung nạp; tránh phối ACEi + ARB thường quy.",
+      "combine": "Phối CCB ± lợi tiểu thiazide-like; có thể phối MRA trong chỉ định phù hợp nhưng tăng nguy cơ tăng K.",
+      "hold_stop": "Tạm giữ khi tụt HA/mất nước/AKI đáng kể; ngưng khi tăng K không kiểm soát hoặc tăng creatinin đáng kể không giải thích sau đánh giá.",
+      "adverse": "Tăng kali, tăng creatinin ban đầu, tụt HA; hiếm phù mạch.",
+      "monitor": "Kali, creatinin/eGFR 1–2 tuần sau khởi/tăng ở người nguy cơ cao; HA tư thế.",
+      "renal": "Không “chỉnh liều theo eGFR” đơn giản; theo dõi sinh hóa và tình trạng thể tích.",
+      "trend": "Xu hướng: RAS blocker vẫn cốt lõi ở albumin niệu, nhưng sick-day review quan trọng ở người già mất nước.",
+      "exam_trap": "Bẫy: tiêu chảy mất nước + NSAID + ARB vẫn tiếp tục như thường.",
+      "sources": [
+        "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/elevated-blood-pressure-and-hypertension/"
+      ]
+    },
+    {
+      "id": "telmisartan",
+      "generic": "Telmisartan",
+      "brands": "Micardis; generic telmisartan",
+      "drug_class": "ARB",
+      "domains": [
+        "Tăng huyết áp"
+      ],
+      "route": "Uống",
+      "start": "Thường 40 mg/ngày; có thể 20 mg/ngày nếu cần khởi nhẹ.",
+      "usual": "20–80 mg/ngày.",
+      "max": "80 mg/ngày.",
+      "titrate": "Tăng theo HA sau khoảng vài tuần; theo dõi K/creatinin sau thay đổi.",
+      "prefer": "Phù hợp khi cần ARB dùng 1 lần/ngày; lựa chọn dựa bệnh đồng mắc, dung nạp và danh mục thuốc.",
+      "combine": "Phối amlodipine hoặc lợi tiểu thiazide-like; không phối ACEi thường quy.",
+      "hold_stop": "Giữ/ngưng tương tự ARB khác khi mất nước, AKI, tăng K hoặc tụt HA.",
+      "adverse": "Tăng K, tăng creatinin, tụt HA/chóng mặt.",
+      "monitor": "HA tư thế, K, creatinin/eGFR.",
+      "renal": "Không có chỉnh liều eGFR thường quy nhưng cần theo dõi sát.",
+      "trend": "Xu hướng: ưu tiên đơn viên phối hợp nếu cần ≥2 thuốc và người bệnh không quá suy yếu.",
+      "exam_trap": "Bẫy: xem mục tiêu HA mà quên HA đứng sau dùng phối hợp.",
+      "sources": [
+        "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/elevated-blood-pressure-and-hypertension/"
+      ]
+    },
+    {
+      "id": "perindopril-arginine",
+      "generic": "Perindopril arginine",
+      "brands": "Coversyl; các generic tương đương muối khác cần quy đổi đúng",
+      "drug_class": "Ức chế men chuyển",
+      "domains": [
+        "Tăng huyết áp",
+        "Bệnh mạch vành/CKD chọn lọc"
+      ],
+      "route": "Uống",
+      "start": "Ở người cao tuổi/đang lợi tiểu: thường khởi 2,5 mg/ngày; người khác 5 mg/ngày theo chế phẩm arginine.",
+      "usual": "2,5–10 mg/ngày (arginine).",
+      "max": "10 mg/ngày (arginine).",
+      "titrate": "Tăng sau vài tuần nếu HA và K/creatinin cho phép.",
+      "prefer": "Tương tự ARB khi có chỉ định RAS blockade; ACEi có thể gây ho nên ARB thay thế nếu không dung nạp.",
+      "combine": "Phối CCB hoặc indapamide; không phối ACEi + ARB thường quy.",
+      "hold_stop": "Tạm giữ trong giảm thể tích/AKI; ngưng nếu phù mạch, tăng K dai dẳng hoặc suy thận tiến triển do thuốc.",
+      "adverse": "Ho khan, tăng K, tăng creatinin, tụt HA; phù mạch hiếm nhưng cấp cứu.",
+      "monitor": "HA, K, creatinin/eGFR sau khởi/tăng.",
+      "renal": "Không chỉnh theo một con số eGFR duy nhất; khởi thấp ở CKD/già và theo dõi.",
+      "trend": "Xu hướng: single-pill perindopril/amlodipine hoặc perindopril/indapamide hay được dùng, nhưng ở người già phải tránh quá hạ HA.",
+      "exam_trap": "Bẫy: nhầm liều giữa perindopril arginine và tert-butylamine.",
+      "sources": [
+        "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/elevated-blood-pressure-and-hypertension/"
+      ]
+    },
+    {
+      "id": "indapamide-sr",
+      "generic": "Indapamide phóng thích kéo dài",
+      "brands": "Natrilix SR; generic indapamide SR",
+      "drug_class": "Lợi tiểu thiazide-like",
+      "domains": [
+        "Tăng huyết áp"
+      ],
+      "route": "Uống",
+      "start": "1,5 mg buổi sáng.",
+      "usual": "1,5 mg/ngày với dạng SR.",
+      "max": "Không nên tăng quá 1,5 mg/ngày dạng SR để “tăng hiệu lực”; tăng liều chủ yếu tăng tác dụng phụ.",
+      "titrate": "Không cần titrate dạng SR; nếu chưa đạt đích thường phối hợp nhóm khác.",
+      "prefer": "Hữu ích ở tăng HA tâm thu; phối tốt ACEi/ARB/CCB.",
+      "combine": "Phối ACEi/ARB hoặc CCB; theo dõi Na/K.",
+      "hold_stop": "Giảm/ngưng khi hạ Na/K, mất nước, tụt HA, gout nặng do tăng acid uric.",
+      "adverse": "Hạ Na, hạ K, tăng acid uric, mất nước, tụt HA tư thế.",
+      "monitor": "Na/K, creatinin, acid uric nếu gout, HA tư thế.",
+      "renal": "Hiệu lực giảm ở suy thận nặng; đánh giá từng trường hợp.",
+      "trend": "Xu hướng: liều thấp thiazide-like trong phối hợp thay vì tăng liều đơn độc.",
+      "exam_trap": "Bẫy: 80 tuổi lú lẫn mới xuất hiện + Na 123 mà không nghĩ lợi tiểu.",
+      "sources": [
+        "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/elevated-blood-pressure-and-hypertension/"
+      ]
+    },
+    {
+      "id": "bisoprolol",
+      "generic": "Bisoprolol",
+      "brands": "Concor; generic bisoprolol",
+      "drug_class": "Chẹn beta-1 chọn lọc",
+      "domains": [
+        "Bệnh mạch vành",
+        "Suy tim",
+        "Tăng huyết áp chọn lọc"
+      ],
+      "route": "Uống",
+      "start": "Đau thắt ngực/THA: thường 2,5–5 mg/ngày ở người già. Suy tim HFrEF: khởi 1,25 mg/ngày khi ổn định.",
+      "usual": "2,5–10 mg/ngày tùy chỉ định.",
+      "max": "10 mg/ngày trong HFrEF mục tiêu; THA một số nhãn cho tới 20 mg/ngày.",
+      "titrate": "HFrEF: tăng bậc 1,25→2,5→3,75→5→7,5→10 mg nếu ổn định; chậm hơn ở lão khoa.",
+      "prefer": "Ưu tiên khi có chỉ định rõ: HFrEF, đau thắt ngực, kiểm soát tần số; không phải lựa chọn bắt buộc đầu tay cho THA đơn thuần.",
+      "combine": "Phối ACEi/ARB/ARNI, MRA, SGLT2i trong HFrEF theo chỉ định; tránh phối thuốc làm chậm nhịp quá mức.",
+      "hold_stop": "Không ngừng đột ngột nếu bệnh mạch vành/chẹn beta lâu dài; giảm dần nếu cần, trừ cấp cứu bắt buộc.",
+      "adverse": "Chậm nhịp, mệt, tụt HA, block nhĩ thất, co thắt phế quản ít hơn beta không chọn lọc.",
+      "monitor": "Mạch, HA, ECG khi cần, triệu chứng suy tim/chóng mặt.",
+      "renal": "Thận nặng có thể cần thận trọng; chỉnh theo đáp ứng.",
+      "trend": "Xu hướng: “có chỉ định thì dùng”, tránh dùng theo quán tính ở người già nhịp chậm/té ngã.",
+      "exam_trap": "Bẫy: HR 48 + chóng mặt vẫn tăng bisoprolol chỉ vì HA chưa đạt.",
+      "sources": [
+        "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/elevated-blood-pressure-and-hypertension/"
+      ]
+    },
+    {
+      "id": "spironolactone",
+      "generic": "Spironolactone",
+      "brands": "Aldactone; generic spironolactone",
+      "drug_class": "Kháng mineralocorticoid",
+      "domains": [
+        "Tăng huyết áp kháng trị",
+        "Suy tim"
+      ],
+      "route": "Uống",
+      "start": "12,5–25 mg/ngày ở người già/nguy cơ tăng K.",
+      "usual": "25–50 mg/ngày trong THA kháng trị; chỉ định khác có thể khác.",
+      "max": "50 mg/ngày thường là trần thực hành cho THA kháng trị; không áp trần này cho mọi chỉ định.",
+      "titrate": "Tăng từ 12,5–25 lên 25–50 mg sau đánh giá K/creatinin và HA.",
+      "prefer": "Ưu tiên thuốc thứ 4 cho THA kháng trị thực sự nếu K và chức năng thận cho phép.",
+      "combine": "Phối RAS blocker + CCB + thiazide-like trong THA kháng trị, nhưng nguy cơ tăng K tăng.",
+      "hold_stop": "Giảm/ngưng khi K tăng đáng kể, AKI, tụt HA, mất nước; tránh tự bổ sung kali.",
+      "adverse": "Tăng K, suy thận, vú to/đau vú, tụt HA.",
+      "monitor": "K và creatinin sớm sau khởi/tăng, sau đó định kỳ.",
+      "renal": "Nguy cơ tăng K cao khi eGFR thấp; cần chọn bệnh nhân và theo dõi sát.",
+      "trend": "Xu hướng: rất hiệu quả ở THA kháng trị nhưng người già CKD là nhóm dễ biến chứng nhất.",
+      "exam_trap": "Bẫy: eGFR 28 + K 5,1 vẫn thêm spironolactone “vì tăng HA kháng trị”.",
+      "sources": [
+        "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/elevated-blood-pressure-and-hypertension/"
+      ]
+    },
+    {
+      "id": "nitroglycerin-sl",
+      "generic": "Nitroglycerin ngậm dưới lưỡi",
+      "brands": "Nitrostat; nitroglycerin generic",
+      "drug_class": "Nitrate tác dụng nhanh",
+      "domains": [
+        "Đau thắt ngực"
+      ],
+      "route": "Ngậm dưới lưỡi",
+      "start": "0,3–0,4 mg khi cơn đau xuất hiện.",
+      "usual": "Có thể lặp lại mỗi 5 phút nếu cần.",
+      "max": "Tối đa 3 liều trong 15 phút; nếu đau dai dẳng phải xử trí như hội chứng vành cấp.",
+      "titrate": "Không dùng kiểu “tăng liều duy trì”; dùng từng liều cắt cơn.",
+      "prefer": "Thuốc cắt cơn kinh điển; nên có kế hoạch khi đau không giảm.",
+      "combine": "Có thể dùng cùng beta-blocker/CCB trong kiểm soát triệu chứng.",
+      "hold_stop": "Tuyệt đối tránh cùng PDE5 inhibitor trong khoảng thời gian chống chỉ định; ngưng nếu tụt HA nặng.",
+      "adverse": "Đau đầu, đỏ bừng, tụt HA, choáng/ngất.",
+      "monitor": "HA, đáp ứng đau; hỏi sildenafil/tadalafil và thuốc tương tự.",
+      "renal": "Không chỉnh liều thận điển hình.",
+      "trend": "Xu hướng: vẫn là thuốc cắt cơn, nhưng đau dai dẳng cần đánh giá cấp cứu chứ không tiếp tục ngậm vô hạn.",
+      "exam_trap": "Bẫy: vừa dùng tadalafil mà cho nitrate.",
+      "sources": []
+    },
+    {
+      "id": "isosorbide-mononitrate-er",
+      "generic": "Isosorbide mononitrate phóng thích kéo dài",
+      "brands": "Imdur; generic ISMN ER",
+      "drug_class": "Nitrate tác dụng kéo dài",
+      "domains": [
+        "Đau thắt ngực"
+      ],
+      "route": "Uống",
+      "start": "30–60 mg buổi sáng.",
+      "usual": "30–120 mg/ngày; một số nhãn cho tới 240 mg/ngày.",
+      "max": "240 mg/ngày theo một số nhãn ER.",
+      "titrate": "Có thể tăng sau vài ngày đến 1 tuần tùy triệu chứng/HA; duy trì khoảng không nitrate thích hợp theo chế phẩm để hạn chế dung nạp.",
+      "prefer": "Dùng khi còn đau thắt ngực dù đã có thuốc nền phù hợp hoặc khi beta-blocker/CCB không đủ.",
+      "combine": "Phối beta-blocker hoặc CCB tùy nhịp/HA.",
+      "hold_stop": "Giảm/ngưng nếu tụt HA/đau đầu không dung nạp; tránh ngưng đột ngột ở người đau thắt ngực không ổn nếu không có kế hoạch thay thế.",
+      "adverse": "Đau đầu, tụt HA tư thế, chóng mặt, dung nạp nitrate.",
+      "monitor": "HA tư thế, tần suất đau và nhu cầu nitrate nhanh.",
+      "renal": "Không có chỉnh liều thận thường quy rõ ràng.",
+      "trend": "Xu hướng: ưu tiên kiểm soát triệu chứng; không thay thế thuốc cải thiện tiên lượng.",
+      "exam_trap": "Bẫy: tưởng nitrate dài hạn làm giảm tử vong như statin/kháng tiểu cầu.",
+      "sources": []
+    },
+    {
+      "id": "aspirin",
+      "generic": "Aspirin liều thấp",
+      "brands": "Aspirin 81 mg/100 mg; nhiều biệt dược",
+      "drug_class": "Kháng kết tập tiểu cầu",
+      "domains": [
+        "Bệnh mạch vành",
+        "Sau PCI chọn lọc"
+      ],
+      "route": "Uống",
+      "start": "75–100 mg/ngày trong dự phòng thứ phát khi có chỉ định.",
+      "usual": "75–100 mg/ngày.",
+      "max": "Không tăng liều để tăng hiệu quả dự phòng mạn tính.",
+      "titrate": "Không titrate.",
+      "prefer": "Ưu tiên dự phòng thứ phát ASCVD khi lợi ích vượt nguy cơ chảy máu; không mặc định dùng dự phòng tiên phát ở mọi người cao tuổi.",
+      "combine": "Có thể phối clopidogrel/ticagrelor trong DAPT theo bối cảnh PCI/ACS và thời gian chỉ định.",
+      "hold_stop": "Không tự dừng sau stent gần đây; khi chuẩn bị mổ phải cân bằng chảy máu–huyết khối theo loại mổ và thời gian stent.",
+      "adverse": "Xuất huyết tiêu hóa/nội sọ, loét dạ dày, hen nhạy aspirin.",
+      "monitor": "Dấu chảy máu, Hb nếu nghi, thuốc NSAID/kháng đông đồng thời.",
+      "renal": "Không chỉnh liều thận kiểu thường quy, nhưng CKD tăng nguy cơ chảy máu.",
+      "trend": "Xu hướng lão khoa: tránh “aspirin vì lớn tuổi” nếu không có chỉ định dự phòng thứ phát rõ.",
+      "exam_trap": "Bẫy: 78 tuổi không ASCVD vẫn thêm aspirin dự phòng tiên phát như thói quen.",
+      "sources": []
+    },
+    {
+      "id": "clopidogrel",
+      "generic": "Clopidogrel",
+      "brands": "Plavix; generic clopidogrel",
+      "drug_class": "Ức chế P2Y12",
+      "domains": [
+        "Sau PCI",
+        "Bệnh mạch vành"
+      ],
+      "route": "Uống",
+      "start": "Duy trì 75 mg/ngày; liều nạp 300–600 mg chỉ trong tình huống thích hợp.",
+      "usual": "75 mg/ngày.",
+      "max": "75 mg/ngày duy trì.",
+      "titrate": "Không titrate theo đáp ứng thường quy.",
+      "prefer": "Dùng trong DAPT sau PCI/ACS hoặc đơn trị kháng tiểu cầu khi phù hợp.",
+      "combine": "Phối aspirin trong DAPT theo thời gian và nguy cơ chảy máu; phối PPI khi nguy cơ GI cao, tránh lựa chọn tương tác mạnh nếu có thể.",
+      "hold_stop": "Thường cần ngừng khoảng 5 ngày trước phẫu thuật có nguy cơ chảy máu khi bác sĩ tim mạch/phẫu thuật cho phép; không tự dừng stent mới đặt.",
+      "adverse": "Chảy máu, bầm tím; TTP cực hiếm.",
+      "monitor": "Chảy máu, Hb nếu cần, thời điểm stent và loại can thiệp sắp làm.",
+      "renal": "Không cần chỉnh liều thận thường quy nhưng CKD tăng nguy cơ chảy máu.",
+      "trend": "Xu hướng: thời gian DAPT ngày càng cá thể hóa theo nguy cơ thiếu máu cục bộ và chảy máu, nhất là người già.",
+      "exam_trap": "Bẫy: chỉ hỏi “đã đặt stent” mà không hỏi stent đặt khi nào.",
+      "sources": []
+    },
+    {
+      "id": "atorvastatin",
+      "generic": "Atorvastatin",
+      "brands": "Lipitor; generic atorvastatin",
+      "drug_class": "Statin cường độ trung bình-cao",
+      "domains": [
+        "Rối loạn lipid",
+        "ASCVD"
+      ],
+      "route": "Uống",
+      "start": "10–20 mg/ngày; nếu cần giảm LDL >45% có thể bắt đầu 40 mg.",
+      "usual": "10–80 mg/ngày.",
+      "max": "80 mg/ngày.",
+      "titrate": "Đánh giá LDL sớm khoảng 4–12 tuần; tăng cường độ nếu chưa đạt mục tiêu và dung nạp.",
+      "prefer": "Rất ưu tiên dự phòng thứ phát ASCVD; tuổi cao đơn thuần không phải lý do ngưng statin đang dung nạp.",
+      "combine": "Phối ezetimibe nếu chưa đạt LDL; thuốc mạnh hơn theo nguy cơ.",
+      "hold_stop": "Giữ/ngưng tạm khi tiêu cơ vân/nghi độc cơ nặng hoặc bệnh gan cấp; xem lại khi cuối đời/gánh nặng điều trị vượt lợi ích.",
+      "adverse": "Đau cơ, tăng men gan; tiêu cơ vân hiếm; tương tác CYP3A4.",
+      "monitor": "LDL, triệu chứng cơ; CK khi có triệu chứng; men gan theo chỉ định.",
+      "renal": "Không chỉnh liều thận thường quy.",
+      "trend": "Xu hướng: “theo nguy cơ và LDL đích” thay vì chỉ nhìn liều; ở lão khoa cân frailty/kỳ vọng sống nhưng dự phòng thứ phát vẫn thường có lợi.",
+      "exam_trap": "Bẫy: dừng statin chỉ vì bệnh nhân 80 tuổi dù vừa có NMCT và dung nạp tốt.",
+      "sources": [
+        "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/elevated-blood-pressure-and-hypertension/",
+        "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=a60cc18b-0631-4cf0-b021-9f52224ece65"
+      ]
+    },
+    {
+      "id": "rosuvastatin",
+      "generic": "Rosuvastatin",
+      "brands": "Crestor; generic rosuvastatin",
+      "drug_class": "Statin cường độ trung bình-cao",
+      "domains": [
+        "Rối loạn lipid",
+        "ASCVD"
+      ],
+      "route": "Uống",
+      "start": "Thường 5–10 mg/ngày ở người già/châu Á; có thể cao hơn nếu cần và dung nạp.",
+      "usual": "5–40 mg/ngày.",
+      "max": "40 mg/ngày; chỉ dùng khi cần LDL giảm mạnh và đã đánh giá nguy cơ.",
+      "titrate": "Đánh giá LDL sau khoảng 4–12 tuần rồi tăng từng bậc 5→10→20→40 nếu phù hợp.",
+      "prefer": "Hữu ích khi cần statin mạnh nhưng muốn ít tương tác CYP3A4 hơn atorvastatin.",
+      "combine": "Phối ezetimibe nếu chưa đạt đích.",
+      "hold_stop": "Giảm/ngưng khi độc cơ nặng; severe renal impairment cần giới hạn liều.",
+      "adverse": "Đau cơ, men gan; protein niệu/tiểu máu vi thể ở liều cao có thể gặp.",
+      "monitor": "LDL, triệu chứng cơ, chức năng thận ở nguy cơ cao.",
+      "renal": "Suy thận nặng: khởi 5 mg và thường không vượt 10 mg theo nhãn Hoa Kỳ.",
+      "trend": "Xu hướng: dùng liều thấp hơn ban đầu ở người châu Á/già, rồi titrate theo LDL và dung nạp.",
+      "exam_trap": "Bẫy: eGFR rất thấp mà kê 40 mg ngay từ đầu.",
+      "sources": []
+    },
+    {
+      "id": "ezetimibe",
+      "generic": "Ezetimibe",
+      "brands": "Ezetrol/Zetia; generic ezetimibe",
+      "drug_class": "Ức chế hấp thu cholesterol",
+      "domains": [
+        "Rối loạn lipid",
+        "ASCVD"
+      ],
+      "route": "Uống",
+      "start": "10 mg/ngày.",
+      "usual": "10 mg/ngày.",
+      "max": "10 mg/ngày.",
+      "titrate": "Không titrate.",
+      "prefer": "Thêm sớm khi statin tối đa dung nạp chưa đạt LDL; ít tương tác và dễ dùng ở người già.",
+      "combine": "Phối statin là thường gặp nhất.",
+      "hold_stop": "Ngưng nếu phản ứng dị ứng; nếu men gan tăng khi phối statin thì đánh giá cả hai thuốc.",
+      "adverse": "Đau bụng/tiêu chảy nhẹ; tăng men gan khi phối statin hiếm.",
+      "monitor": "LDL; men gan nếu phối statin và có chỉ định.",
+      "renal": "Không cần chỉnh liều thận thường quy.",
+      "trend": "Xu hướng: tăng cường điều trị bằng phối hợp thay vì cố ép statin đến liều gây tác dụng phụ.",
+      "exam_trap": "Bẫy: LDL còn cao sau statin mà chỉ đổi qua statin khác liều tương đương, không nghĩ ezetimibe.",
+      "sources": []
+    },
+    {
+      "id": "allopurinol",
+      "generic": "Allopurinol",
+      "brands": "Zyloric; generic allopurinol",
+      "drug_class": "Ức chế xanthine oxidase",
+      "domains": [
+        "Gout"
+      ],
+      "route": "Uống",
+      "start": "100 mg/ngày nếu thận bình thường; 50 mg/ngày khi suy thận đáng kể.",
+      "usual": "Titrate đến urate máu <6 mg/dL; liều thường 100–300 mg/ngày nhưng nhiều người cần cao hơn.",
+      "max": "800 mg/ngày theo nhãn; >300 mg nên chia liều.",
+      "titrate": "Tăng khoảng 100 mg mỗi tuần theo nhãn; thực hành treat-to-target có thể tăng chậm hơn tùy CKD/nguy cơ và theo dõi.",
+      "prefer": "ACR ưu tiên allopurinol là ULT đầu tay kể cả CKD, với khởi liều thấp.",
+      "combine": "Khi bắt đầu nên có dự phòng cơn gout bằng colchicine/NSAID/steroid phù hợp trong 3–6 tháng hoặc hơn tùy cơn.",
+      "hold_stop": "Không ngưng chỉ vì xuất hiện cơn gout cấp trong lúc đang dùng; dừng ngay nếu nghi phát ban nặng/AHS.",
+      "adverse": "Phát ban, hội chứng quá mẫn allopurinol hiếm nhưng rất nặng; độc gan; tương tác azathioprine/6-MP cực quan trọng.",
+      "monitor": "Urate, CBC/gan/thận khi thích hợp; da/phát ban; cân nhắc HLA-B*58:01 ở nhóm nguy cơ theo khuyến cáo.",
+      "renal": "Khởi 50 mg/ngày khi suy thận rồi tăng dần theo urate, không “đóng trần” quá thấp nếu vẫn theo dõi được.",
+      "trend": "Xu hướng: treat-to-target, start low–go slow, không chỉ dùng liều cố định 100–300 mg.",
+      "exam_trap": "Bẫy: urate 8,5 mg/dL trên allopurinol 100 mg nhưng không tăng vì “CKD nên không được tăng”.",
+      "sources": [
+        "https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24180",
+        "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=0780dc78-d287-d5db-e063-6294a90aa1dd&type=display"
+      ]
+    },
+    {
+      "id": "colchicine",
+      "generic": "Colchicine",
+      "brands": "Colcrys; colchicine generic",
+      "drug_class": "Chống viêm đặc hiệu gout",
+      "domains": [
+        "Gout"
+      ],
+      "route": "Uống",
+      "start": "Cơn gout: 1,2 mg ngay khi khởi cơn rồi 0,6 mg sau 1 giờ. Dự phòng: 0,6 mg 1–2 lần/ngày; người già/CKD thường chọn thấp hơn.",
+      "usual": "Dự phòng thường 0,6 mg/ngày ở người già; điều trị cơn dùng phác đồ liều thấp.",
+      "max": "Cơn gout tối đa 1,8 mg trong 1 giờ; dự phòng tối đa 1,2 mg/ngày theo nhãn.",
+      "titrate": "Không “tăng dần” trong cơn; liều cao hơn không hiệu quả hơn nhưng độc hơn.",
+      "prefer": "Rất hữu ích dự phòng khi bắt đầu ULT và cắt cơn sớm nếu không chống chỉ định.",
+      "combine": "Phối allopurinol/febuxostat để dự phòng flare khi khởi ULT.",
+      "hold_stop": "Giảm/giữ ở suy thận/gan và đặc biệt khi dùng chất ức chế CYP3A4/P-gp; tránh phối mạnh như clarithromycin ở CKD.",
+      "adverse": "Tiêu chảy, buồn nôn; độc tủy, bệnh cơ/neuropathy khi tích lũy; tương tác có thể tử vong.",
+      "monitor": "CBC khi dùng dài/nguy cơ, CK nếu yếu cơ, chức năng thận/gan và danh mục tương tác.",
+      "renal": "Phải giảm tần suất/liều trong CKD nặng và tránh một số tương tác; không áp phác đồ chuẩn máy móc.",
+      "trend": "Xu hướng: low-dose colchicine; tránh “uống đến khi tiêu chảy”.",
+      "exam_trap": "Bẫy: CKD + clarithromycin + colchicine liều thường.",
+      "sources": [
+        "https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24180",
+        "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=96ca32da-68cc-d757-e053-2995a90a76d8"
+      ]
+    },
+    {
+      "id": "febuxostat",
+      "generic": "Febuxostat",
+      "brands": "Adenuric/Uloric; generic febuxostat",
+      "drug_class": "Ức chế xanthine oxidase",
+      "domains": [
+        "Gout"
+      ],
+      "route": "Uống",
+      "start": "40 mg/ngày.",
+      "usual": "40–80 mg/ngày.",
+      "max": "80 mg/ngày theo nhãn Hoa Kỳ; một số thị trường có 120 mg.",
+      "titrate": "Nếu urate vẫn >6 mg/dL sau khoảng 2 tuần có thể tăng 80 mg/ngày theo nhãn Hoa Kỳ.",
+      "prefer": "Dùng khi allopurinol không dung nạp/chống chỉ định hoặc không đạt mục tiêu dù tối ưu.",
+      "combine": "Dự phòng flare khi khởi bằng colchicine/thuốc phù hợp.",
+      "hold_stop": "Xem lại ở người có bệnh tim mạch lớn; lựa chọn cần cân bằng dữ liệu an toàn và guideline hiện hành.",
+      "adverse": "Tăng men gan, flare lúc đầu; cảnh báo tim mạch trên một số nhãn.",
+      "monitor": "Urate, men gan; bệnh tim mạch nền.",
+      "renal": "Không cần chỉnh nhiều ở CKD nhẹ-vừa; severe CKD cần theo nhãn khu vực.",
+      "trend": "Xu hướng: allopurinol vẫn ưu tiên đầu tay; febuxostat là thuốc thay thế quan trọng.",
+      "exam_trap": "Bẫy: dùng febuxostat đầu tay chỉ vì CKD dù bệnh nhân chưa từng thử allopurinol liều thấp.",
+      "sources": [
+        "https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24180"
+      ]
+    },
+    {
+      "id": "levothyroxine",
+      "generic": "Levothyroxine",
+      "brands": "Euthyrox; Levoxyl; Synthroid",
+      "drug_class": "Hormone tuyến giáp T4",
+      "domains": [
+        "Suy giáp"
+      ],
+      "route": "Uống",
+      "start": "Người cao tuổi có bệnh tim: 12,5–25 mcg/ngày. Người >50 không bệnh tim thường 25–50 mcg/ngày.",
+      "usual": "Thường <1 mcg/kg/ngày ở người già; cá thể hóa theo TSH và triệu chứng.",
+      "max": ">200 mcg/ngày hiếm khi cần; >300 mcg/ngày thường gợi không tuân thủ/kém hấp thu/tương tác.",
+      "titrate": "Tăng 12,5–25 mcg mỗi 4–6 hoặc 6–8 tuần; ở CAD tăng chậm hơn.",
+      "prefer": "Ưu tiên “start low, go slow” khi CAD/già; mục tiêu tránh cả suy giáp lẫn cường giáp do thuốc.",
+      "combine": "Tách xa calcium, sắt và nhiều thuốc làm giảm hấp thu; cố định cách uống.",
+      "hold_stop": "Giảm liều nếu TSH bị ức chế/quá liều; không dừng đột ngột chỉ vì một TSH chưa tối ưu nếu chưa đánh giá tuân thủ/tương tác.",
+      "adverse": "Hồi hộp, rung nhĩ, đau thắt ngực, mất xương khi quá liều.",
+      "monitor": "TSH sau 6–8 tuần thay đổi liều; mạch, triệu chứng tim; bone risk khi quá điều trị.",
+      "renal": "Không chỉnh theo eGFR.",
+      "trend": "Xu hướng lão khoa: tránh điều trị quá mức; TSH mục tiêu có thể cá thể hóa theo tuổi/bệnh đồng mắc.",
+      "exam_trap": "Bẫy: tăng liều vì TSH cao mà không hỏi bệnh nhân uống levothyroxine cùng calcium/iron.",
+      "sources": [
+        "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97e28b00-9913-463f-9de2-08c828edbe67"
+      ]
+    },
+    {
+      "id": "hydrocortisone-replacement",
+      "generic": "Hydrocortisone thay thế",
+      "brands": "Cortef; hydrocortisone generic",
+      "drug_class": "Glucocorticoid",
+      "domains": [
+        "Suy thượng thận"
+      ],
+      "route": "Uống/IV/IM",
+      "start": "Thay thế mạn: tổng 15–25 mg/ngày chia 2–4 liều, liều lớn buổi sáng. Cơn suy thượng thận: 100 mg IV/IM ngay.",
+      "usual": "Mạn: 15–25 mg/ngày. Khi stress đáng kể: ít nhất 40 mg/ngày uống chia liều.",
+      "max": "Không có “trần” cấp cứu cứng trong cơn; sau liều đầu thường 200 mg IV/24 giờ hoặc 50 mg IV/IM mỗi 6 giờ khi bệnh nặng.",
+      "titrate": "Mạn: chỉnh theo lâm sàng, không theo cortisol hằng ngày. Stress: tăng tạm thời rồi quay về liều nền khi ổn.",
+      "prefer": "Hydrocortisone là lựa chọn đầu tay thay thế ở suy thượng thận; trong cơn phải cho ngay, không chờ xét nghiệm.",
+      "combine": "Suy thượng thận nguyên phát cần thêm mineralocorticoid khi ổn; trong cơn hydrocortisone liều cao có hoạt tính mineralocorticoid đủ ban đầu.",
+      "hold_stop": "Không dừng đột ngột ở người lệ thuộc steroid. Sau stress/cơn: giảm về liều thay thế theo ổn định và nguyên nhân.",
+      "adverse": "Dùng quá liều mạn: tăng cân, loãng xương, ĐTĐ, nhiễm trùng, tăng HA; thiếu liều: mệt, tụt HA, hạ Na.",
+      "monitor": "HA, điện giải, cân nặng, dấu quá/thiếu thay thế; giáo dục sick-day rules.",
+      "renal": "Không chỉnh liều thận thường quy.",
+      "trend": "Xu hướng: giáo dục tự tiêm khẩn cấp/sick-day rules là phần bắt buộc, không chỉ nhớ liều.",
+      "exam_trap": "Bẫy: nghi cơn suy thượng thận nhưng chờ cortisol rồi mới tiêm hydrocortisone.",
+      "sources": [
+        "https://www.nice.org.uk/guidance/NG243/chapter/recommendations"
+      ]
+    },
+    {
+      "id": "fludrocortisone",
+      "generic": "Fludrocortisone",
+      "brands": "Florinef; generic fludrocortisone",
+      "drug_class": "Mineralocorticoid",
+      "domains": [
+        "Suy thượng thận nguyên phát"
+      ],
+      "route": "Uống",
+      "start": "50 microgam/ngày.",
+      "usual": "50–200 microgam/ngày thường gặp; NICE cho phép chỉnh tới 300 microgam/ngày theo đáp ứng.",
+      "max": "300 microgam/ngày theo NICE 2024 (trên mức này off-label trong bối cảnh hướng dẫn).",
+      "titrate": "Tăng/giảm theo HA tư thế, điện giải, renin và triệu chứng thèm muối.",
+      "prefer": "Chỉ dùng khi thiếu mineralocorticoid, chủ yếu suy thượng thận nguyên phát.",
+      "combine": "Dùng cùng hydrocortisone thay thế.",
+      "hold_stop": "Giảm nếu tăng HA, phù, hạ K; không dùng ở suy thượng thận thứ phát/tertiary nếu không có chỉ định mineralocorticoid.",
+      "adverse": "Tăng HA, phù, hạ K, quá tải dịch.",
+      "monitor": "HA ngồi/đứng, Na/K, renin khi có.",
+      "renal": "Không có bảng chỉnh thận đơn giản; nguy cơ giữ muối-nước tăng ở CKD/HF.",
+      "trend": "Xu hướng: titrate theo triệu chứng + renin/electrolyte, không cố định một liều cho tất cả.",
+      "exam_trap": "Bẫy: kê fludrocortisone cho suy thượng thận thứ phát.",
+      "sources": [
+        "https://www.nice.org.uk/guidance/NG243/chapter/recommendations"
+      ]
+    },
+    {
+      "id": "alendronate",
+      "generic": "Alendronate",
+      "brands": "Fosamax; generic alendronate",
+      "drug_class": "Bisphosphonate uống",
+      "domains": [
+        "Loãng xương"
+      ],
+      "route": "Uống",
+      "start": "70 mg 1 lần/tuần để điều trị loãng xương.",
+      "usual": "70 mg/tuần.",
+      "max": "70 mg/tuần cho điều trị loãng xương.",
+      "titrate": "Không titrate. Uống lúc đói với nước lọc, ngồi/đứng ≥30 phút, không ăn/uống/thuốc khác trong ít nhất 30 phút.",
+      "prefer": "Thường là lựa chọn đầu tay nếu nguy cơ gãy xương cao và đường tiêu hóa/thận phù hợp.",
+      "combine": "Đảm bảo đủ calcium/vitamin D; không dùng đồng thời với thuốc uống cản hấp thu vào cùng thời điểm.",
+      "hold_stop": "Đánh giá lại sau 3–5 năm; người nguy cơ thấp có thể cân nhắc drug holiday, người nguy cơ cao tiếp tục lâu hơn theo guideline.",
+      "adverse": "Viêm thực quản, đau cơ-xương; hoại tử xương hàm và gãy xương đùi không điển hình hiếm khi dùng dài.",
+      "monitor": "Chức năng thận, Ca/vit D, răng miệng/nguy cơ ONJ, tuân thủ cách uống.",
+      "renal": "Thường không khuyến cáo nếu CrCl <35 mL/phút theo nhãn.",
+      "trend": "Xu hướng: chọn theo nguy cơ gãy xương và khả năng tuân thủ; drug holiday chỉ áp dụng bisphosphonate, không áp denosumab.",
+      "exam_trap": "Bẫy: ngưng denosumab “nghỉ thuốc” giống alendronate.",
+      "sources": [
+        "https://www.nogg.org.uk/full-guideline",
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=815a87c4-e489-4eb9-9a2e-fb7a16642f01"
+      ]
+    },
+    {
+      "id": "zoledronic-acid",
+      "generic": "Zoledronic acid 5 mg",
+      "brands": "Aclasta/Reclast",
+      "drug_class": "Bisphosphonate truyền tĩnh mạch",
+      "domains": [
+        "Loãng xương"
+      ],
+      "route": "Truyền IV",
+      "start": "5 mg truyền IV ≥15 phút mỗi năm.",
+      "usual": "5 mg mỗi năm.",
+      "max": "5 mg mỗi năm cho điều trị loãng xương.",
+      "titrate": "Không titrate; truyền định kỳ.",
+      "prefer": "Hữu ích khi không dung nạp/không tuân thủ bisphosphonate uống và chức năng thận cho phép.",
+      "combine": "Đảm bảo calcium/vitamin D; có thể acetaminophen giảm phản ứng pha cấp nếu phù hợp.",
+      "hold_stop": "Đánh giá lại sau vài năm tùy nguy cơ; tránh/hoãn khi hạ Ca, mất nước hoặc suy thận cấp.",
+      "adverse": "Phản ứng giả cúm sau truyền, hạ Ca, độc thận; ONJ/gãy đùi không điển hình hiếm.",
+      "monitor": "Creatinin trước truyền, Ca/vit D, hydrat hóa, răng miệng.",
+      "renal": "Chống chỉ định/không dùng nếu CrCl <35 mL/phút theo nhãn Reclast.",
+      "trend": "Xu hướng: rất thuận tiện cho người già không thể tuân thủ cách uống bisphosphonate.",
+      "exam_trap": "Bẫy: truyền ngay cho bệnh nhân đang mất nước/AKI.",
+      "sources": [
+        "https://www.nogg.org.uk/full-guideline",
+        "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=reclast"
+      ]
+    },
+    {
+      "id": "denosumab",
+      "generic": "Denosumab",
+      "brands": "Prolia",
+      "drug_class": "Kháng RANKL",
+      "domains": [
+        "Loãng xương"
+      ],
+      "route": "Tiêm dưới da",
+      "start": "60 mg mỗi 6 tháng.",
+      "usual": "60 mg mỗi 6 tháng.",
+      "max": "60 mg mỗi 6 tháng.",
+      "titrate": "Không titrate; phải đúng lịch.",
+      "prefer": "Hữu ích nguy cơ gãy xương cao, kể cả khi không dùng được bisphosphonate; nhưng CKD tiến triển tăng nguy cơ hạ Ca nặng.",
+      "combine": "Bổ sung calcium/vitamin D; phải có kế hoạch thuốc chống hủy xương khác khi ngừng.",
+      "hold_stop": "Không được “nghỉ thuốc” tùy ý; nếu dừng phải chuyển tiếp antiresorptive để tránh rebound gãy đốt sống.",
+      "adverse": "Hạ Ca, nhiễm trùng da hiếm, ONJ, gãy đùi không điển hình; rebound vertebral fracture khi bỏ liều/ngưng.",
+      "monitor": "Ca/vit D, CKD-MBD ở CKD nặng, lịch tiêm, răng miệng.",
+      "renal": "Không chỉnh liều thận nhưng CKD tiến triển làm nguy cơ hạ Ca tăng rõ.",
+      "trend": "Xu hướng: hiệu quả mạnh nhưng “exit strategy” là bắt buộc.",
+      "exam_trap": "Bẫy: quên mũi 6 tháng rồi không có thuốc chuyển tiếp.",
+      "sources": [
+        "https://www.nogg.org.uk/full-guideline",
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?audience=professional&setid=49e5afe9-a0c7-40c4-af9f-f287a80c5c88"
+      ]
+    },
+    {
+      "id": "peg",
+      "generic": "Polyethylene glycol (PEG/macrogol)",
+      "brands": "MiraLAX; Movicol/macrogol preparations",
+      "drug_class": "Nhuận tràng thẩm thấu",
+      "domains": [
+        "Táo bón"
+      ],
+      "route": "Uống",
+      "start": "Thường 17 g bột hòa nước mỗi ngày với chế phẩm PEG 3350; sản phẩm macrogol-electrolyte có liều gói khác.",
+      "usual": "1 liều/ngày; có thể chỉnh theo đáp ứng và chế phẩm.",
+      "max": "Không có một “liều tối đa” chung cho mọi chế phẩm; theo nhãn sản phẩm.",
+      "titrate": "Tăng/giảm theo số lần đi cầu và độ mềm phân.",
+      "prefer": "AGA-ACG 2023: PEG là OTC có khuyến cáo mạnh cho dùng mạn trong táo bón vô căn.",
+      "combine": "Có thể phối chất xơ hoặc stimulant cứu hộ khi cần.",
+      "hold_stop": "Giảm/ngưng nếu tiêu chảy, mất nước; không dùng nếu nghi tắc ruột.",
+      "adverse": "Đầy hơi, tiêu chảy, khó chịu bụng.",
+      "monitor": "Tần suất/đặc điểm phân, nước-điện giải nếu tiêu chảy kéo dài hoặc frail.",
+      "renal": "Thường an toàn ở CKD hơn magnesium laxative; vẫn phải theo dõi mất nước.",
+      "trend": "Xu hướng: PEG thường là nền OTC ưu tiên thay vì docusate đơn thuần.",
+      "exam_trap": "Bẫy: táo bón mới + sút cân/thiếu máu mà chỉ thêm nhuận tràng không tìm dấu báo động.",
+      "sources": [
+        "https://gi.org/journals-publications/ebgi/schoenfeld2_june2023/"
+      ]
+    },
+    {
+      "id": "bisacodyl",
+      "generic": "Bisacodyl",
+      "brands": "Dulcolax; generic bisacodyl",
+      "drug_class": "Nhuận tràng kích thích",
+      "domains": [
+        "Táo bón"
+      ],
+      "route": "Uống/đặt hậu môn",
+      "start": "5 mg uống buổi tối ở người già; có thể 5–10 mg tùy đáp ứng.",
+      "usual": "5–10 mg uống/ngày ngắn hạn hoặc 10 mg đặt khi cần.",
+      "max": "Theo nhãn chế phẩm; không dùng liều cao kéo dài không đánh giá.",
+      "titrate": "Dùng ngắn hạn/cứu hộ; chỉnh theo đáp ứng.",
+      "prefer": "AGA-ACG 2023 khuyến cáo mạnh cho dùng ngắn hạn (<4 tuần) hoặc cứu hộ.",
+      "combine": "Có thể thêm vào PEG khi cần cứu hộ.",
+      "hold_stop": "Giảm/ngưng nếu đau quặn/tiêu chảy; không dùng khi nghi tắc ruột.",
+      "adverse": "Đau quặn, tiêu chảy, hạ K nếu lạm dụng.",
+      "monitor": "Số lần đi cầu, đau bụng, điện giải nếu dùng thường xuyên.",
+      "renal": "Không cần chỉnh thận điển hình.",
+      "trend": "Xu hướng: dùng đúng vai trò rescue, không phải cứ táo bón là duy trì hằng ngày vô hạn.",
+      "exam_trap": "Bẫy: lạm dụng stimulant mà không rà thuốc gây táo bón như anticholinergic/opioid.",
+      "sources": [
+        "https://gi.org/journals-publications/ebgi/schoenfeld2_june2023/"
+      ]
+    },
+    {
+      "id": "senna",
+      "generic": "Senna/sennosides",
+      "brands": "Senokot; generic senna",
+      "drug_class": "Nhuận tràng kích thích",
+      "domains": [
+        "Táo bón"
+      ],
+      "route": "Uống",
+      "start": "8,6–17,2 mg sennosides buổi tối tùy chế phẩm.",
+      "usual": "1 lần buổi tối hoặc theo đáp ứng.",
+      "max": "Theo nhãn chế phẩm; tránh vượt liều đóng gói kéo dài.",
+      "titrate": "Tăng/giảm theo đáp ứng, ưu tiên liều thấp ở người frail.",
+      "prefer": "Lựa chọn có thể dùng; bằng chứng thấp hơn PEG/bisacodyl trong guideline 2023.",
+      "combine": "Phối osmotic laxative khi cần trong phác đồ từng bước.",
+      "hold_stop": "Ngưng/giảm nếu tiêu chảy, đau quặn, hạ K.",
+      "adverse": "Đau bụng, tiêu chảy, rối loạn điện giải khi lạm dụng.",
+      "monitor": "Phân, điện giải nếu dùng kéo dài/nguy cơ.",
+      "renal": "Không chỉnh thận thường quy; tránh mất nước.",
+      "trend": "Xu hướng: dùng có mục tiêu, không coi là thuốc “vô hại” ở người già frail.",
+      "exam_trap": "Bẫy: tiêu chảy do senna bị nhầm nhiễm trùng rồi cho thêm thuốc.",
+      "sources": [
+        "https://gi.org/journals-publications/ebgi/schoenfeld2_june2023/"
+      ]
+    },
+    {
+      "id": "lactulose",
+      "generic": "Lactulose",
+      "brands": "Duphalac; generic lactulose",
+      "drug_class": "Nhuận tràng thẩm thấu",
+      "domains": [
+        "Táo bón"
+      ],
+      "route": "Uống",
+      "start": "15–30 mL/ngày tùy nồng độ/chế phẩm; chỉnh theo 1–2 phân mềm/ngày.",
+      "usual": "15–30 mL 1–2 lần/ngày tùy đáp ứng.",
+      "max": "Không có trần chung; tăng quá mức chủ yếu gây đầy hơi/tiêu chảy.",
+      "titrate": "Tăng dần theo phân, không theo “con số mg” cứng.",
+      "prefer": "Có thể dùng khi PEG không phù hợp/dung nạp kém; guideline chỉ khuyến cáo có điều kiện cho CIC.",
+      "combine": "Có thể phối stimulant cứu hộ.",
+      "hold_stop": "Giảm/ngưng nếu tiêu chảy/mất nước; tránh nếu tắc ruột.",
+      "adverse": "Đầy hơi, chướng bụng, tiêu chảy, rối loạn điện giải.",
+      "monitor": "Phân, hydrat hóa, điện giải nếu kéo dài.",
+      "renal": "Không cần chỉnh thận thường quy.",
+      "trend": "Xu hướng: PEG thường có bằng chứng mạnh hơn cho CIC.",
+      "exam_trap": "Bẫy: tăng lactulose liên tục ở người già đã tiêu chảy và hạ Na.",
+      "sources": [
+        "https://gi.org/journals-publications/ebgi/schoenfeld2_june2023/"
+      ]
+    },
+    {
+      "id": "loperamide",
+      "generic": "Loperamide",
+      "brands": "Imodium; generic loperamide",
+      "drug_class": "Giảm nhu động ruột ngoại biên",
+      "domains": [
+        "Tiêu chảy"
+      ],
+      "route": "Uống",
+      "start": "Tiêu chảy cấp người lớn: 4 mg ban đầu, sau đó 2 mg sau mỗi lần phân lỏng nếu không có dấu viêm/xâm lấn.",
+      "usual": "Tùy đáp ứng, dùng ngắn hạn.",
+      "max": "Tối đa thường 8 mg/ngày OTC hoặc 16 mg/ngày theo đơn/nhãn; tuân theo sản phẩm địa phương.",
+      "titrate": "Không titrate kéo dài; dùng liều thấp nhất đủ kiểm soát.",
+      "prefer": "Chỉ phù hợp tiêu chảy không có sốt cao, phân máu, nghi C. difficile hoặc viêm đại tràng nặng.",
+      "combine": "Bù dịch/điện giải là nền; không thay thế đánh giá nguyên nhân.",
+      "hold_stop": "Ngưng ngay nếu chướng bụng, bí trung đại tiện, đau tăng; tránh trong lỵ/viêm đại tràng độc.",
+      "adverse": "Táo bón, chướng bụng; liều rất cao có thể gây loạn nhịp nguy hiểm.",
+      "monitor": "Dấu mất nước, sốt/phân máu, bụng chướng, thời gian bệnh.",
+      "renal": "Không chỉnh thận thường quy.",
+      "trend": "Xu hướng: dùng chọn lọc; ưu tiên bù dịch và nhận diện nguyên nhân nguy hiểm ở người già.",
+      "exam_trap": "Bẫy: tiêu chảy sau kháng sinh + sốt + bạch cầu tăng mà cho loperamide trước khi nghĩ C. difficile.",
+      "sources": []
+    }
+  ]
+}
