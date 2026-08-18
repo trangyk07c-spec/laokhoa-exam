@@ -88,7 +88,7 @@ body:has(.lesson:target) .lesson.active:not(:target){display:none!important}
 <body>
 <div class="app">
 <aside class="sidebar" id="sidebar">
-  <div class="brand"><h1>LÃO KHOA — DEEP LEARNING</h1><p>Bản ôn thi PWA · cài lên Màn hình chính</p></div>
+  <div class="brand"><h1>LÃO KHOA — DEEP LEARNING</h1><p>Bản ôn thi PWA · V5 sửa lỗi lưu tiến độ</p></div>
   <div class="progressbox"><div class="progressbar"><i id="progressFill"></i></div><div class="progress-meta"><span id="progressText">0/17 bài</span><span>18/08/2026</span></div></div>
   <div class="side-modes">
     <details class="sideDetails active" id="studyDetails" open>
@@ -434,7 +434,7 @@ const lessons=[
 ];
 const lessonDefs=lessons.filter(x=>x[0]!=='quiz');
 const nav=document.getElementById('nav'),sidebar=document.getElementById('sidebar'),app=document.querySelector('.app');
-let currentMode=storage.getItem('geriatricMode')||'study';
+let currentMode='study';
 function doneSet(){try{return new Set(JSON.parse(storage.getItem('geriatricDone')||'[]'))}catch{return new Set()}}
 function renderNav(){
   const done=doneSet();
@@ -445,19 +445,19 @@ function renderNav(){
     const id=a.dataset.fallback;
     a.dataset.target=id;
     a.classList.toggle('done',done.has(id));
-    a.onclick=()=>{
-      try{currentMode='study';app.classList.remove('quiz-mode');const sd=document.getElementById('studyDetails'),qd=document.getElementById('quizDetails');if(sd){sd.open=true;sd.classList.add('active')}if(qd)qd.classList.remove('active');showLesson(id);}catch(e){}
-      /* Không preventDefault: href #id là cơ chế dự phòng chắc chắn. */
-      return true;
+    a.onclick=(e)=>{
+      if(e)e.preventDefault();
+      try{switchMode('study',id);}catch(err){location.hash=id;}
+      return false;
     };
   });
   updateProgress();
 }
 function updateProgress(){const done=doneSet();const count=[...done].filter(x=>lessonDefs.some(l=>l[0]===x)).length;document.getElementById('progressText').textContent=`${count}/17 bài`;document.getElementById('progressFill').style.width=(count/17*100)+'%';document.querySelectorAll('.donebtn').forEach(b=>{const yes=done.has(b.dataset.done);b.classList.toggle('done',yes);b.textContent=yes?'Đã học ✓':'Đánh dấu đã học'})}
-function initLessonPicker(){const p=document.getElementById('lessonPicker');p.innerHTML=lessonDefs.map(([id,n,t])=>`<option value="${id}">Bài ${n} · ${t}</option>`).join('');p.onchange=()=>{switchMode('study');showLesson(p.value)};}
+function initLessonPicker(){const p=document.getElementById('lessonPicker');p.innerHTML=lessonDefs.map(([id,n,t])=>`<option value="${id}">Bài ${n} · ${t}</option>`).join('');p.onchange=()=>switchMode('study',p.value);}
 function injectLessonNavigation(){lessonDefs.forEach(([id,n,title],idx)=>{const sec=document.querySelector(`.lesson[data-id="${id}"]`);if(!sec||sec.querySelector('.lesson-nav'))return;const prev=lessonDefs[idx-1],next=lessonDefs[idx+1];const box=document.createElement('div');box.className='lesson-nav';const pb=document.createElement('button');pb.disabled=!prev;pb.innerHTML=prev?`<span class="ln-small">Bài trước</span>← ${prev[2]}`:`<span class="ln-small">Bài trước</span>Đây là bài đầu`;if(prev)pb.onclick=()=>showLesson(prev[0]);const nb=document.createElement('button');nb.innerHTML=next?`<span class="ln-small">Bài tiếp theo</span>${next[2]} →`:`<span class="ln-small">Đã hết lý thuyết</span>Sang MCQ →`;nb.onclick=()=>next?showLesson(next[0]):switchMode('quiz');box.append(pb,nb);sec.appendChild(box);});}
-function showLesson(id){if(id==='quiz'){switchMode('quiz');return;}document.querySelectorAll('.lesson').forEach(sec=>sec.classList.toggle('active',sec.dataset.id===id));document.querySelectorAll('.nav [data-target]').forEach(b=>b.classList.toggle('active',b.dataset.target===id));const picker=document.getElementById('lessonPicker');if(picker)picker.value=id;const def=lessonDefs.find(x=>x[0]===id),ct=document.getElementById('currentTitle');if(ct&&def)ct.textContent=`Bài ${def[1]} · ${def[2]}`;document.getElementById('search').value='';clearMarks();try{history.replaceState(null,'','#'+id)}catch(e){};try{window.scrollTo({top:0,behavior:'smooth'})}catch(e){window.scrollTo(0,0)};if(innerWidth<900)sidebar.classList.remove('open');storage.setItem('geriatricLast',id);}
-function switchMode(mode){currentMode=mode;storage.setItem('geriatricMode',mode);app.classList.toggle('quiz-mode',mode==='quiz');document.getElementById('studyTab').classList.toggle('active',mode==='study');document.getElementById('quizTab').classList.toggle('active',mode==='quiz');const sd=document.getElementById('studyDetails'),qd=document.getElementById('quizDetails');if(sd)sd.classList.toggle('active',mode==='study');if(qd)qd.classList.toggle('active',mode==='quiz');if(mode==='study'&&sd)sd.open=true;if(mode==='quiz'&&qd)qd.open=true;if(mode==='quiz'){document.querySelectorAll('.lesson').forEach(sec=>sec.classList.toggle('active',sec.dataset.id==='quiz'));const ct=document.getElementById('currentTitle');if(ct)ct.textContent='MCQ · Lão khoa đa bệnh lý';try{history.replaceState(null,'','#quiz')}catch(e){};try{window.scrollTo({top:0,behavior:'smooth'})}catch(e){window.scrollTo(0,0)};renderQuiz();if(innerWidth<900)sidebar.classList.remove('open');}else{const last=storage.getItem('geriatricLast');showLesson(last&&last!=='quiz'?last:'start');}}
+function showLesson(id){if(id==='quiz'){switchMode('quiz');return;}if(!lessonDefs.some(x=>x[0]===id))id='start';document.querySelectorAll('.lesson').forEach(sec=>sec.classList.toggle('active',sec.dataset.id===id));document.querySelectorAll('.nav [data-target]').forEach(b=>b.classList.toggle('active',b.dataset.target===id));const picker=document.getElementById('lessonPicker');if(picker)picker.value=id;const def=lessonDefs.find(x=>x[0]===id),ct=document.getElementById('currentTitle');if(ct&&def)ct.textContent=`Bài ${def[1]} · ${def[2]}`;const search=document.getElementById('search');if(search)search.value='';clearMarks();try{history.replaceState(null,'','#'+id)}catch(e){};try{window.scrollTo({top:0,behavior:'smooth'})}catch(e){window.scrollTo(0,0)};if(innerWidth<900)sidebar.classList.remove('open');}
+function switchMode(mode,targetId){currentMode=mode;app.classList.toggle('quiz-mode',mode==='quiz');document.getElementById('studyTab').classList.toggle('active',mode==='study');document.getElementById('quizTab').classList.toggle('active',mode==='quiz');const sd=document.getElementById('studyDetails'),qd=document.getElementById('quizDetails');if(sd)sd.classList.toggle('active',mode==='study');if(qd)qd.classList.toggle('active',mode==='quiz');if(mode==='study'&&sd)sd.open=true;if(mode==='quiz'&&qd)qd.open=true;if(mode==='quiz'){document.querySelectorAll('.lesson').forEach(sec=>sec.classList.toggle('active',sec.dataset.id==='quiz'));const ct=document.getElementById('currentTitle');if(ct)ct.textContent='MCQ · Lão khoa đa bệnh lý';try{history.replaceState(null,'','#quiz')}catch(e){};try{window.scrollTo({top:0,behavior:'smooth'})}catch(e){window.scrollTo(0,0)};renderQuiz();if(innerWidth<900)sidebar.classList.remove('open');}else{const active=document.querySelector('.lesson.active');const chosen=targetId||(active&&active.dataset.id!=='quiz'?active.dataset.id:'start');showLesson(chosen);}}
 document.getElementById('studyTab').onclick=()=>switchMode('study');document.getElementById('quizTab').onclick=()=>switchMode('quiz');
 document.addEventListener('click',e=>{if(e.target.matches('.donebtn')){let d=doneSet(),id=e.target.dataset.done;if(d.has(id))d.delete(id);else d.add(id);storage.setItem('geriatricDone',JSON.stringify([...d]));renderNav();updateProgress()}});
 document.getElementById('menuBtn').onclick=()=>sidebar.classList.toggle('open');
@@ -502,9 +502,10 @@ studyDetails.addEventListener('toggle',()=>{if(studyDetails.open&&currentMode!==
 quizDetails.addEventListener('toggle',()=>{if(quizDetails.open&&currentMode!=='quiz')switchMode('quiz')});
 function sideFilter(kind,e){if(e)e.preventDefault();switchMode('quiz');const cat=document.getElementById('quizCat'),typ=document.getElementById('quizType');quizWrongOnly=false;quizCursor=0;if(kind==='diagnosis'){cat.value='Tất cả';typ.value='Chẩn đoán';storage.setItem('geriatricQuizCat','Tất cả');storage.setItem('geriatricQuizType','Chẩn đoán')}else if(kind==='multi'){cat.value='Ca đa bệnh';typ.value='Tất cả dạng câu';storage.setItem('geriatricQuizCat','Ca đa bệnh');storage.setItem('geriatricQuizType','Tất cả dạng câu')}else if(kind==='wrong'){cat.value='Tất cả';typ.value='Tất cả dạng câu';quizWrongOnly=true}else{cat.value='Tất cả';typ.value='Tất cả dạng câu';storage.setItem('geriatricQuizCat','Tất cả');storage.setItem('geriatricQuizType','Tất cả dạng câu')}const wb=document.getElementById('quizWrong');if(wb)wb.textContent=quizWrongOnly?'Hiện tất cả':'Chỉ câu đã sai';renderQuiz();if(innerWidth<900)sidebar.classList.remove('open')}
 document.getElementById('sideQuizAll').onclick=e=>sideFilter('all',e);document.getElementById('sideQuizDiagnosis').onclick=e=>sideFilter('diagnosis',e);document.getElementById('sideQuizMulti').onclick=e=>sideFilter('multi',e);document.getElementById('sideQuizWrong').onclick=e=>sideFilter('wrong',e);
-window.addEventListener('hashchange',()=>{const id=location.hash.slice(1);if(id==='quiz'){if(currentMode!=='quiz')switchMode('quiz')}else if(lessonDefs.some(x=>x[0]===id)){if(currentMode!=='study')switchMode('study');showLesson(id)}});
+window.addEventListener('hashchange',()=>{const id=location.hash.slice(1);if(id==='quiz'){if(currentMode!=='quiz')switchMode('quiz')}else if(lessonDefs.some(x=>x[0]===id)){switchMode('study',id)}});
 
-renderNav();initLessonPicker();injectLessonNavigation();initQuiz();const _h=location.hash.slice(1);if(_h==='quiz')switchMode('quiz');else if(lessonDefs.some(x=>x[0]===_h)){switchMode('study');showLesson(_h)}else switchMode(currentMode==='quiz'?'quiz':'study');
+storage.removeItem('geriatricLast');storage.removeItem('geriatricMode');
+renderNav();initLessonPicker();injectLessonNavigation();initQuiz();const _h=location.hash.slice(1);if(_h==='quiz')switchMode('quiz');else if(lessonDefs.some(x=>x[0]===_h))switchMode('study',_h);else switchMode('study','start');
 
 </script>
 
