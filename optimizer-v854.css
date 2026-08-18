@@ -1,0 +1,33 @@
+
+/* V8.5.4 — global lesson optimization */
+.v854-outline{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:8px;
+  margin:14px 0 20px;
+  padding:10px 12px;
+  border:1px solid #dce7e3;
+  background:#f8fbfa;
+  border-radius:14px;
+  font-size:13px;
+  color:#53605c;
+}
+.v854-outline b{color:#17332e;margin-right:3px}
+.v854-outline span{
+  padding:4px 8px;
+  border-radius:999px;
+  background:#edf6f3;
+  color:#0d655d;
+  font-weight:700;
+}
+[hidden][data-v854-hidden]{display:none!important}
+html.v854-optimized .lesson-page > .card,
+html.v854-optimized .v84-section,
+html.v854-optimized .v85-complete{
+  scroll-margin-top:78px;
+}
+html.v854-optimized .v84-section h2,
+html.v854-optimized .v85-complete h2{
+  line-height:1.25!important;
+}

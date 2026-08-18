@@ -1,6 +1,6 @@
 (()=> {
  const add=(href,key)=>{if(document.querySelector(`link[data-${key}]`))return;const l=document.createElement('link');l.rel='stylesheet';l.href=href;l.setAttribute(`data-${key}`,'1');document.head.appendChild(l)};
  const load=(src,key)=>new Promise((ok,fail)=>{if(document.querySelector(`script[data-${key}]`))return ok();const s=document.createElement('script');s.src=src;s.setAttribute(`data-${key}`,'1');s.onload=ok;s.onerror=fail;document.head.appendChild(s)});
- add('ui-v83.css?v=853','v853-ui83');add('ui-v84.css?v=853','v853-ui84');add('standards-v85.css?v=853','v853-v85');add('hotfix-v851.css?v=853','v853-hotfix');add('emergency-v852.css?v=853','v853-emergency');
- (async()=>{try{await load('nav-v82.js?v=853','v853-nav')}catch(e){}try{await load('extra-nav-v851.js?v=853','v853-extra')}catch(e){}try{await load('dedupe-v853.js?v=853','v853-dedupe')}catch(e){}document.documentElement.classList.add('v852-ready');const el=document.querySelector('.update-banner');if(el){el.classList.add('show');el.innerHTML='<b>V8.5.3</b> · Không lặp chẩn đoán · Drug table mở rộng'}})();
+ add('ui-v83.css?v=854','v854-ui83');add('ui-v84.css?v=854','v854-ui84');add('standards-v85.css?v=854','v854-v85');add('hotfix-v851.css?v=854','v854-hotfix');add('emergency-v852.css?v=854','v854-emergency');add('optimizer-v854.css?v=854','v854-optcss');
+ (async()=>{try{await load('nav-v82.js?v=854','v854-nav')}catch(e){}try{await load('extra-nav-v851.js?v=854','v854-extra')}catch(e){}try{await load('optimizer-v854.js?v=854','v854-opt')}catch(e){}document.documentElement.classList.add('v852-ready');const el=document.querySelector('.update-banner');if(el){el.classList.add('show');el.innerHTML='<b>V8.5.4</b> · Bài học đã tối ưu toàn bộ'}})();
 })();
