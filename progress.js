@@ -9,9 +9,13 @@
     b.onclick=()=>{done[PAGE]=!done[PAGE];localStorage.setItem(KEY,JSON.stringify(done));paint();document.querySelectorAll('[data-page="'+PAGE+'"]').forEach(a=>a.classList.toggle('done',!!done[PAGE]));};
   }
   function load(src,id){
-    if(document.querySelector('script[data-v84="'+id+'"]'))return;
-    const s=document.createElement('script');s.src=src;s.dataset.v84=id;document.body.appendChild(s);
+    if(document.querySelector('script[data-v85="'+id+'"]'))return;
+    const s=document.createElement('script');s.src=src;s.dataset.v85=id;document.body.appendChild(s);
   }
   load('nav-v82.js?v=84','nav');
   load('lesson-augment-v84.js?v=84','augment');
+  if(!document.querySelector('link[data-v85-style]')){
+    const l=document.createElement('link');l.rel='stylesheet';l.href='standards-v85.css?v=85';l.dataset.v85Style='1';document.head.appendChild(l);
+  }
+  load('standards-v85.js?v=85','standards');
 })();
