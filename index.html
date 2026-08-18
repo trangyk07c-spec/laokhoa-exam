@@ -64,6 +64,12 @@ mark{background:#ffe68a;color:#242424;border-radius:3px;padding:0 1px}.hide{disp
 }
 
 
+/* ===== V4 FIX: điều hướng bài học ưu tiên liên kết thật ===== */
+.lesson:target{display:block!important}
+body:has(.lesson:target) .lesson.active:not(:target){display:none!important}
+.nav a.active{background:var(--soft);font-weight:800}
+.nav a.done .n{background:var(--brand);border-color:var(--brand);color:#fff}
+.versionFix{display:inline-block;margin-top:7px;padding:3px 8px;border-radius:999px;background:#eafaf0;color:#176638;border:1px solid #b8e3c6;font-size:11px;font-weight:800}
 /* ===== V3: menu lớn bên trái + fallback không cần JavaScript ===== */
 .compatControls{display:none!important}.app{grid-template-columns:320px minmax(0,1fr)}.sidebar{padding:16px 12px}.side-modes{display:grid;gap:9px;margin:8px 2px 12px}.sideDetails{margin:0}.sideDetails summary{list-style:none;width:100%;display:flex;align-items:center;justify-content:space-between;gap:10px;border:1px solid var(--line);background:var(--panel);color:var(--text);border-radius:16px;padding:14px 15px;cursor:pointer;font-weight:850;font-size:16px;box-shadow:var(--shadow)}.sideDetails summary::-webkit-details-marker{display:none}.sideDetails .left{display:flex;align-items:center}.sideIcon{font-size:20px;margin-right:9px}.sideDetails .chev{color:var(--muted);transition:.18s transform}.sideDetails[open] .chev{transform:rotate(90deg)}.sideDetails.active summary{background:var(--brand);border-color:var(--brand);color:#fff}.sideDetails.active .chev{color:#fff}.sideDetails .nav{padding:6px 0 5px 9px;margin-left:8px;border-left:2px solid var(--line)}.sideDetails .nav a{width:100%;color:var(--text);text-decoration:none;text-align:left;border-radius:11px;padding:9px 10px;margin:2px 0;display:flex;gap:9px;align-items:flex-start}.sideDetails .nav a:hover{background:var(--soft)}.quizSideMenu{display:grid;gap:4px;padding:6px 0 5px 9px;margin-left:8px;border-left:2px solid var(--line)}.quizSideMenu a{color:var(--text);text-decoration:none;padding:9px 10px;border-radius:10px}.quizSideMenu a:hover{background:var(--soft)}.sidebarHelp{font-size:12px;color:var(--muted);padding:5px 9px}.currentTitle{font-weight:800;color:var(--brand2);white-space:nowrap}.topbar .search{max-width:none}
 /* MCQ vẫn giữ sidebar */.app.quiz-mode{grid-template-columns:320px minmax(0,1fr)}.app.quiz-mode .sidebar{display:block}.app.quiz-mode .content{max-width:1000px}.app.quiz-mode .mobileMenu{display:none}.app.quiz-mode .search{display:none!important}
@@ -430,11 +436,27 @@ const lessonDefs=lessons.filter(x=>x[0]!=='quiz');
 const nav=document.getElementById('nav'),sidebar=document.getElementById('sidebar'),app=document.querySelector('.app');
 let currentMode=storage.getItem('geriatricMode')||'study';
 function doneSet(){try{return new Set(JSON.parse(storage.getItem('geriatricDone')||'[]'))}catch{return new Set()}}
-function renderNav(){const done=doneSet();nav.innerHTML='';lessonDefs.forEach(([id,n,title])=>{const b=document.createElement('button');b.dataset.target=id;b.className=done.has(id)?'done ':'';b.innerHTML=`<span class="n">${n}</span><span>${title}</span>`;b.onclick=()=>{switchMode('study');showLesson(id)};nav.appendChild(b)});updateProgress();}
+function renderNav(){
+  const done=doneSet();
+  /* V4: giữ nguyên các liên kết <a href="#bai"> thay vì thay chúng bằng button.
+     Nhờ vậy menu bài học vẫn mở được ngay cả khi JavaScript hoặc localStorage gặp lỗi. */
+  const links=[...nav.querySelectorAll('a[data-fallback]')];
+  links.forEach(a=>{
+    const id=a.dataset.fallback;
+    a.dataset.target=id;
+    a.classList.toggle('done',done.has(id));
+    a.onclick=()=>{
+      try{currentMode='study';app.classList.remove('quiz-mode');const sd=document.getElementById('studyDetails'),qd=document.getElementById('quizDetails');if(sd){sd.open=true;sd.classList.add('active')}if(qd)qd.classList.remove('active');showLesson(id);}catch(e){}
+      /* Không preventDefault: href #id là cơ chế dự phòng chắc chắn. */
+      return true;
+    };
+  });
+  updateProgress();
+}
 function updateProgress(){const done=doneSet();const count=[...done].filter(x=>lessonDefs.some(l=>l[0]===x)).length;document.getElementById('progressText').textContent=`${count}/17 bài`;document.getElementById('progressFill').style.width=(count/17*100)+'%';document.querySelectorAll('.donebtn').forEach(b=>{const yes=done.has(b.dataset.done);b.classList.toggle('done',yes);b.textContent=yes?'Đã học ✓':'Đánh dấu đã học'})}
 function initLessonPicker(){const p=document.getElementById('lessonPicker');p.innerHTML=lessonDefs.map(([id,n,t])=>`<option value="${id}">Bài ${n} · ${t}</option>`).join('');p.onchange=()=>{switchMode('study');showLesson(p.value)};}
 function injectLessonNavigation(){lessonDefs.forEach(([id,n,title],idx)=>{const sec=document.querySelector(`.lesson[data-id="${id}"]`);if(!sec||sec.querySelector('.lesson-nav'))return;const prev=lessonDefs[idx-1],next=lessonDefs[idx+1];const box=document.createElement('div');box.className='lesson-nav';const pb=document.createElement('button');pb.disabled=!prev;pb.innerHTML=prev?`<span class="ln-small">Bài trước</span>← ${prev[2]}`:`<span class="ln-small">Bài trước</span>Đây là bài đầu`;if(prev)pb.onclick=()=>showLesson(prev[0]);const nb=document.createElement('button');nb.innerHTML=next?`<span class="ln-small">Bài tiếp theo</span>${next[2]} →`:`<span class="ln-small">Đã hết lý thuyết</span>Sang MCQ →`;nb.onclick=()=>next?showLesson(next[0]):switchMode('quiz');box.append(pb,nb);sec.appendChild(box);});}
-function showLesson(id){if(id==='quiz'){switchMode('quiz');return;}document.querySelectorAll('.lesson').forEach(sec=>sec.classList.toggle('active',sec.dataset.id===id));document.querySelectorAll('.nav button').forEach(b=>b.classList.toggle('active',b.dataset.target===id));const picker=document.getElementById('lessonPicker');if(picker)picker.value=id;const def=lessonDefs.find(x=>x[0]===id),ct=document.getElementById('currentTitle');if(ct&&def)ct.textContent=`Bài ${def[1]} · ${def[2]}`;document.getElementById('search').value='';clearMarks();try{history.replaceState(null,'','#'+id)}catch(e){};try{window.scrollTo({top:0,behavior:'smooth'})}catch(e){window.scrollTo(0,0)};if(innerWidth<900)sidebar.classList.remove('open');storage.setItem('geriatricLast',id);}
+function showLesson(id){if(id==='quiz'){switchMode('quiz');return;}document.querySelectorAll('.lesson').forEach(sec=>sec.classList.toggle('active',sec.dataset.id===id));document.querySelectorAll('.nav [data-target]').forEach(b=>b.classList.toggle('active',b.dataset.target===id));const picker=document.getElementById('lessonPicker');if(picker)picker.value=id;const def=lessonDefs.find(x=>x[0]===id),ct=document.getElementById('currentTitle');if(ct&&def)ct.textContent=`Bài ${def[1]} · ${def[2]}`;document.getElementById('search').value='';clearMarks();try{history.replaceState(null,'','#'+id)}catch(e){};try{window.scrollTo({top:0,behavior:'smooth'})}catch(e){window.scrollTo(0,0)};if(innerWidth<900)sidebar.classList.remove('open');storage.setItem('geriatricLast',id);}
 function switchMode(mode){currentMode=mode;storage.setItem('geriatricMode',mode);app.classList.toggle('quiz-mode',mode==='quiz');document.getElementById('studyTab').classList.toggle('active',mode==='study');document.getElementById('quizTab').classList.toggle('active',mode==='quiz');const sd=document.getElementById('studyDetails'),qd=document.getElementById('quizDetails');if(sd)sd.classList.toggle('active',mode==='study');if(qd)qd.classList.toggle('active',mode==='quiz');if(mode==='study'&&sd)sd.open=true;if(mode==='quiz'&&qd)qd.open=true;if(mode==='quiz'){document.querySelectorAll('.lesson').forEach(sec=>sec.classList.toggle('active',sec.dataset.id==='quiz'));const ct=document.getElementById('currentTitle');if(ct)ct.textContent='MCQ · Lão khoa đa bệnh lý';try{history.replaceState(null,'','#quiz')}catch(e){};try{window.scrollTo({top:0,behavior:'smooth'})}catch(e){window.scrollTo(0,0)};renderQuiz();if(innerWidth<900)sidebar.classList.remove('open');}else{const last=storage.getItem('geriatricLast');showLesson(last&&last!=='quiz'?last:'start');}}
 document.getElementById('studyTab').onclick=()=>switchMode('study');document.getElementById('quizTab').onclick=()=>switchMode('quiz');
 document.addEventListener('click',e=>{if(e.target.matches('.donebtn')){let d=doneSet(),id=e.target.dataset.done;if(d.has(id))d.delete(id);else d.add(id);storage.setItem('geriatricDone',JSON.stringify([...d]));renderNav();updateProgress()}});
@@ -496,5 +518,27 @@ renderNav();initLessonPicker();injectLessonNavigation();initQuiz();const _h=loca
   </div>
 </div>
 
-\n<script>\n(function(){\n  const sheet=document.getElementById('installSheet');\n  const btn=document.getElementById('installBtn');\n  const close=document.getElementById('closeInstall');\n  const status=document.getElementById('installStatus');\n  let deferredPrompt=null;\n  window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredPrompt=e;if(status)status.textContent='Thiết bị này hỗ trợ cài trực tiếp. Bấm “Cài app” rồi xác nhận.';});\n  if(btn)btn.addEventListener('click',async()=>{\n    if(deferredPrompt){deferredPrompt.prompt();try{await deferredPrompt.userChoice}catch(e){}deferredPrompt=null;return;}\n    if(sheet)sheet.classList.add('show');\n    const standalone=window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone===true;\n    if(status)status.textContent=standalone?'Ứng dụng đã đang chạy ở chế độ Màn hình chính.':'Trên iPhone/iPad, thao tác cài đặt được thực hiện từ menu Chia sẻ của Safari.';\n  });\n  if(close)close.addEventListener('click',()=>sheet&&sheet.classList.remove('show'));\n  if(sheet)sheet.addEventListener('click',e=>{if(e.target===sheet)sheet.classList.remove('show')});\n  if('serviceWorker' in navigator && location.protocol.startsWith('http')){\n    window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));\n  }\n})();\n</script>\n
+
+<script>
+(function(){
+  const sheet=document.getElementById('installSheet');
+  const btn=document.getElementById('installBtn');
+  const close=document.getElementById('closeInstall');
+  const status=document.getElementById('installStatus');
+  let deferredPrompt=null;
+  window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredPrompt=e;if(status)status.textContent='Thiết bị này hỗ trợ cài trực tiếp. Bấm “Cài app” rồi xác nhận.';});
+  if(btn)btn.addEventListener('click',async()=>{
+    if(deferredPrompt){deferredPrompt.prompt();try{await deferredPrompt.userChoice}catch(e){}deferredPrompt=null;return;}
+    if(sheet)sheet.classList.add('show');
+    const standalone=window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone===true;
+    if(status)status.textContent=standalone?'Ứng dụng đã đang chạy ở chế độ Màn hình chính.':'Trên iPhone/iPad, thao tác cài đặt được thực hiện từ menu Chia sẻ của Safari.';
+  });
+  if(close)close.addEventListener('click',()=>sheet&&sheet.classList.remove('show'));
+  if(sheet)sheet.addEventListener('click',e=>{if(e.target===sheet)sheet.classList.remove('show')});
+  if('serviceWorker' in navigator && location.protocol.startsWith('http')){
+    window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+  }
+})();
+</script>
+
 </body></html>

@@ -1,4 +1,4 @@
-const CACHE_NAME = "laokhoa-deep-learning-2026-v1";
+const CACHE_NAME = "laokhoa-deep-learning-2026-v4";
 const ASSETS = [
   "./",
   "./index.html",
@@ -17,14 +17,22 @@ self.addEventListener("fetch", event => {
   if (event.request.method !== "GET") return;
   const url = new URL(event.request.url);
   if (url.origin !== self.location.origin) return;
-  event.respondWith(caches.match(event.request).then(cached => {
-    const network = fetch(event.request).then(response => {
+  const isNavigation = event.request.mode === "navigate" || event.request.destination === "document";
+  if (isNavigation) {
+    event.respondWith(fetch(event.request).then(response => {
       if (response && response.status === 200) {
         const clone=response.clone();
-        caches.open(CACHE_NAME).then(cache=>cache.put(event.request,clone));
+        caches.open(CACHE_NAME).then(cache=>cache.put("./index.html",clone));
       }
       return response;
-    }).catch(()=>cached || caches.match("./index.html"));
-    return cached || network;
-  }));
+    }).catch(()=>caches.match("./index.html")));
+    return;
+  }
+  event.respondWith(caches.match(event.request).then(cached => cached || fetch(event.request).then(response => {
+    if (response && response.status === 200) {
+      const clone=response.clone();
+      caches.open(CACHE_NAME).then(cache=>cache.put(event.request,clone));
+    }
+    return response;
+  })));
 });
